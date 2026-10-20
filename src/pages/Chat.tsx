@@ -59,10 +59,9 @@ export default function Chat() {
       if ("speechSynthesis" in window) speechSynthesis.cancel();
     };
   }, []);
-  useEffect(
-    () => end.current?.scrollIntoView({ behavior: "smooth", block: "end" }),
-    [messages, busy],
-  );
+  useEffect(() => {
+    end.current?.scrollIntoView({ behavior: "smooth", block: "end" });
+  }, [messages, busy]);
   /* eslint-disable react-hooks/purity -- send runs only from user input event handlers, never during render. */
   async function send(query = input) {
     if (!query.trim() || busy || import.meta.env.VITE_AI_ENABLED === "false")
