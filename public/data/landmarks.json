@@ -1,0 +1,38 @@
+[
+  {
+    "id": "plaza",
+    "name": "Kabankalan City plaza",
+    "lat": 9.9902,
+    "lng": 122.8148
+  },
+  {
+    "id": "market",
+    "name": "Public market",
+    "lat": 9.9878,
+    "lng": 122.8118
+  },
+  {
+    "id": "terminal",
+    "name": "Ceres terminal",
+    "lat": 10.0002,
+    "lng": 122.8198
+  },
+  {
+    "id": "hilamonan",
+    "name": "Hilamonan (sample origin)",
+    "lat": 10.0142,
+    "lng": 122.8288
+  },
+  {
+    "id": "talubangi",
+    "name": "Talubangi (sample origin)",
+    "lat": 9.9722,
+    "lng": 122.8068
+  },
+  {
+    "id": "camugao",
+    "name": "Camugao (sample origin)",
+    "lat": 9.9812,
+    "lng": 122.8368
+  }
+]

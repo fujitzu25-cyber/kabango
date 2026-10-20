@@ -1,0 +1,28 @@
+name = "kabango-ai"
+main = "src/index.ts"
+compatibility_date = "2026-10-19"
+
+[vars]
+AI_ENABLED = "false"
+AI_PROVIDER = "cloudflare"
+CF_MODEL = "@cf/meta/llama-3.1-8b-instruct"
+ALLOWED_ORIGINS = "http://localhost:5173"
+DAILY_BUDGET = "100"
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+[[durable_objects.bindings]]
+name = "BUDGET"
+class_name = "RateBudget"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["RateBudget"]
+
+[observability]
+enabled = false

@@ -1,0 +1,74 @@
+{
+  "sample": true,
+  "updatedAt": "2026-10-20",
+  "modes": [
+    {
+      "id": "tricycle",
+      "name": "Tricycle",
+      "baseFare": 15,
+      "perKm": 7,
+      "includedKm": 1,
+      "minFare": 15,
+      "uncertainty": 0.2,
+      "zoneFares": [],
+      "discounts": {
+        "regular": 0,
+        "student": 0.2,
+        "senior": 0.2,
+        "PWD": 0.2
+      },
+      "notes": "Illustrative rates only, not an official fare matrix. Availability, discounts and actual fare must be confirmed with the operator."
+    },
+    {
+      "id": "jeepney",
+      "name": "Jeepney",
+      "baseFare": 13,
+      "perKm": 2,
+      "includedKm": 4,
+      "minFare": 13,
+      "uncertainty": 0.2,
+      "zoneFares": [],
+      "discounts": {
+        "regular": 0,
+        "student": 0.2,
+        "senior": 0.2,
+        "PWD": 0.2
+      },
+      "notes": "Illustrative rates only, not an official fare matrix. Availability, discounts and actual fare must be confirmed with the operator."
+    },
+    {
+      "id": "habal-habal",
+      "name": "Habal-habal",
+      "baseFare": 30,
+      "perKm": 10,
+      "includedKm": 1,
+      "minFare": 30,
+      "uncertainty": 0.2,
+      "zoneFares": [],
+      "discounts": {
+        "regular": 0,
+        "student": 0.2,
+        "senior": 0.2,
+        "PWD": 0.2
+      },
+      "notes": "Illustrative rates only, not an official fare matrix. Availability, discounts and actual fare must be confirmed with the operator."
+    },
+    {
+      "id": "bus",
+      "name": "Bus",
+      "baseFare": 15,
+      "perKm": 2.2,
+      "includedKm": 5,
+      "minFare": 15,
+      "uncertainty": 0.2,
+      "zoneFares": [],
+      "discounts": {
+        "regular": 0,
+        "student": 0.2,
+        "senior": 0.2,
+        "PWD": 0.2
+      },
+      "notes": "Illustrative rates only, not an official fare matrix. Availability, discounts and actual fare must be confirmed with the operator."
+    }
+  ]
+}

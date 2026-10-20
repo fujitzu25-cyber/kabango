@@ -1,0 +1,1730 @@
+[
+  {
+    "id": "kg-1",
+    "slug": "sidlak-kitchen",
+    "name": "Sidlak Kitchen",
+    "description": "Sidlak Kitchen is a fictional sample of a filipino spot in Kabankalan. Think chicken inasal, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "categories": [
+      "Filipino"
+    ],
+    "cuisine": [
+      "Filipino"
+    ],
+    "signatureDishes": [
+      "Chicken inasal"
+    ],
+    "priceLevel": 1,
+    "address": "Sample location near City plaza, Poblacion, Kabankalan City",
+    "barangay": "Poblacion",
+    "landmark": "City plaza",
+    "lat": 9.9902,
+    "lng": 122.8148,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9902,122.8148",
+    "hours": [
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ]
+    ],
+    "photos": [
+      "/images/inasal.webp",
+      "/images/inasal.webp"
+    ],
+    "menu": [
+      {
+        "name": "Chicken inasal",
+        "price": 85,
+        "category": "House favorites"
+      },
+      {
+        "name": "Garlic rice",
+        "price": 25,
+        "category": "Sides"
+      },
+      {
+        "name": "Fresh calamansi juice",
+        "price": 45,
+        "category": "Drinks"
+      }
+    ],
+    "tags": [
+      "family",
+      "parking",
+      "kid-friendly"
+    ],
+    "maxGroupSize": 18,
+    "payments": [
+      "cash",
+      "GCash",
+      "Maya"
+    ],
+    "services": [
+      "dine-in",
+      "takeout"
+    ],
+    "directions": {
+      "en": "Start at City plaza. This is a sample location; confirm the address before traveling.",
+      "hil": "Halin sa City plaza. Sample lang ini nga lugar; kumpirmaha anay ang address.",
+      "fil": "Mula sa City plaza. Halimbawang lugar lamang; kumpirmahin muna ang address."
+    },
+    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
+    "createdAt": "2026-10-01",
+    "updatedAt": "2026-10-20",
+    "verified": false,
+    "sample": true,
+    "rating": 4.8,
+    "reviewCount": 28,
+    "popularity": 100
+  },
+  {
+    "id": "kg-2",
+    "slug": "kape-sa-kanto",
+    "name": "Kape sa Kanto",
+    "description": "Kape sa Kanto is a fictional sample of a café spot in Kabankalan. Think iced spanish latte, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [
+      "Filipino",
+      "Coffee"
+    ],
+    "signatureDishes": [
+      "Iced Spanish latte"
+    ],
+    "priceLevel": 2,
+    "address": "Sample location near City plaza, Poblacion, Kabankalan City",
+    "barangay": "Poblacion",
+    "landmark": "City plaza",
+    "lat": 9.9932,
+    "lng": 122.81880000000001,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9932,122.81880000000001",
+    "hours": [
+      [
+        [
+          "08:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "21:00"
+        ]
+      ]
+    ],
+    "photos": [
+      "/images/cafe.webp",
+      "/images/filipino.webp"
+    ],
+    "menu": [
+      {
+        "name": "Iced Spanish latte",
+        "price": 185,
+        "category": "House favorites"
+      },
+      {
+        "name": "Garlic rice",
+        "price": 25,
+        "category": "Sides"
+      },
+      {
+        "name": "Iced café latte",
+        "price": 110,
+        "category": "Drinks"
+      }
+    ],
+    "tags": [
+      "date",
+      "wifi",
+      "aircon",
+      "vegetarian-friendly"
+    ],
+    "maxGroupSize": 8,
+    "payments": [
+      "cash",
+      "GCash"
+    ],
+    "services": [
+      "dine-in",
+      "takeout",
+      "delivery"
+    ],
+    "directions": {
+      "en": "Start at City plaza. This is a sample location; confirm the address before traveling.",
+      "hil": "Halin sa City plaza. Sample lang ini nga lugar; kumpirmaha anay ang address.",
+      "fil": "Mula sa City plaza. Halimbawang lugar lamang; kumpirmahin muna ang address."
+    },
+    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
+    "createdAt": "2026-10-02",
+    "updatedAt": "2026-10-20",
+    "verified": false,
+    "sample": true,
+    "rating": 4.7,
+    "reviewCount": 16,
+    "popularity": 97
+  },
+  {
+    "id": "kg-3",
+    "slug": "dagat-dunggan",
+    "name": "Dagat & Dunggan",
+    "description": "Dagat & Dunggan is a fictional sample of a seafood spot in Kabankalan. Think grilled bangus, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "categories": [
+      "Seafood"
+    ],
+    "cuisine": [
+      "Filipino"
+    ],
+    "signatureDishes": [
+      "Grilled bangus"
+    ],
+    "priceLevel": 2,
+    "address": "Sample location near Public market, Barangay 1, Kabankalan City",
+    "barangay": "Barangay 1",
+    "landmark": "Public market",
+    "lat": 9.988199999999999,
+    "lng": 122.8118,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.988199999999999,122.8118",
+    "hours": [
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ]
+    ],
+    "photos": [
+      "/images/seafood.webp",
+      "/images/inasal.webp"
+    ],
+    "menu": [
+      {
+        "name": "Grilled bangus",
+        "price": 185,
+        "category": "House favorites"
+      },
+      {
+        "name": "Garlic rice",
+        "price": 25,
+        "category": "Sides"
+      },
+      {
+        "name": "Fresh calamansi juice",
+        "price": 45,
+        "category": "Drinks"
+      }
+    ],
+    "tags": [
+      "family",
+      "group",
+      "outdoor",
+      "parking"
+    ],
+    "maxGroupSize": 24,
+    "payments": [
+      "cash",
+      "GCash"
+    ],
+    "services": [
+      "dine-in",
+      "takeout"
+    ],
+    "directions": {
+      "en": "Start at Public market. This is a sample location; confirm the address before traveling.",
+      "hil": "Halin sa Public market. Sample lang ini nga lugar; kumpirmaha anay ang address.",
+      "fil": "Mula sa Public market. Halimbawang lugar lamang; kumpirmahin muna ang address."
+    },
+    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
+    "createdAt": "2026-10-03",
+    "updatedAt": "2026-10-20",
+    "verified": false,
+    "sample": true,
+    "rating": 4.6,
+    "reviewCount": 42,
+    "popularity": 94
+  },
+  {
+    "id": "kg-4",
+    "slug": "lola-nenas-lutong-bahay",
+    "name": "Lola Nena’s Lutong Bahay",
+    "description": "Lola Nena’s Lutong Bahay is a fictional sample of a carinderia spot in Kabankalan. Think pork adobo, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "categories": [
+      "Carinderia"
+    ],
+    "cuisine": [
+      "Filipino"
+    ],
+    "signatureDishes": [
+      "Pork adobo"
+    ],
+    "priceLevel": 1,
+    "address": "Sample location near Public market, Barangay 2, Kabankalan City",
+    "barangay": "Barangay 2",
+    "landmark": "Public market",
+    "lat": 9.9912,
+    "lng": 122.81280000000001,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9912,122.81280000000001",
+    "hours": [
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ]
+    ],
+    "photos": [
+      "/images/filipino.webp",
+      "/images/filipino.webp"
+    ],
+    "menu": [
+      {
+        "name": "Pork adobo",
+        "price": 85,
+        "category": "House favorites"
+      },
+      {
+        "name": "Garlic rice",
+        "price": 25,
+        "category": "Sides"
+      },
+      {
+        "name": "Fresh calamansi juice",
+        "price": 45,
+        "category": "Drinks"
+      }
+    ],
+    "tags": [
+      "budget",
+      "family",
+      "takeout"
+    ],
+    "maxGroupSize": 10,
+    "payments": [
+      "cash",
+      "GCash",
+      "Maya"
+    ],
+    "services": [
+      "dine-in",
+      "takeout",
+      "delivery"
+    ],
+    "directions": {
+      "en": "Start at Public market. This is a sample location; confirm the address before traveling.",
+      "hil": "Halin sa Public market. Sample lang ini nga lugar; kumpirmaha anay ang address.",
+      "fil": "Mula sa Public market. Halimbawang lugar lamang; kumpirmahin muna ang address."
+    },
+    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
+    "createdAt": "2026-10-04",
+    "updatedAt": "2026-10-20",
+    "verified": false,
+    "sample": true,
+    "rating": 4.9,
+    "reviewCount": 13,
+    "popularity": 91
+  },
+  {
+    "id": "kg-5",
+    "slug": "ember-yard",
+    "name": "Ember Yard",
+    "description": "Ember Yard is a fictional sample of a filipino spot in Kabankalan. Think sizzling pork sisig, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "categories": [
+      "Filipino"
+    ],
+    "cuisine": [
+      "Filipino"
+    ],
+    "signatureDishes": [
+      "Sizzling pork sisig"
+    ],
+    "priceLevel": 2,
+    "address": "Sample location near City plaza, Barangay 9, Kabankalan City",
+    "barangay": "Barangay 9",
+    "landmark": "City plaza",
+    "lat": 9.9952,
+    "lng": 122.8168,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9952,122.8168",
+    "hours": [
+      [
+        [
+          "10:00",
+          "01:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "01:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "01:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "01:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "01:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "01:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "01:00"
+        ]
+      ]
+    ],
+    "photos": [
+      "/images/grill.webp",
+      "/images/inasal.webp"
+    ],
+    "menu": [
+      {
+        "name": "Sizzling pork sisig",
+        "price": 185,
+        "category": "House favorites"
+      },
+      {
+        "name": "Garlic rice",
+        "price": 25,
+        "category": "Sides"
+      },
+      {
+        "name": "Fresh calamansi juice",
+        "price": 45,
+        "category": "Drinks"
+      }
+    ],
+    "tags": [
+      "group",
+      "late-night",
+      "outdoor",
+      "pet-friendly"
+    ],
+    "maxGroupSize": 20,
+    "payments": [
+      "cash",
+      "GCash"
+    ],
+    "services": [
+      "dine-in",
+      "takeout"
+    ],
+    "directions": {
+      "en": "Start at City plaza. This is a sample location; confirm the address before traveling.",
+      "hil": "Halin sa City plaza. Sample lang ini nga lugar; kumpirmaha anay ang address.",
+      "fil": "Mula sa City plaza. Halimbawang lugar lamang; kumpirmahin muna ang address."
+    },
+    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
+    "createdAt": "2026-10-05",
+    "updatedAt": "2026-10-20",
+    "verified": false,
+    "sample": true,
+    "rating": 4.5,
+    "reviewCount": 31,
+    "popularity": 88
+  },
+  {
+    "id": "kg-6",
+    "slug": "butter-crumb",
+    "name": "Butter & Crumb",
+    "description": "Butter & Crumb is a fictional sample of a bakery spot in Kabankalan. Think fresh pandesal, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "categories": [
+      "Bakery"
+    ],
+    "cuisine": [
+      "Filipino"
+    ],
+    "signatureDishes": [
+      "Fresh pandesal"
+    ],
+    "priceLevel": 1,
+    "address": "Sample location near City plaza, Barangay 3, Kabankalan City",
+    "barangay": "Barangay 3",
+    "landmark": "City plaza",
+    "lat": 9.9892,
+    "lng": 122.81880000000001,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9892,122.81880000000001",
+    "hours": [
+      [
+        [
+          "05:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "18:00"
+        ]
+      ]
+    ],
+    "photos": [
+      "/images/bakery.webp",
+      "/images/filipino.webp"
+    ],
+    "menu": [
+      {
+        "name": "Fresh pandesal",
+        "price": 85,
+        "category": "House favorites"
+      },
+      {
+        "name": "Garlic rice",
+        "price": 25,
+        "category": "Sides"
+      },
+      {
+        "name": "Fresh calamansi juice",
+        "price": 45,
+        "category": "Drinks"
+      }
+    ],
+    "tags": [
+      "budget",
+      "takeout",
+      "vegetarian-friendly"
+    ],
+    "maxGroupSize": 6,
+    "payments": [
+      "cash",
+      "GCash"
+    ],
+    "services": [
+      "dine-in",
+      "takeout",
+      "delivery"
+    ],
+    "directions": {
+      "en": "Start at City plaza. This is a sample location; confirm the address before traveling.",
+      "hil": "Halin sa City plaza. Sample lang ini nga lugar; kumpirmaha anay ang address.",
+      "fil": "Mula sa City plaza. Halimbawang lugar lamang; kumpirmahin muna ang address."
+    },
+    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-20",
+    "verified": false,
+    "sample": true,
+    "rating": 4.8,
+    "reviewCount": 28,
+    "popularity": 85
+  },
+  {
+    "id": "kg-7",
+    "slug": "balsa-grill-house",
+    "name": "Balsa Grill House",
+    "description": "Balsa Grill House is a fictional sample of a filipino spot in Kabankalan. Think pork barbecue, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "categories": [
+      "Filipino"
+    ],
+    "cuisine": [
+      "Filipino"
+    ],
+    "signatureDishes": [
+      "Pork barbecue"
+    ],
+    "priceLevel": 1,
+    "address": "Sample location near Ceres terminal, Barangay 6, Kabankalan City",
+    "barangay": "Barangay 6",
+    "landmark": "Ceres terminal",
+    "lat": 9.9992,
+    "lng": 122.8198,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9992,122.8198",
+    "hours": [
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ]
+    ],
+    "photos": [
+      "/images/grill.webp",
+      "/images/inasal.webp"
+    ],
+    "menu": [
+      {
+        "name": "Pork barbecue",
+        "price": 85,
+        "category": "House favorites"
+      },
+      {
+        "name": "Garlic rice",
+        "price": 25,
+        "category": "Sides"
+      },
+      {
+        "name": "Fresh calamansi juice",
+        "price": 45,
+        "category": "Drinks"
+      }
+    ],
+    "tags": [
+      "group",
+      "budget",
+      "outdoor"
+    ],
+    "maxGroupSize": 20,
+    "payments": [
+      "cash",
+      "GCash",
+      "Maya"
+    ],
+    "services": [
+      "dine-in",
+      "takeout"
+    ],
+    "directions": {
+      "en": "Start at Ceres terminal. This is a sample location; confirm the address before traveling.",
+      "hil": "Halin sa Ceres terminal. Sample lang ini nga lugar; kumpirmaha anay ang address.",
+      "fil": "Mula sa Ceres terminal. Halimbawang lugar lamang; kumpirmahin muna ang address."
+    },
+    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
+    "createdAt": "2026-10-07",
+    "updatedAt": "2026-10-20",
+    "verified": false,
+    "sample": true,
+    "rating": 4.7,
+    "reviewCount": 16,
+    "popularity": 82
+  },
+  {
+    "id": "kg-8",
+    "slug": "paseo-street-bites",
+    "name": "Paseo Street Bites",
+    "description": "Paseo Street Bites is a fictional sample of a street food spot in Kabankalan. Think chicken isaw, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "categories": [
+      "Street Food"
+    ],
+    "cuisine": [
+      "Filipino"
+    ],
+    "signatureDishes": [
+      "Chicken isaw"
+    ],
+    "priceLevel": 1,
+    "address": "Sample location near Public market, Barangay 4, Kabankalan City",
+    "barangay": "Barangay 4",
+    "landmark": "Public market",
+    "lat": 9.9922,
+    "lng": 122.80980000000001,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9922,122.80980000000001",
+    "hours": [
+      [
+        [
+          "10:00",
+          "01:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "01:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "01:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "01:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "01:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "01:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "01:00"
+        ]
+      ]
+    ],
+    "photos": [
+      "/images/street.webp",
+      "/images/filipino.webp"
+    ],
+    "menu": [
+      {
+        "name": "Chicken isaw",
+        "price": 85,
+        "category": "House favorites"
+      },
+      {
+        "name": "Garlic rice",
+        "price": 25,
+        "category": "Sides"
+      },
+      {
+        "name": "Fresh calamansi juice",
+        "price": 45,
+        "category": "Drinks"
+      }
+    ],
+    "tags": [
+      "late-night",
+      "budget",
+      "outdoor"
+    ],
+    "maxGroupSize": 8,
+    "payments": [
+      "cash",
+      "GCash"
+    ],
+    "services": [
+      "dine-in",
+      "takeout",
+      "delivery"
+    ],
+    "directions": {
+      "en": "Start at Public market. This is a sample location; confirm the address before traveling.",
+      "hil": "Halin sa Public market. Sample lang ini nga lugar; kumpirmaha anay ang address.",
+      "fil": "Mula sa Public market. Halimbawang lugar lamang; kumpirmahin muna ang address."
+    },
+    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
+    "createdAt": "2026-10-08",
+    "updatedAt": "2026-10-20",
+    "verified": false,
+    "sample": true,
+    "rating": 4.6,
+    "reviewCount": 42,
+    "popularity": 79
+  },
+  {
+    "id": "kg-9",
+    "slug": "green-table",
+    "name": "Green Table",
+    "description": "Green Table is a fictional sample of a vegetarian spot in Kabankalan. Think vegetable rice bowl, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "categories": [
+      "Vegetarian"
+    ],
+    "cuisine": [
+      "Filipino"
+    ],
+    "signatureDishes": [
+      "Vegetable rice bowl"
+    ],
+    "priceLevel": 2,
+    "address": "Sample location near Hilamonan barangay hall, Hilamonan, Kabankalan City",
+    "barangay": "Hilamonan",
+    "landmark": "Hilamonan barangay hall",
+    "lat": 10.014199999999999,
+    "lng": 122.8288,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.014199999999999,122.8288",
+    "hours": [
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ]
+    ],
+    "photos": [
+      "/images/healthy.webp",
+      "/images/inasal.webp"
+    ],
+    "menu": [
+      {
+        "name": "Vegetable rice bowl",
+        "price": 185,
+        "category": "House favorites"
+      },
+      {
+        "name": "Garlic rice",
+        "price": 25,
+        "category": "Sides"
+      },
+      {
+        "name": "Fresh calamansi juice",
+        "price": 45,
+        "category": "Drinks"
+      }
+    ],
+    "tags": [
+      "vegetarian-friendly",
+      "family",
+      "parking"
+    ],
+    "maxGroupSize": 12,
+    "payments": [
+      "cash",
+      "GCash"
+    ],
+    "services": [
+      "dine-in",
+      "takeout"
+    ],
+    "directions": {
+      "en": "Start at Hilamonan barangay hall. This is a sample location; confirm the address before traveling.",
+      "hil": "Halin sa Hilamonan barangay hall. Sample lang ini nga lugar; kumpirmaha anay ang address.",
+      "fil": "Mula sa Hilamonan barangay hall. Halimbawang lugar lamang; kumpirmahin muna ang address."
+    },
+    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
+    "createdAt": "2026-10-09",
+    "updatedAt": "2026-10-20",
+    "verified": false,
+    "sample": true,
+    "rating": 4.9,
+    "reviewCount": 13,
+    "popularity": 76
+  },
+  {
+    "id": "kg-10",
+    "slug": "hapon-coffee-studio",
+    "name": "Hapon Coffee Studio",
+    "description": "Hapon Coffee Studio is a fictional sample of a café spot in Kabankalan. Think pour-over coffee, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [
+      "Filipino",
+      "Coffee"
+    ],
+    "signatureDishes": [
+      "Pour-over coffee"
+    ],
+    "priceLevel": 2,
+    "address": "Sample location near City plaza, Barangay 5, Kabankalan City",
+    "barangay": "Barangay 5",
+    "landmark": "City plaza",
+    "lat": 9.9942,
+    "lng": 122.8138,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9942,122.8138",
+    "hours": [
+      [
+        [
+          "08:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "21:00"
+        ]
+      ]
+    ],
+    "photos": [
+      "/images/cafe.webp",
+      "/images/filipino.webp"
+    ],
+    "menu": [
+      {
+        "name": "Pour-over coffee",
+        "price": 185,
+        "category": "House favorites"
+      },
+      {
+        "name": "Garlic rice",
+        "price": 25,
+        "category": "Sides"
+      },
+      {
+        "name": "Iced café latte",
+        "price": 110,
+        "category": "Drinks"
+      }
+    ],
+    "tags": [
+      "date",
+      "wifi",
+      "aircon"
+    ],
+    "maxGroupSize": 6,
+    "payments": [
+      "cash",
+      "GCash",
+      "Maya"
+    ],
+    "services": [
+      "dine-in",
+      "takeout",
+      "delivery"
+    ],
+    "directions": {
+      "en": "Start at City plaza. This is a sample location; confirm the address before traveling.",
+      "hil": "Halin sa City plaza. Sample lang ini nga lugar; kumpirmaha anay ang address.",
+      "fil": "Mula sa City plaza. Halimbawang lugar lamang; kumpirmahin muna ang address."
+    },
+    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
+    "createdAt": "2026-10-10",
+    "updatedAt": "2026-10-20",
+    "verified": false,
+    "sample": true,
+    "rating": 4.5,
+    "reviewCount": 31,
+    "popularity": 73
+  },
+  {
+    "id": "kg-11",
+    "slug": "baryo-batchoy",
+    "name": "Baryo Batchoy",
+    "description": "Baryo Batchoy is a fictional sample of a filipino spot in Kabankalan. Think la paz batchoy, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "categories": [
+      "Filipino"
+    ],
+    "cuisine": [
+      "Filipino"
+    ],
+    "signatureDishes": [
+      "La Paz batchoy"
+    ],
+    "priceLevel": 1,
+    "address": "Sample location near Ceres terminal, Barangay 7, Kabankalan City",
+    "barangay": "Barangay 7",
+    "landmark": "Ceres terminal",
+    "lat": 10.0002,
+    "lng": 122.8178,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.0002,122.8178",
+    "hours": [
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ]
+    ],
+    "photos": [
+      "/images/noodles.webp",
+      "/images/inasal.webp"
+    ],
+    "menu": [
+      {
+        "name": "La Paz batchoy",
+        "price": 85,
+        "category": "House favorites"
+      },
+      {
+        "name": "Garlic rice",
+        "price": 25,
+        "category": "Sides"
+      },
+      {
+        "name": "Fresh calamansi juice",
+        "price": 45,
+        "category": "Drinks"
+      }
+    ],
+    "tags": [
+      "budget",
+      "family",
+      "kid-friendly"
+    ],
+    "maxGroupSize": 12,
+    "payments": [
+      "cash",
+      "GCash"
+    ],
+    "services": [
+      "dine-in",
+      "takeout"
+    ],
+    "directions": {
+      "en": "Start at Ceres terminal. This is a sample location; confirm the address before traveling.",
+      "hil": "Halin sa Ceres terminal. Sample lang ini nga lugar; kumpirmaha anay ang address.",
+      "fil": "Mula sa Ceres terminal. Halimbawang lugar lamang; kumpirmahin muna ang address."
+    },
+    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
+    "createdAt": "2026-10-11",
+    "updatedAt": "2026-10-20",
+    "verified": false,
+    "sample": true,
+    "rating": 4.8,
+    "reviewCount": 28,
+    "popularity": 70
+  },
+  {
+    "id": "kg-12",
+    "slug": "sunset-talabahan",
+    "name": "Sunset Talabahan",
+    "description": "Sunset Talabahan is a fictional sample of a seafood spot in Kabankalan. Think steamed oysters, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "categories": [
+      "Seafood"
+    ],
+    "cuisine": [
+      "Filipino"
+    ],
+    "signatureDishes": [
+      "Steamed oysters"
+    ],
+    "priceLevel": 2,
+    "address": "Sample location near Talubangi barangay hall, Talubangi, Kabankalan City",
+    "barangay": "Talubangi",
+    "landmark": "Talubangi barangay hall",
+    "lat": 9.972199999999999,
+    "lng": 122.80680000000001,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.972199999999999,122.80680000000001",
+    "hours": [
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ]
+    ],
+    "photos": [
+      "/images/seafood.webp",
+      "/images/filipino.webp"
+    ],
+    "menu": [
+      {
+        "name": "Steamed oysters",
+        "price": 185,
+        "category": "House favorites"
+      },
+      {
+        "name": "Garlic rice",
+        "price": 25,
+        "category": "Sides"
+      },
+      {
+        "name": "Fresh calamansi juice",
+        "price": 45,
+        "category": "Drinks"
+      }
+    ],
+    "tags": [
+      "family",
+      "group",
+      "outdoor"
+    ],
+    "maxGroupSize": 30,
+    "payments": [
+      "cash",
+      "GCash"
+    ],
+    "services": [
+      "dine-in",
+      "takeout",
+      "delivery"
+    ],
+    "directions": {
+      "en": "Start at Talubangi barangay hall. This is a sample location; confirm the address before traveling.",
+      "hil": "Halin sa Talubangi barangay hall. Sample lang ini nga lugar; kumpirmaha anay ang address.",
+      "fil": "Mula sa Talubangi barangay hall. Halimbawang lugar lamang; kumpirmahin muna ang address."
+    },
+    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
+    "createdAt": "2026-10-12",
+    "updatedAt": "2026-10-20",
+    "verified": false,
+    "sample": true,
+    "rating": 4.7,
+    "reviewCount": 16,
+    "popularity": 67
+  },
+  {
+    "id": "kg-13",
+    "slug": "the-little-burger-co",
+    "name": "The Little Burger Co.",
+    "description": "The Little Burger Co. is a fictional sample of a fast food spot in Kabankalan. Think classic cheeseburger, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "categories": [
+      "Fast Food"
+    ],
+    "cuisine": [
+      "Filipino"
+    ],
+    "signatureDishes": [
+      "Classic cheeseburger"
+    ],
+    "priceLevel": 1,
+    "address": "Sample location near City plaza, Barangay 8, Kabankalan City",
+    "barangay": "Barangay 8",
+    "landmark": "City plaza",
+    "lat": 9.9962,
+    "lng": 122.82180000000001,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9962,122.82180000000001",
+    "hours": [
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ]
+    ],
+    "photos": [
+      "/images/burger.webp",
+      "/images/inasal.webp"
+    ],
+    "menu": [
+      {
+        "name": "Classic cheeseburger",
+        "price": 85,
+        "category": "House favorites"
+      },
+      {
+        "name": "Garlic rice",
+        "price": 25,
+        "category": "Sides"
+      },
+      {
+        "name": "Fresh calamansi juice",
+        "price": 45,
+        "category": "Drinks"
+      }
+    ],
+    "tags": [
+      "budget",
+      "aircon",
+      "kid-friendly"
+    ],
+    "maxGroupSize": 10,
+    "payments": [
+      "cash",
+      "GCash",
+      "Maya"
+    ],
+    "services": [
+      "dine-in",
+      "takeout"
+    ],
+    "directions": {
+      "en": "Start at City plaza. This is a sample location; confirm the address before traveling.",
+      "hil": "Halin sa City plaza. Sample lang ini nga lugar; kumpirmaha anay ang address.",
+      "fil": "Mula sa City plaza. Halimbawang lugar lamang; kumpirmahin muna ang address."
+    },
+    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
+    "createdAt": "2026-10-13",
+    "updatedAt": "2026-10-20",
+    "verified": false,
+    "sample": true,
+    "rating": 4.6,
+    "reviewCount": 42,
+    "popularity": 64
+  },
+  {
+    "id": "kg-14",
+    "slug": "casa-merienda",
+    "name": "Casa Merienda",
+    "description": "Casa Merienda is a fictional sample of a bakery spot in Kabankalan. Think bibingka and hot chocolate, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "categories": [
+      "Bakery"
+    ],
+    "cuisine": [
+      "Filipino"
+    ],
+    "signatureDishes": [
+      "Bibingka and hot chocolate"
+    ],
+    "priceLevel": 1,
+    "address": "Sample location near Camugao barangay hall, Camugao, Kabankalan City",
+    "barangay": "Camugao",
+    "landmark": "Camugao barangay hall",
+    "lat": 9.9812,
+    "lng": 122.83680000000001,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9812,122.83680000000001",
+    "hours": [
+      [
+        [
+          "05:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "18:00"
+        ]
+      ]
+    ],
+    "photos": [
+      "/images/bakery.webp",
+      "/images/filipino.webp"
+    ],
+    "menu": [
+      {
+        "name": "Bibingka and hot chocolate",
+        "price": 85,
+        "category": "House favorites"
+      },
+      {
+        "name": "Garlic rice",
+        "price": 25,
+        "category": "Sides"
+      },
+      {
+        "name": "Fresh calamansi juice",
+        "price": 45,
+        "category": "Drinks"
+      }
+    ],
+    "tags": [
+      "family",
+      "date",
+      "vegetarian-friendly"
+    ],
+    "maxGroupSize": 12,
+    "payments": [
+      "cash",
+      "GCash"
+    ],
+    "services": [
+      "dine-in",
+      "takeout",
+      "delivery"
+    ],
+    "directions": {
+      "en": "Start at Camugao barangay hall. This is a sample location; confirm the address before traveling.",
+      "hil": "Halin sa Camugao barangay hall. Sample lang ini nga lugar; kumpirmaha anay ang address.",
+      "fil": "Mula sa Camugao barangay hall. Halimbawang lugar lamang; kumpirmahin muna ang address."
+    },
+    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-20",
+    "verified": false,
+    "sample": true,
+    "rating": 4.9,
+    "reviewCount": 13,
+    "popularity": 61
+  },
+  {
+    "id": "kg-15",
+    "slug": "harvest-house",
+    "name": "Harvest House",
+    "description": "Harvest House is a fictional sample of a filipino spot in Kabankalan. Think family boodle platter, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "categories": [
+      "Filipino"
+    ],
+    "cuisine": [
+      "Filipino"
+    ],
+    "signatureDishes": [
+      "Family boodle platter"
+    ],
+    "priceLevel": 3,
+    "address": "Sample location near Hilamonan barangay hall, Hilamonan, Kabankalan City",
+    "barangay": "Hilamonan",
+    "landmark": "Hilamonan barangay hall",
+    "lat": 10.0112,
+    "lng": 122.8318,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.0112,122.8318",
+    "hours": [
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ]
+    ],
+    "photos": [
+      "/images/filipino.webp",
+      "/images/inasal.webp"
+    ],
+    "menu": [
+      {
+        "name": "Family boodle platter",
+        "price": 425,
+        "category": "House favorites"
+      },
+      {
+        "name": "Garlic rice",
+        "price": 25,
+        "category": "Sides"
+      },
+      {
+        "name": "Fresh calamansi juice",
+        "price": 45,
+        "category": "Drinks"
+      }
+    ],
+    "tags": [
+      "group",
+      "parking",
+      "family",
+      "aircon"
+    ],
+    "maxGroupSize": 40,
+    "payments": [
+      "cash",
+      "GCash"
+    ],
+    "services": [
+      "dine-in",
+      "takeout"
+    ],
+    "directions": {
+      "en": "Start at Hilamonan barangay hall. This is a sample location; confirm the address before traveling.",
+      "hil": "Halin sa Hilamonan barangay hall. Sample lang ini nga lugar; kumpirmaha anay ang address.",
+      "fil": "Mula sa Hilamonan barangay hall. Halimbawang lugar lamang; kumpirmahin muna ang address."
+    },
+    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-20",
+    "verified": false,
+    "sample": true,
+    "rating": 4.5,
+    "reviewCount": 31,
+    "popularity": 58
+  }
+]

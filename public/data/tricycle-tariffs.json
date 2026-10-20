@@ -1,0 +1,1403 @@
+{
+  "source": {
+    "title": "User-supplied screenshots of Kabankalan City Ordinance 2026-006 fare tables",
+    "receivedAt": "2026-10-20",
+    "verification": "Transcribed from supplied images; ordinance validity, effective date, fuel band in force, route spelling and endpoints have not been independently verified.",
+    "notes": "The source prints From twice. CPPA and CCPA are retained exactly as printed and are not assumed equivalent. Direction is preserved; reverse-trip fares are not inferred. Image (93) duplicates Image (94). Discounts use the exact printed amounts, not a calculated percentage."
+  },
+  "fuelBands": [
+    {
+      "id": "le50",
+      "label": "₱50.00/L and below",
+      "min": 0,
+      "max": 50
+    },
+    {
+      "id": "50to80",
+      "label": "₱50.01–₱80.00/L",
+      "min": 50.01,
+      "max": 80
+    },
+    {
+      "id": "80to110",
+      "label": "₱80.01–₱110.00/L",
+      "min": 80.01,
+      "max": 110
+    },
+    {
+      "id": "110to130",
+      "label": "₱110.01–₱130.00/L",
+      "min": 110.01,
+      "max": 130
+    },
+    {
+      "id": "gt130",
+      "label": "₱130.01/L and up",
+      "min": 130.01,
+      "max": null
+    }
+  ],
+  "routes": [
+    {
+      "id": "proper",
+      "area": "Kabankalan City Proper",
+      "from": "Within city proper",
+      "to": "Poblacion Barangays 1–9",
+      "route": "Proper",
+      "plateColor": "White",
+      "fares": [
+        {
+          "regular": 15,
+          "discounted": 12
+        },
+        {
+          "regular": 17,
+          "discounted": 14
+        },
+        {
+          "regular": 20,
+          "discounted": 16
+        },
+        {
+          "regular": 21,
+          "discounted": 17
+        },
+        {
+          "regular": 23,
+          "discounted": 18
+        }
+      ],
+      "notes": "Includes Sitio Utod, City Hall and Talubangi. Printed add-ons: District Hospital +₱2; Camugao +₱2; Relocation +₱3; Villa Concha Phase 1 +₱2; Phase 2 +₱5. Discount treatment of add-ons is not stated.",
+      "sourceImage": "Image - 2026-10-20T151916.482.jpg"
+    },
+    {
+      "id": "binicuil",
+      "area": "Binicuil",
+      "from": "CPPA",
+      "to": "Binicuil",
+      "route": "Binicuil",
+      "plateColor": "Gold",
+      "fares": [
+        {
+          "regular": 17,
+          "discounted": 14
+        },
+        {
+          "regular": 20,
+          "discounted": 16
+        },
+        {
+          "regular": 24,
+          "discounted": 19
+        },
+        {
+          "regular": 26,
+          "discounted": 21
+        },
+        {
+          "regular": 29,
+          "discounted": 23
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image - 2026-10-20T151914.381.jpg"
+    },
+    {
+      "id": "naga",
+      "area": "Binicuil",
+      "from": "CPPA",
+      "to": "Naga",
+      "route": "Binicuil",
+      "plateColor": "Gold",
+      "fares": [
+        {
+          "regular": 20,
+          "discounted": 16
+        },
+        {
+          "regular": 29,
+          "discounted": 23
+        },
+        {
+          "regular": 38,
+          "discounted": 30
+        },
+        {
+          "regular": 44,
+          "discounted": 35
+        },
+        {
+          "regular": 47,
+          "discounted": 38
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image - 2026-10-20T151914.381.jpg"
+    },
+    {
+      "id": "jose-peralta",
+      "area": "Binicuil",
+      "from": "CPPA",
+      "to": "Jose Peralta",
+      "route": "Binicuil",
+      "plateColor": "Gold",
+      "fares": [
+        {
+          "regular": 21,
+          "discounted": 17
+        },
+        {
+          "regular": 25,
+          "discounted": 20
+        },
+        {
+          "regular": 31,
+          "discounted": 25
+        },
+        {
+          "regular": 35,
+          "discounted": 28
+        },
+        {
+          "regular": 38,
+          "discounted": 30
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image - 2026-10-20T151914.381.jpg"
+    },
+    {
+      "id": "ubay-panique",
+      "area": "Binicuil",
+      "from": "CPPA",
+      "to": "Ubay Panique",
+      "route": "Binicuil",
+      "plateColor": "Gold",
+      "fares": [
+        {
+          "regular": 18,
+          "discounted": 14
+        },
+        {
+          "regular": 20,
+          "discounted": 16
+        },
+        {
+          "regular": 23,
+          "discounted": 18
+        },
+        {
+          "regular": 25,
+          "discounted": 20
+        },
+        {
+          "regular": 27,
+          "discounted": 22
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image - 2026-10-20T151914.381.jpg"
+    },
+    {
+      "id": "lumbia",
+      "area": "Binicuil",
+      "from": "CPPA",
+      "to": "Lumbia",
+      "route": "Binicuil",
+      "plateColor": "Gold",
+      "fares": [
+        {
+          "regular": 19,
+          "discounted": 15
+        },
+        {
+          "regular": 22,
+          "discounted": 18
+        },
+        {
+          "regular": 25,
+          "discounted": 20
+        },
+        {
+          "regular": 27,
+          "discounted": 22
+        },
+        {
+          "regular": 29,
+          "discounted": 23
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image - 2026-10-20T151912.348.jpg"
+    },
+    {
+      "id": "de-dpwh",
+      "area": "Binicuil",
+      "from": "CPPA",
+      "to": "DE (DPWH)",
+      "route": "Binicuil",
+      "plateColor": "Gold",
+      "fares": [
+        {
+          "regular": 17,
+          "discounted": 14
+        },
+        {
+          "regular": 19,
+          "discounted": 15
+        },
+        {
+          "regular": 20,
+          "discounted": 16
+        },
+        {
+          "regular": 21,
+          "discounted": 17
+        },
+        {
+          "regular": 22,
+          "discounted": 18
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image - 2026-10-20T151912.348.jpg"
+    },
+    {
+      "id": "bearin",
+      "area": "Camansi",
+      "from": "CPPA",
+      "to": "Hi-way Bearin",
+      "route": "Camansi",
+      "plateColor": "Gray",
+      "fares": [
+        {
+          "regular": 21,
+          "discounted": 17
+        },
+        {
+          "regular": 23,
+          "discounted": 18
+        },
+        {
+          "regular": 25,
+          "discounted": 20
+        },
+        {
+          "regular": 26,
+          "discounted": 21
+        },
+        {
+          "regular": 28,
+          "discounted": 22
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (100).jpg"
+    },
+    {
+      "id": "sitio-patay",
+      "area": "Camansi",
+      "from": "CPPA",
+      "to": "Sitio Patay",
+      "route": "Camansi",
+      "plateColor": "Gray",
+      "fares": [
+        {
+          "regular": 25,
+          "discounted": 20
+        },
+        {
+          "regular": 28,
+          "discounted": 22
+        },
+        {
+          "regular": 32,
+          "discounted": 26
+        },
+        {
+          "regular": 34,
+          "discounted": 27
+        },
+        {
+          "regular": 36,
+          "discounted": 29
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (100).jpg"
+    },
+    {
+      "id": "sonedco",
+      "area": "Camansi",
+      "from": "CPPA",
+      "to": "Sonedco Gate",
+      "route": "Camansi",
+      "plateColor": "Gray",
+      "fares": [
+        {
+          "regular": 22,
+          "discounted": 18
+        },
+        {
+          "regular": 25,
+          "discounted": 20
+        },
+        {
+          "regular": 28,
+          "discounted": 22
+        },
+        null,
+        {
+          "regular": 32,
+          "discounted": 26
+        }
+      ],
+      "notes": "The ₱110.01–₱130.00/L band is absent on the supplied page.",
+      "sourceImage": "Image (100).jpg"
+    },
+    {
+      "id": "calasa",
+      "area": "Camansi",
+      "from": "CPPA",
+      "to": "Calasa",
+      "route": "Camansi",
+      "plateColor": "Gray",
+      "fares": [
+        {
+          "regular": 32,
+          "discounted": 26
+        },
+        {
+          "regular": 35,
+          "discounted": 28
+        },
+        {
+          "regular": 38,
+          "discounted": 30
+        },
+        {
+          "regular": 40,
+          "discounted": 32
+        },
+        {
+          "regular": 42,
+          "discounted": 34
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (100).jpg"
+    },
+    {
+      "id": "camansi-proper",
+      "area": "Camansi",
+      "from": "CPPA",
+      "to": "Camansi Proper",
+      "route": "Camansi",
+      "plateColor": "Gray",
+      "fares": [
+        {
+          "regular": 26,
+          "discounted": 21
+        },
+        {
+          "regular": 29,
+          "discounted": 23
+        },
+        {
+          "regular": 31,
+          "discounted": 25
+        },
+        {
+          "regular": 33,
+          "discounted": 26
+        },
+        {
+          "regular": 34,
+          "discounted": 27
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (99).jpg"
+    },
+    {
+      "id": "camansi-hiway",
+      "area": "Camansi",
+      "from": "Camansi",
+      "to": "Hi-way",
+      "route": "Camansi",
+      "plateColor": "Gray",
+      "fares": [
+        {
+          "regular": 29,
+          "discounted": 23
+        },
+        {
+          "regular": 33,
+          "discounted": 26
+        },
+        {
+          "regular": 37,
+          "discounted": 30
+        },
+        {
+          "regular": 40,
+          "discounted": 32
+        },
+        {
+          "regular": 42,
+          "discounted": 34
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (99).jpg"
+    },
+    {
+      "id": "tonombo",
+      "area": "Tan-awan",
+      "from": "CCPA",
+      "to": "Tonombo",
+      "route": "Tan-awan",
+      "plateColor": "Black",
+      "fares": [
+        {
+          "regular": 25,
+          "discounted": 20
+        },
+        {
+          "regular": 28,
+          "discounted": 22
+        },
+        {
+          "regular": 30,
+          "discounted": 24
+        },
+        {
+          "regular": 32,
+          "discounted": 26
+        },
+        {
+          "regular": 33,
+          "discounted": 26
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (98).jpg"
+    },
+    {
+      "id": "magkinigkig",
+      "area": "Tan-awan",
+      "from": "CCPA",
+      "to": "Magkinigkig",
+      "route": "Tan-awan",
+      "plateColor": "Black",
+      "fares": [
+        {
+          "regular": 28,
+          "discounted": 22
+        },
+        {
+          "regular": 31,
+          "discounted": 25
+        },
+        {
+          "regular": 34,
+          "discounted": 27
+        },
+        {
+          "regular": 35,
+          "discounted": 28
+        },
+        {
+          "regular": 37,
+          "discounted": 30
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (98).jpg"
+    },
+    {
+      "id": "saise",
+      "area": "Tan-awan",
+      "from": "CCPA",
+      "to": "Saise",
+      "route": "Tan-awan",
+      "plateColor": "Black",
+      "fares": [
+        {
+          "regular": 41,
+          "discounted": 33
+        },
+        {
+          "regular": 46,
+          "discounted": 37
+        },
+        {
+          "regular": 51,
+          "discounted": 41
+        },
+        {
+          "regular": 54,
+          "discounted": 43
+        },
+        {
+          "regular": 57,
+          "discounted": 46
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (98).jpg"
+    },
+    {
+      "id": "tanawan",
+      "area": "Tan-awan",
+      "from": "CCPA",
+      "to": "Tan-awan",
+      "route": "Tan-awan",
+      "plateColor": "Black",
+      "fares": [
+        {
+          "regular": 49,
+          "discounted": 39
+        },
+        {
+          "regular": 56,
+          "discounted": 45
+        },
+        {
+          "regular": 61,
+          "discounted": 49
+        },
+        {
+          "regular": 65,
+          "discounted": 52
+        },
+        {
+          "regular": 68,
+          "discounted": 54
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (98).jpg"
+    },
+    {
+      "id": "nandong",
+      "area": "Tan-awan",
+      "from": "CCPA",
+      "to": "Nandong",
+      "route": "Tan-awan",
+      "plateColor": "Black",
+      "fares": [
+        {
+          "regular": 21,
+          "discounted": 17
+        },
+        {
+          "regular": 23,
+          "discounted": 18
+        },
+        {
+          "regular": 24,
+          "discounted": 19
+        },
+        {
+          "regular": 25,
+          "discounted": 20
+        },
+        {
+          "regular": 25,
+          "discounted": 20
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (97).jpg"
+    },
+    {
+      "id": "balicaocao",
+      "area": "Tan-awan",
+      "from": "CCPA",
+      "to": "Balicaocao",
+      "route": "Tan-awan",
+      "plateColor": "Black",
+      "fares": [
+        {
+          "regular": 28,
+          "discounted": 22
+        },
+        {
+          "regular": 31,
+          "discounted": 25
+        },
+        {
+          "regular": 34,
+          "discounted": 27
+        },
+        {
+          "regular": 36,
+          "discounted": 29
+        },
+        {
+          "regular": 37,
+          "discounted": 30
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (97).jpg"
+    },
+    {
+      "id": "lower-balicaocao",
+      "area": "Tan-awan",
+      "from": "CCPA",
+      "to": "Lower Balicaocao",
+      "route": "Tan-awan",
+      "plateColor": "Black",
+      "fares": [
+        {
+          "regular": 26,
+          "discounted": 21
+        },
+        {
+          "regular": 29,
+          "discounted": 23
+        },
+        {
+          "regular": 31,
+          "discounted": 25
+        },
+        {
+          "regular": 32,
+          "discounted": 26
+        },
+        {
+          "regular": 33,
+          "discounted": 26
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (97).jpg"
+    },
+    {
+      "id": "balisong",
+      "area": "Tan-awan",
+      "from": "CCPA",
+      "to": "Balisong",
+      "route": "Tan-awan",
+      "plateColor": "Black",
+      "fares": [
+        {
+          "regular": 25,
+          "discounted": 20
+        },
+        {
+          "regular": 28,
+          "discounted": 22
+        },
+        {
+          "regular": 30,
+          "discounted": 24
+        },
+        {
+          "regular": 32,
+          "discounted": 26
+        },
+        {
+          "regular": 33,
+          "discounted": 26
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (97).jpg"
+    },
+    {
+      "id": "eagle-farm",
+      "area": "Salong",
+      "from": "CCPA",
+      "to": "Eagle Farm",
+      "route": "Salong",
+      "plateColor": "Yellow",
+      "fares": [
+        {
+          "regular": 23,
+          "discounted": 18
+        },
+        {
+          "regular": 26,
+          "discounted": 21
+        },
+        {
+          "regular": 30,
+          "discounted": 24
+        },
+        {
+          "regular": 32,
+          "discounted": 26
+        },
+        {
+          "regular": 34,
+          "discounted": 27
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (96).jpg"
+    },
+    {
+      "id": "kanlipot",
+      "area": "Salong",
+      "from": "CCPA",
+      "to": "Kanlipot",
+      "route": "Salong",
+      "plateColor": "Yellow",
+      "fares": [
+        {
+          "regular": 24,
+          "discounted": 19
+        },
+        {
+          "regular": 27,
+          "discounted": 22
+        },
+        {
+          "regular": 31,
+          "discounted": 25
+        },
+        {
+          "regular": 33,
+          "discounted": 26
+        },
+        {
+          "regular": 35,
+          "discounted": 28
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (96).jpg"
+    },
+    {
+      "id": "salong-poblacion",
+      "area": "Salong",
+      "from": "Salong",
+      "to": "Poblacion",
+      "route": "Salong",
+      "plateColor": "Yellow",
+      "fares": [
+        {
+          "regular": 29,
+          "discounted": 23
+        },
+        {
+          "regular": 33,
+          "discounted": 26
+        },
+        {
+          "regular": 37,
+          "discounted": 30
+        },
+        {
+          "regular": 40,
+          "discounted": 32
+        },
+        {
+          "regular": 43,
+          "discounted": 34
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (96).jpg"
+    },
+    {
+      "id": "salong-talubangi",
+      "area": "Salong",
+      "from": "Salong",
+      "to": "Talubangi",
+      "route": "Salong",
+      "plateColor": "Yellow",
+      "fares": [
+        {
+          "regular": 23,
+          "discounted": 18
+        },
+        {
+          "regular": 25,
+          "discounted": 20
+        },
+        {
+          "regular": 28,
+          "discounted": 22
+        },
+        {
+          "regular": 29,
+          "discounted": 23
+        },
+        {
+          "regular": 30,
+          "discounted": 24
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (96).jpg"
+    },
+    {
+      "id": "linao",
+      "area": "Linao / Salong",
+      "from": "CCPA",
+      "to": "Linao",
+      "route": "Linao",
+      "plateColor": "Yellow",
+      "fares": [
+        {
+          "regular": 20,
+          "discounted": 16
+        },
+        {
+          "regular": 22,
+          "discounted": 18
+        },
+        {
+          "regular": 24,
+          "discounted": 19
+        },
+        {
+          "regular": 26,
+          "discounted": 21
+        },
+        {
+          "regular": 27,
+          "discounted": 22
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (95).jpg"
+    },
+    {
+      "id": "kantonog",
+      "area": "Linao / Salong",
+      "from": "CCPA",
+      "to": "Kantonog",
+      "route": "Salong",
+      "plateColor": "Yellow",
+      "fares": [
+        {
+          "regular": 24,
+          "discounted": 19
+        },
+        {
+          "regular": 27,
+          "discounted": 22
+        },
+        {
+          "regular": 31,
+          "discounted": 25
+        },
+        {
+          "regular": 33,
+          "discounted": 26
+        },
+        {
+          "regular": 35,
+          "discounted": 28
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (95).jpg"
+    },
+    {
+      "id": "junction",
+      "area": "Linao / Salong",
+      "from": "Salong",
+      "to": "Junction National Hi-way",
+      "route": "Salong",
+      "plateColor": "Yellow",
+      "fares": [
+        {
+          "regular": 21,
+          "discounted": 17
+        },
+        {
+          "regular": 23,
+          "discounted": 18
+        },
+        {
+          "regular": 25,
+          "discounted": 20
+        },
+        {
+          "regular": 26,
+          "discounted": 21
+        },
+        {
+          "regular": 27,
+          "discounted": 22
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (95).jpg"
+    },
+    {
+      "id": "salong-proper",
+      "area": "Linao / Salong",
+      "from": "Salong",
+      "to": "Proper",
+      "route": "Salong",
+      "plateColor": "Yellow",
+      "fares": [
+        {
+          "regular": 29,
+          "discounted": 23
+        },
+        {
+          "regular": 33,
+          "discounted": 26
+        },
+        {
+          "regular": 37,
+          "discounted": 30
+        },
+        {
+          "regular": 40,
+          "discounted": 32
+        },
+        {
+          "regular": 43,
+          "discounted": 34
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (95).jpg"
+    },
+    {
+      "id": "calumpang",
+      "area": "Linao / Salong",
+      "from": "CCPA",
+      "to": "Calumpang",
+      "route": "Salong",
+      "plateColor": "Yellow",
+      "fares": [
+        {
+          "regular": 30,
+          "discounted": 24
+        },
+        {
+          "regular": 33,
+          "discounted": 26
+        },
+        {
+          "regular": 37,
+          "discounted": 30
+        },
+        {
+          "regular": 39,
+          "discounted": 31
+        },
+        {
+          "regular": 40,
+          "discounted": 32
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (95).jpg"
+    },
+    {
+      "id": "hilamonan",
+      "area": "Hilamonan",
+      "from": "CCPA",
+      "to": "Hilamonan",
+      "route": "Hilamonan",
+      "plateColor": "Blue",
+      "fares": [
+        {
+          "regular": 19,
+          "discounted": 15
+        },
+        {
+          "regular": 23,
+          "discounted": 18
+        },
+        {
+          "regular": 28,
+          "discounted": 22
+        },
+        {
+          "regular": 32,
+          "discounted": 26
+        },
+        {
+          "regular": 34,
+          "discounted": 27
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (94).jpg"
+    },
+    {
+      "id": "cabangahan",
+      "area": "Hilamonan",
+      "from": "CCPA",
+      "to": "Cabangahan",
+      "route": "Hilamonan",
+      "plateColor": "Blue",
+      "fares": [
+        {
+          "regular": 17,
+          "discounted": 14
+        },
+        {
+          "regular": 18,
+          "discounted": 14
+        },
+        {
+          "regular": 19,
+          "discounted": 15
+        },
+        {
+          "regular": 20,
+          "discounted": 16
+        },
+        {
+          "regular": 21,
+          "discounted": 17
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (94).jpg"
+    },
+    {
+      "id": "casipsipan-a",
+      "area": "Hilamonan",
+      "from": "CCPA",
+      "to": "Casipsipan · schedule A",
+      "route": "Hilamonan",
+      "plateColor": "Blue",
+      "fares": [
+        {
+          "regular": 16,
+          "discounted": 13
+        },
+        {
+          "regular": 18,
+          "discounted": 14
+        },
+        {
+          "regular": 21,
+          "discounted": 17
+        },
+        {
+          "regular": 23,
+          "discounted": 18
+        },
+        {
+          "regular": 24,
+          "discounted": 19
+        }
+      ],
+      "notes": "Two different schedules are printed for Casipsipan without a distinguishing endpoint. Confirm the applicable schedule before riding.",
+      "sourceImage": "Image (94).jpg"
+    },
+    {
+      "id": "casipsipan-b",
+      "area": "Hilamonan",
+      "from": "CCPA",
+      "to": "Casipsipan · schedule B",
+      "route": "Hilamonan",
+      "plateColor": "Blue",
+      "fares": [
+        {
+          "regular": 21,
+          "discounted": 17
+        },
+        {
+          "regular": 24,
+          "discounted": 19
+        },
+        {
+          "regular": 28,
+          "discounted": 22
+        },
+        {
+          "regular": 30,
+          "discounted": 24
+        },
+        {
+          "regular": 32,
+          "discounted": 26
+        }
+      ],
+      "notes": "Two different schedules are printed for Casipsipan without a distinguishing endpoint. Confirm the applicable schedule before riding.",
+      "sourceImage": "Image (94).jpg"
+    },
+    {
+      "id": "linagasan",
+      "area": "Hilamonan / Lupni",
+      "from": "CPPA",
+      "to": "Linag-asan",
+      "route": "Lupni",
+      "plateColor": "Silver",
+      "fares": [
+        {
+          "regular": 16,
+          "discounted": 13
+        },
+        {
+          "regular": 18,
+          "discounted": 14
+        },
+        {
+          "regular": 20,
+          "discounted": 16
+        },
+        {
+          "regular": 21,
+          "discounted": 17
+        },
+        {
+          "regular": 22,
+          "discounted": 18
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (92).jpg"
+    },
+    {
+      "id": "lupni",
+      "area": "Hilamonan / Lupni",
+      "from": "CPPA",
+      "to": "Lupni",
+      "route": "Lupni",
+      "plateColor": "Silver",
+      "fares": [
+        {
+          "regular": 14,
+          "discounted": 11
+        },
+        {
+          "regular": 16,
+          "discounted": 13
+        },
+        {
+          "regular": 19,
+          "discounted": 15
+        },
+        {
+          "regular": 20,
+          "discounted": 16
+        },
+        {
+          "regular": 22,
+          "discounted": 18
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (92).jpg"
+    },
+    {
+      "id": "overflow",
+      "area": "Hilamonan / Lupni",
+      "from": "CPPA",
+      "to": "Overflow",
+      "route": "Overflow",
+      "plateColor": "Pink",
+      "fares": [
+        {
+          "regular": 19,
+          "discounted": 15
+        },
+        {
+          "regular": 21,
+          "discounted": 17
+        },
+        {
+          "regular": 23,
+          "discounted": 18
+        },
+        {
+          "regular": 24,
+          "discounted": 19
+        },
+        {
+          "regular": 25,
+          "discounted": 20
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (92).jpg"
+    },
+    {
+      "id": "flora",
+      "area": "Hilamonan / Lupni",
+      "from": "CPPA",
+      "to": "Flora/Ayucotan",
+      "route": "Overflow",
+      "plateColor": "Pink",
+      "fares": [
+        {
+          "regular": 19,
+          "discounted": 15
+        },
+        {
+          "regular": 21,
+          "discounted": 17
+        },
+        {
+          "regular": 23,
+          "discounted": 18
+        },
+        {
+          "regular": 25,
+          "discounted": 20
+        },
+        {
+          "regular": 26,
+          "discounted": 21
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (92).jpg"
+    },
+    {
+      "id": "comon",
+      "area": "Daan Banua",
+      "from": "CCPA",
+      "to": "Comon",
+      "route": "Daan Banua",
+      "plateColor": "Brown",
+      "fares": [
+        {
+          "regular": 23,
+          "discounted": 18
+        },
+        {
+          "regular": 26,
+          "discounted": 21
+        },
+        {
+          "regular": 30,
+          "discounted": 24
+        },
+        {
+          "regular": 33,
+          "discounted": 26
+        },
+        {
+          "regular": 35,
+          "discounted": 28
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (91).jpg"
+    },
+    {
+      "id": "bagacay",
+      "area": "Daan Banua",
+      "from": "CCPA",
+      "to": "Bagacay",
+      "route": "Daan Banua",
+      "plateColor": "Brown",
+      "fares": [
+        null,
+        null,
+        {
+          "regular": 33,
+          "discounted": 26
+        },
+        {
+          "regular": 36,
+          "discounted": 29
+        },
+        {
+          "regular": 38,
+          "discounted": 30
+        }
+      ],
+      "notes": "The first two fuel bands are absent on the supplied page.",
+      "sourceImage": "Image (91).jpg"
+    },
+    {
+      "id": "cantipon",
+      "area": "Daan Banua",
+      "from": "CCPA",
+      "to": "Cantipon",
+      "route": "Daan Banua",
+      "plateColor": "Brown",
+      "fares": [
+        {
+          "regular": 27,
+          "discounted": 22
+        },
+        {
+          "regular": 31,
+          "discounted": 25
+        },
+        {
+          "regular": 35,
+          "discounted": 28
+        },
+        {
+          "regular": 37,
+          "discounted": 30
+        },
+        {
+          "regular": 39,
+          "discounted": 31
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (91).jpg"
+    },
+    {
+      "id": "ubay",
+      "area": "Daan Banua",
+      "from": "CCPA",
+      "to": "Ubay",
+      "route": "Daan Banua",
+      "plateColor": "Brown",
+      "fares": [
+        {
+          "regular": 23,
+          "discounted": 18
+        },
+        {
+          "regular": 26,
+          "discounted": 21
+        },
+        {
+          "regular": 29,
+          "discounted": 23
+        },
+        null,
+        null
+      ],
+      "notes": "The final two fuel bands are absent on the supplied page.",
+      "sourceImage": "Image (91).jpg"
+    },
+    {
+      "id": "bugnay",
+      "area": "Daan Banua",
+      "from": "CCPA",
+      "to": "Bugnay/Liputan",
+      "route": "Daan Banua",
+      "plateColor": "Brown",
+      "fares": [
+        {
+          "regular": 22,
+          "discounted": 18
+        },
+        {
+          "regular": 25,
+          "discounted": 20
+        },
+        {
+          "regular": 29,
+          "discounted": 23
+        },
+        {
+          "regular": 32,
+          "discounted": 26
+        },
+        {
+          "regular": 34,
+          "discounted": 27
+        }
+      ],
+      "notes": "",
+      "sourceImage": "Image (91).jpg"
+    }
+  ]
+}
