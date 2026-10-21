@@ -272,14 +272,26 @@ export default function Chat() {
                           <strong>{r.name}</strong>
                         </Link>
                         <small>
-                          {t(r.categories[0])} · {"₱".repeat(r.priceLevel)} ·{" "}
+                          {t(r.categories[0])} ·{" "}
+                          {r.priceLevel > 0 && `${"₱".repeat(r.priceLevel)} · `}
                           {t(r.sample ? "sampleShort" : "sourcedListing")}
                         </small>
                         <div>
-                          <Link to={`/fare?to=${r.id}&trip=1`}>
-                            <Navigation size={12} />
-                            {t("directions")}
-                          </Link>
+                          {r.lat !== null && r.lng !== null ? (
+                            <Link to={`/fare?to=${r.id}&trip=1`}>
+                              <Navigation size={12} />
+                              {t("directions")}
+                            </Link>
+                          ) : (
+                            <a
+                              href={r.googleMapsUrl}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <Navigation size={12} />
+                              {t("searchLocation")}
+                            </a>
+                          )}
                           <Link to="/fare">
                             <Ticket size={12} />
                             {t("fare")}

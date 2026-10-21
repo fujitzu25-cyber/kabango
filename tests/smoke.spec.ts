@@ -1,4 +1,13 @@
 import { test, expect } from "@playwright/test";
+test("unmapped destinations do not silently route to a different restaurant", async ({
+  page,
+}) => {
+  await page.goto("/fare?trip=1&to=ayahay-bistro");
+  await expect(
+    page.getByRole("heading", { name: "Map pin unconfirmed" }),
+  ).toBeVisible();
+  await expect(page.locator(".fare-amount")).toHaveCount(0);
+});
 test("search, save and details persist locally", async ({ page }) => {
   await page.goto("/");
   await expect(

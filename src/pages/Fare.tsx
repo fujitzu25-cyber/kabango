@@ -291,6 +291,20 @@ function TripEstimate() {
     setRoute(await osrmProvider.route(point, destination));
     setLoading(false);
   }
+  if (
+    params.has("to") &&
+    !mappedRestaurants.some((r) => r.id === params.get("to"))
+  ) {
+    return (
+      <div className="info-panel" role="status">
+        <h2>{t("mapUnconfirmed")}</h2>
+        <p>{t("sourceDetail")}</p>
+        <a className="secondary" href="/fare?trip=1">
+          {t("destination")}
+        </a>
+      </div>
+    );
+  }
   return (
     <>
       <div className="sample-detail">
