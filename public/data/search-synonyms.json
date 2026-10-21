@@ -1,0 +1,17 @@
+{
+  "batch": ["batchoy"],
+  "batchoy": ["noodles", "soups", "bihon"],
+  "lechon": ["chicken", "roasters", "inasal", "barbecue"],
+  "lechn": ["lechon", "chicken", "roasters", "inasal"],
+  "inasal": ["barbecue", "chicken", "grill"],
+  "kakanin": ["filipino", "bakery", "cakes"],
+  "merienda": ["café", "bakery", "snacks", "coffee"],
+  "silog": ["filipino", "breakfast"],
+  "lutong bahay": ["filipino", "restaurant"],
+  "kape": ["café", "coffee"],
+  "lagaw": ["waterfalls", "caves", "heritage", "parks"],
+  "pasyal": ["waterfalls", "caves", "heritage", "parks"],
+  "tourist spots": ["waterfalls", "caves", "nature", "heritage", "farms"],
+  "falls": ["waterfalls"],
+  "church": ["cathedral", "heritage"]
+}

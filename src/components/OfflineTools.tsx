@@ -37,6 +37,9 @@ export default function OfflineTools({
         ...new Set([
           "/",
           "/data/restaurants.json",
+          "/data/tourist-spots.json",
+          "/data/search-synonyms.json",
+          "/data/tricycle-tariffs.json",
           "/data/fares.json",
           "/data/landmarks.json",
           "/data/categories.json",

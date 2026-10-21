@@ -1,3 +1,5 @@
+import SearchBox from "../components/SearchBox";
+import { useLocation } from "react-router-dom";
 import {
   lazy,
   Suspense,
@@ -6,9 +8,8 @@ import {
   useMemo,
   useState,
 } from "react";
-import { Link, useNavigate, useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import {
-  Search,
   SlidersHorizontal,
   LocateFixed,
   Clock,
@@ -23,7 +24,6 @@ import {
   Map,
   UtensilsCrossed,
   ChevronDown,
-  X,
   Flame,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
@@ -36,7 +36,13 @@ import RestaurantCard from "../components/RestaurantCard";
 import Modal from "../components/Modal";
 const MapView = lazy(() => import("../components/MapView"));
 const categoryIcons: Record<string, string> = {
-  all: "🍽️",
+  all: "🧭",
+  Waterfalls: "💧",
+  Caves: "🪨",
+  "Nature & Resorts": "🌿",
+  Heritage: "🏛️",
+  "Parks & Plazas": "🌳",
+  Farms: "🌱",
   Filipino: "🍗",
   Carinderia: "🍲",
   Café: "☕",
@@ -50,27 +56,76 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
   const { restaurants, categories, saved, toggleSave, origin, locate, toast } =
       useApp(),
     { t } = useTranslation(),
-    navigate = useNavigate(),
+    location = useLocation(),
     [params, setParams] = useSearchParams();
   const [filters, setFilters] = useState<Filters>(() => ({
       ...defaultFilters,
+      kind:
+        params.get("kind") === "food"
+          ? "food"
+          : params.get("kind") === "attraction"
+            ? "attraction"
+            : params.get("kind") === "all"
+              ? "all"
+              : location.pathname === "/attractions"
+                ? "attraction"
+                : location.pathname === "/food"
+                  ? "food"
+                  : "all",
       query: params.get("q") ?? "",
       category: params.get("category") ?? "all",
     })),
     [sheet, setSheet] = useState(false),
     [surprise, setSurprise] = useState<Restaurant>(),
-    [view, setView] = useState(mapMode ? "map" : "list");
+    [view, setView] = useState(mapMode ? "map" : "list"),
+    [selected, setSelected] = useState<Restaurant>(),
+    [highlight, setHighlight] = useState<string>(),
+    [area, setArea] = useState<{
+      south: number;
+      north: number;
+      west: number;
+      east: number;
+    }>();
   useEffect(() => setView(mapMode ? "map" : "list"), [mapMode]);
+  const paramQuery = params.get("q") ?? "",
+    paramKind =
+      params.get("kind") ??
+      (location.pathname === "/attractions"
+        ? "attraction"
+        : location.pathname === "/food"
+          ? "food"
+          : "all"),
+    paramCategory = params.get("category") ?? "all";
+  useEffect(
+    () =>
+      setFilters((f) => ({
+        ...f,
+        query: paramQuery,
+        category: paramCategory,
+        kind:
+          paramKind === "food" || paramKind === "attraction"
+            ? paramKind
+            : "all",
+      })),
+    [paramQuery, paramKind, paramCategory],
+  );
   const found = useMemo(
-    () => searchRestaurants(restaurants, filters, origin),
-    [restaurants, filters, origin],
+    () =>
+      searchRestaurants(restaurants, filters, origin).filter(
+        (r) =>
+          !area ||
+          (r.lat !== null &&
+            r.lng !== null &&
+            r.lat >= area.south &&
+            r.lat <= area.north &&
+            r.lng >= area.west &&
+            r.lng <= area.east),
+      ),
+    [restaurants, filters, origin, area],
   );
   const patch = (part: Partial<Filters>) =>
     setFilters((f) => ({ ...f, ...part }));
-  const select = useCallback(
-    (r: Restaurant) => navigate(`/restaurant/${r.slug}`),
-    [navigate],
-  );
+  const select = useCallback((r: Restaurant) => setSelected(r), []);
   const random = () => {
     if (!found.length) {
       toast(t("noSurprise"));
@@ -83,10 +138,14 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
       ],
     );
   };
-  const search = () => {
-    setParams(filters.query ? { q: filters.query } : {});
-    if (filters.query)
-      db.searches.put({ query: filters.query, at: Date.now() }).catch(() => {});
+  const search = (query = filters.query) => {
+    setParams({
+      ...Object.fromEntries(params),
+      kind: "all",
+      category: "all",
+      q: query,
+    });
+    if (query) db.searches.put({ query, at: Date.now() }).catch(() => {});
     document.getElementById("spots")?.scrollIntoView({ behavior: "smooth" });
   };
   const activeCount =
@@ -122,40 +181,49 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
             </svg>
           </h1>
           <p>{t("heroText")}</p>
-          <form
-            className="search-bar"
-            onSubmit={(e) => {
-              e.preventDefault();
-              search();
-            }}
-          >
-            <Search size={21} />
-            <input
-              aria-label={t("searchLabel")}
-              placeholder={t("searchPlaceholder")}
-              value={filters.query}
-              onChange={(e) => patch({ query: e.target.value })}
-            />
-            {filters.query && (
-              <button
-                type="button"
-                className="icon-button"
-                aria-label={t("reset")}
-                onClick={() => patch({ query: "" })}
-              >
-                <X size={16} />
-              </button>
-            )}
-            <button type="submit" className="primary search-submit">
-              {t("search")}
-              <ArrowRight size={18} />
+          <SearchBox
+            query={filters.query}
+            places={restaurants}
+            onChange={(query) => patch({ query })}
+            onSearch={search}
+          />
+          <div className="hero-quick">
+            <button
+              onClick={() => {
+                patch({ open: !filters.open });
+                document.getElementById("spots")?.scrollIntoView();
+              }}
+              aria-pressed={filters.open}
+            >
+              {t("openNow")}
             </button>
-          </form>
+            <button
+              onClick={() => {
+                patch({ budget: 1, kind: "food" });
+                document.getElementById("spots")?.scrollIntoView();
+              }}
+            >
+              {t("under150")}
+            </button>
+            {["merienda", "coffee", "lutong bahay", "tourist spots"].map(
+              (q) => (
+                <button key={q} onClick={() => search(q)}>
+                  {t(q)}
+                </button>
+              ),
+            )}
+            <button
+              onClick={() => {
+                patch({ tag: "late-night" });
+                document.getElementById("spots")?.scrollIntoView();
+              }}
+            >
+              {t("lateNight")}
+            </button>
+          </div>
           <div className="hero-meta">
-            <span className="avatar-stack">
-              <img src="/images/cafe.webp" alt="" />
-              <img src="/images/filipino.webp" alt="" />
-              <img src="/images/seafood.webp" alt="" />
+            <span className="local-icons" aria-hidden="true">
+              ☕ 🌿 🧭
             </span>
             <span>
               <strong>{restaurants.length}</strong>{" "}
@@ -170,7 +238,9 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
         <div className="hero-visual">
           <div className="hero-arch">
             <img
-              src="/images/hero.webp"
+              src="/images/magaso-540.webp"
+              srcSet="/images/magaso-360.webp 360w, /images/magaso-540.webp 540w"
+              sizes="(max-width: 650px) 90vw, 45vw"
               alt={t("heroImageAlt")}
               width="700"
               height="700"
@@ -183,23 +253,23 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
           <div className="hero-stamp">
             <UtensilsCrossed size={23} />
             <span>
-              LOCAL BITES
+              LOCAL PLACES
               <br />
-              HAPPY HEARTS
+              NEW STORIES
             </span>
           </div>
-          <div className="hero-float">
-            <span className="hero-float-icon">🍗</span>
+          <Link className="hero-float" to="/place/mag-aso-falls">
+            <span className="hero-float-icon">🌿</span>
             <div>
-              <small>{t("heroEyebrow").split(".")[0]}</small>
+              <small>{t("touristSpots")}</small>
               <strong>{t("heroFloatTitle")}</strong>
               <span>
-                <Star size={12} fill="currentColor" /> {t("heroFloatCaption")}
+                <Map size={12} /> {t("heroFloatCaption")}
               </span>
             </div>
-          </div>
+          </Link>
           <span className="visual-note">
-            Kaon ta! <span>↗</span>
+            Lagaw ta! <span>↗</span>
           </span>
         </div>
       </section>
@@ -212,8 +282,41 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
         </p>
       </div>
       <section id="spots" className="explore-section page-container">
+        <div className="discovery-tabs" aria-label={t("placeType")}>
+          {(["all", "food", "attraction"] as const).map((kind) => (
+            <button
+              key={kind}
+              aria-pressed={filters.kind === kind}
+              className={filters.kind === kind ? "active" : ""}
+              onClick={() =>
+                setParams({
+                  ...Object.fromEntries(params),
+                  kind,
+                  category: "all",
+                })
+              }
+            >
+              {t(
+                kind === "all"
+                  ? "allPlaces"
+                  : kind === "food"
+                    ? "eatDrink"
+                    : "touristSpots",
+              )}
+            </button>
+          ))}
+        </div>
         <div className="category-row">
-          {["all", ...categories].map((c) => (
+          {[
+            "all",
+            ...categories.filter((c) =>
+              restaurants.some(
+                (r) =>
+                  (filters.kind === "all" || r.kind === filters.kind) &&
+                  r.categories.includes(c),
+              ),
+            ),
+          ].map((c) => (
             <button
               key={c}
               className={`category ${filters.category === c ? "active" : ""}`}
@@ -229,7 +332,9 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
           <div>
             <span className="eyebrow">{t("sectionEyebrow")}</span>
             <h2>{t("sectionTitle")}</h2>
-            <p>{t("results", { count: found.length })}</p>
+            <p role="status" aria-live="polite">
+              {t("results", { count: found.length })}
+            </p>
           </div>
           <div className="view-switch" aria-label={t("mapView")}>
             <button
@@ -346,11 +451,19 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
             <ChevronDown size={13} />
           </label>
         </div>
+        {area && (
+          <button className="text-button" onClick={() => setArea(undefined)}>
+            {t("clearArea")}
+          </button>
+        )}
         {!found.length ? (
           <div className="empty-state">
             <span>🍽️</span>
             <h2>{t("noResults")}</h2>
             <p>{t("noResultsText")}</p>
+            <Link to="/community" className="secondary">
+              {t("addSpot")}
+            </Link>
             <button
               className="primary"
               onClick={() => setFilters(defaultFilters)}
@@ -362,14 +475,22 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
           <div className={view === "map" ? "split-view" : ""}>
             <div className="card-grid">
               {found.map((r, i) => (
-                <RestaurantCard
+                <div
                   key={r.id}
-                  restaurant={r}
-                  saved={saved.some((s) => s.id === `favorites:${r.id}`)}
-                  onSave={toggleSave}
-                  origin={origin}
-                  priority={i < 3}
-                />
+                  className={highlight === r.id ? "highlighted-card" : ""}
+                  onPointerEnter={() => setHighlight(r.id)}
+                  onPointerLeave={() => setHighlight(undefined)}
+                  onFocusCapture={() => setHighlight(r.id)}
+                >
+                  <RestaurantCard
+                    key={r.id}
+                    restaurant={r}
+                    saved={saved.some((s) => s.id === `favorites:${r.id}`)}
+                    onSave={toggleSave}
+                    origin={origin}
+                    priority={i < 3}
+                  />
+                </div>
               ))}
             </div>
             {view === "map" && (
@@ -379,6 +500,8 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
                     restaurants={found}
                     origin={origin}
                     onSelect={select}
+                    selectedId={highlight}
+                    onAreaChange={setArea}
                   />
                 </Suspense>
               </div>
@@ -402,6 +525,24 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
         </Link>
         <span className="banner-decor">✳</span>
       </section>
+      {selected && (
+        <Modal
+          title={selected.name}
+          className="place-sheet"
+          onClose={() => setSelected(undefined)}
+        >
+          <h2>{selected.name}</h2>
+          <RestaurantCard
+            restaurant={selected}
+            saved={saved.some((s) => s.id === `favorites:${selected.id}`)}
+            onSave={toggleSave}
+            origin={origin}
+          />
+          <Link className="primary wide" to={`/place/${selected.slug}`}>
+            {t("viewDetails")}
+          </Link>
+        </Modal>
+      )}
       {sheet && (
         <Modal title={t("filters")} onClose={() => setSheet(false)}>
           <h2>{t("filters")}</h2>
@@ -512,7 +653,7 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
               onSave={toggleSave}
               origin={origin}
             />
-            <Link className="primary wide" to={`/restaurant/${surprise.slug}`}>
+            <Link className="primary wide" to={`/place/${surprise.slug}`}>
               {t("viewDetails")}
               <ArrowRight size={17} />
             </Link>

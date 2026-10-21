@@ -1,5 +1,6 @@
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
-import { Camera, Coffee, UtensilsCrossed } from "lucide-react";
+import { Camera, Coffee, Mountain, UtensilsCrossed } from "lucide-react";
 import type { Restaurant } from "../lib/schema";
 export default function PlacePhoto({
   restaurant: r,
@@ -10,6 +11,7 @@ export default function PlacePhoto({
   index?: number;
   priority?: boolean;
 }) {
+  const { t } = useTranslation();
   const [failed, setFailed] = useState(false);
   const src = r.photos[index];
   if (!src || failed)
@@ -17,14 +19,16 @@ export default function PlacePhoto({
       <div
         className={`place-placeholder ${r.categories.includes("Café") ? "cafe-placeholder" : ""}`}
       >
-        {r.categories.includes("Café") ? (
+        {r.kind === "attraction" ? (
+          <Mountain size={44} strokeWidth={1.2} />
+        ) : r.categories.includes("Café") ? (
           <Coffee size={44} strokeWidth={1.2} />
         ) : (
           <UtensilsCrossed size={44} strokeWidth={1.2} />
         )}
         <strong>{r.name}</strong>
         <span>
-          <Camera size={13} /> Photo not available
+          <Camera size={13} /> {t("photoUnavailable")}
         </span>
       </div>
     );

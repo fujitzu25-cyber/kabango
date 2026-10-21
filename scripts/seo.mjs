@@ -1,10 +1,11 @@
 import fs from "node:fs";
 const base = (
-  process.env.VITE_SITE_URL ?? "https://kabango-eight.vercel.app"
+  process.env.VITE_SITE_URL ?? "https://kabgo-kabankalan.vercel.app"
 ).replace(/\/$/, "");
-const restaurants = JSON.parse(
-  fs.readFileSync("public/data/restaurants.json", "utf8"),
-);
+const places = [
+  ...JSON.parse(fs.readFileSync("public/data/restaurants.json", "utf8")),
+  ...JSON.parse(fs.readFileSync("public/data/tourist-spots.json", "utf8")),
+];
 const escape = (s) =>
   s.replace(
     /[&<>"']/g,
@@ -14,36 +15,85 @@ const escape = (s) =>
       ],
   );
 const shell = fs.readFileSync("dist/index.html", "utf8");
-for (const r of restaurants) {
-  // Fictional sample listings are not emitted as real Restaurant structured data or indexed.
-  const url = `${base}/restaurant/${r.slug}`,
-    description = `${r.sample ? "Fictional sample listing. " : ""}${r.description}`;
-  const jsonld = r.sample
-    ? ""
-    : `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "Restaurant", name: r.name, address: r.address, ...(r.lat !== null && r.lng !== null ? { geo: { "@type": "GeoCoordinates", latitude: r.lat, longitude: r.lng } } : {}), ...(r.photos.length ? { image: r.photos.map((p) => (p.startsWith("https:") ? p : base + p)) } : {}), url, ...(r.priceLevel ? { priceRange: "₱".repeat(r.priceLevel) } : {}), servesCuisine: r.cuisine }).replace(/</g, "\\u003c")}</script>`;
-  const page = shell
+const jsonld = (value) =>
+  `<script type="application/ld+json">${JSON.stringify(value).replace(/</g, "\\u003c")}</script>`;
+function page(title, description, path, data) {
+  const shortTitle =
+    title.length > 60 ? title.slice(0, 51).trimEnd() + " · KabGo" : title;
+  const desc =
+    description.length > 155
+      ? description.slice(0, 151).trimEnd() + "…"
+      : description;
+  return shell
+    .replace(/<title>.*?<\/title>/, `<title>${escape(shortTitle)}</title>`)
     .replace(
-      /<title>.*?<\/title>/,
-      `<title>${escape(r.name)} · KabanGo</title>`,
+      /(<meta\s+(?:name="description"|property="og:description")\s+content=")[^"]*("\s*\/>)/g,
+      `$1${escape(desc)}$2`,
     )
     .replace(
-      /<meta\s+name="description"\s+content="[^"]*"\s*\/>/,
-      `<meta name="description" content="${escape(description)}"/>`,
+      /(<meta\s+property="og:title"\s+content=")[^"]*("\s*\/>)/,
+      `$1${escape(shortTitle)}$2`,
     )
-    .replace(
-      /<meta\s+property="og:title"\s+content="[^"]*"\s*\/>/,
-      `<meta property="og:title" content="${escape(r.name)} · KabanGo"/>`,
-    )
-    .replace(
-      /<meta\s+property="og:description"\s+content="[^"]*"\s*\/>/,
-      `<meta property="og:description" content="${escape(description)}"/>`,
-    )
+    .replace(/https:\/\/kabgo-kabankalan.vercel.app/g, base)
     .replace(
       "</head>",
-      `<link rel="canonical" href="${url}"/><meta property="og:url" content="${url}"/>${r.sample ? '<meta name="robots" content="noindex,follow"/>' : ""}${jsonld}</head>`,
+      `<link rel="canonical" href="${base}${path}"/><meta property="og:url" content="${base}${path}"/>${jsonld(data)}</head>`,
     );
-  fs.mkdirSync(`dist/restaurant/${r.slug}`, { recursive: true });
-  fs.writeFileSync(`dist/restaurant/${r.slug}/index.html`, page);
+}
+const site = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "KabGo",
+  url: base,
+  description: "Your free food and travel guide to Kabankalan City.",
+};
+fs.writeFileSync(
+  "dist/index.html",
+  page(
+    "KabGo — Eat & Explore Kabankalan",
+    "Discover local food, cafés, waterfalls and tourist spots in Kabankalan City. Save places, plan a visit and check tricycle fare references.",
+    "/",
+    site,
+  ),
+);
+for (const kind of ["food", "attractions"]) {
+  fs.mkdirSync(`dist/${kind}`, { recursive: true });
+  fs.writeFileSync(
+    `dist/${kind}/index.html`,
+    page(
+      `${kind === "food" ? "Eat & drink" : "Tourist spots"} in Kabankalan · KabGo`,
+      "Explore sourced places in Kabankalan City. Check venue links for current hours, prices and access.",
+      `/${kind}`,
+      site,
+    ),
+  );
+}
+for (const r of places.filter((r) => !r.sample)) {
+  const path = `/place/${r.slug}`,
+    url = base + path;
+  const data = {
+    "@context": "https://schema.org",
+    "@type": r.kind === "attraction" ? "TouristAttraction" : "Restaurant",
+    name: r.name,
+    address: r.address,
+    url,
+    ...(r.lat !== null && r.lng !== null
+      ? {
+          geo: { "@type": "GeoCoordinates", latitude: r.lat, longitude: r.lng },
+        }
+      : {}),
+    ...(r.photos.length
+      ? { image: r.photos.map((p) => (p.startsWith("https:") ? p : base + p)) }
+      : {}),
+    ...(r.kind !== "attraction" ? { servesCuisine: r.cuisine } : {}),
+  };
+  for (const prefix of ["place", "restaurant"]) {
+    fs.mkdirSync(`dist/${prefix}/${r.slug}`, { recursive: true });
+    fs.writeFileSync(
+      `dist/${prefix}/${r.slug}/index.html`,
+      page(`${r.name} · KabGo`, r.description, path, data),
+    );
+  }
 }
 fs.writeFileSync(
   "dist/robots.txt",
@@ -51,10 +101,12 @@ fs.writeFileSync(
 );
 const paths = [
   "/",
+  "/food",
+  "/attractions",
   "/fare",
   "/ask",
   "/privacy",
-  ...restaurants.filter((r) => !r.sample).map((r) => `/restaurant/${r.slug}`),
+  ...places.filter((r) => !r.sample).map((r) => `/place/${r.slug}`),
 ];
 fs.writeFileSync(
   "dist/sitemap.xml",

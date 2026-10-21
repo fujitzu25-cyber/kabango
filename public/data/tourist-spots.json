@@ -1,0 +1,642 @@
+[
+  {
+    "id": "visit-mag-aso-falls",
+    "slug": "mag-aso-falls",
+    "name": "Mag-aso Falls",
+    "description": "A waterfall destination in Kabankalan, listed by the city tourism office.",
+    "categories": [
+      "Waterfalls"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Oringao, Kabankalan City, Negros Occidental",
+    "barangay": "Oringao",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mag-aso%20Falls%20Kabankalan%20Negros%20Occidental",
+    "hours": [],
+    "photos": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4e/Mag-asoFallsKabankalanNegrosOcc.jpg"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the approach road and entrance with the operator. Map positions, when available, are approximate.",
+      "hil": "Kumpirmaha anay ang dalan kag entrada sa operator.",
+      "fil": "Kumpirmahin muna ang daan at pasukan sa operator."
+    },
+    "aiNotes": "Real sourced destination. Never invent entry fees, schedules, access, guide rules or safety conditions. Unknown coordinates must not be replaced with another place.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 3,
+    "sources": [
+      {
+        "title": "Kabankalan City Government tourism directory",
+        "url": "https://kabankalancity.gov.ph/tourism/eco-tourism/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Official destination name. Listing does not establish current opening, fees or exact entrance."
+      },
+      {
+        "title": "City Government operator directory",
+        "url": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Published business contact; confirm that it is still active."
+      }
+    ],
+    "photoCredit": "Godopeta7410 / Wikimedia Commons, CC BY-SA 4.0. Photo of Mag-aso Falls, Kabankalan.",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Mag-asoFallsKabankalanNegrosOcc.jpg",
+    "website": "https://kabankalancity.gov.ph/tourism/eco-tourism/",
+    "kind": "attraction",
+    "phone": "+639506343892",
+    "visitInfo": "Confirm access, weather conditions and swimming rules with the operator.",
+    "admission": "Current admission fees and opening hours are unconfirmed. Check the linked source or operator."
+  },
+  {
+    "id": "visit-mag-aso-cave",
+    "slug": "mag-aso-cave",
+    "name": "Mag-aso Cave",
+    "description": "A cave named in the city’s eco-tourism directory.",
+    "categories": [
+      "Caves"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mag-aso%20Cave%20Kabankalan%20Negros%20Occidental",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the approach road and entrance with the operator. Map positions, when available, are approximate.",
+      "hil": "Kumpirmaha anay ang dalan kag entrada sa operator.",
+      "fil": "Kumpirmahin muna ang daan at pasukan sa operator."
+    },
+    "aiNotes": "Real sourced destination. Never invent entry fees, schedules, access, guide rules or safety conditions. Unknown coordinates must not be replaced with another place.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 3,
+    "sources": [
+      {
+        "title": "Kabankalan City Government tourism directory",
+        "url": "https://kabankalancity.gov.ph/tourism/eco-tourism/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Official destination name. Listing does not establish current opening, fees or exact entrance."
+      }
+    ],
+    "website": "https://kabankalancity.gov.ph/tourism/eco-tourism/",
+    "kind": "attraction",
+    "visitInfo": "Arrange local guidance and confirm access before travelling. The official directory does not publish a precise pin.",
+    "admission": "Current admission fees and opening hours are unconfirmed. Check the linked source or operator."
+  },
+  {
+    "id": "visit-balicaocao-eco-park",
+    "slug": "balicaocao-eco-park",
+    "name": "Balicaocao Eco Park",
+    "description": "A highland destination also listed as Balicaocao Highland Resort.",
+    "categories": [
+      "Nature & Resorts"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Orong, Kabankalan City, Negros Occidental",
+    "barangay": "Orong",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Balicaocao%20Eco%20Park%20Kabankalan%20Negros%20Occidental",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the approach road and entrance with the operator. Map positions, when available, are approximate.",
+      "hil": "Kumpirmaha anay ang dalan kag entrada sa operator.",
+      "fil": "Kumpirmahin muna ang daan at pasukan sa operator."
+    },
+    "aiNotes": "Real sourced destination. Never invent entry fees, schedules, access, guide rules or safety conditions. Unknown coordinates must not be replaced with another place.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 3,
+    "sources": [
+      {
+        "title": "Kabankalan City Government tourism directory",
+        "url": "https://kabankalancity.gov.ph/tourism/eco-tourism/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Official destination name. Listing does not establish current opening, fees or exact entrance."
+      },
+      {
+        "title": "City Government operator directory",
+        "url": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Published business contact; confirm that it is still active."
+      }
+    ],
+    "website": "https://kabankalancity.gov.ph/tourism/eco-tourism/",
+    "kind": "attraction",
+    "phone": "+639212038230",
+    "visitInfo": "Contact the operator for current access, facilities and entrance fees.",
+    "admission": "Current admission fees and opening hours are unconfirmed. Check the linked source or operator."
+  },
+  {
+    "id": "visit-carol-an-valley",
+    "slug": "carol-an-valley",
+    "name": "Carol-an Valley",
+    "description": "A valley destination named in the city’s eco-tourism directory.",
+    "categories": [
+      "Nature & Resorts"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Carol-an, Kabankalan City, Negros Occidental",
+    "barangay": "Carol-an",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Carol-an%20Valley%20Kabankalan%20Negros%20Occidental",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the approach road and entrance with the operator. Map positions, when available, are approximate.",
+      "hil": "Kumpirmaha anay ang dalan kag entrada sa operator.",
+      "fil": "Kumpirmahin muna ang daan at pasukan sa operator."
+    },
+    "aiNotes": "Real sourced destination. Never invent entry fees, schedules, access, guide rules or safety conditions. Unknown coordinates must not be replaced with another place.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 3,
+    "sources": [
+      {
+        "title": "Kabankalan City Government tourism directory",
+        "url": "https://kabankalancity.gov.ph/tourism/eco-tourism/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Official destination name. Listing does not establish current opening, fees or exact entrance."
+      }
+    ],
+    "website": "https://kabankalancity.gov.ph/tourism/eco-tourism/",
+    "kind": "attraction",
+    "visitInfo": "Confirm the destination and access route with local tourism staff before setting out.",
+    "admission": "Current admission fees and opening hours are unconfirmed. Check the linked source or operator."
+  },
+  {
+    "id": "visit-udlom-cave",
+    "slug": "udlom-cave",
+    "name": "Udlom Cave",
+    "description": "A cave destination listed by the city tourism office.",
+    "categories": [
+      "Caves"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Udlom%20Cave%20Kabankalan%20Negros%20Occidental",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the approach road and entrance with the operator. Map positions, when available, are approximate.",
+      "hil": "Kumpirmaha anay ang dalan kag entrada sa operator.",
+      "fil": "Kumpirmahin muna ang daan at pasukan sa operator."
+    },
+    "aiNotes": "Real sourced destination. Never invent entry fees, schedules, access, guide rules or safety conditions. Unknown coordinates must not be replaced with another place.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 3,
+    "sources": [
+      {
+        "title": "Kabankalan City Government tourism directory",
+        "url": "https://kabankalancity.gov.ph/tourism/eco-tourism/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Official destination name. Listing does not establish current opening, fees or exact entrance."
+      }
+    ],
+    "website": "https://kabankalancity.gov.ph/tourism/eco-tourism/",
+    "kind": "attraction",
+    "visitInfo": "Confirm local guide requirements, access and weather conditions.",
+    "admission": "Current admission fees and opening hours are unconfirmed. Check the linked source or operator."
+  },
+  {
+    "id": "visit-denden-farm",
+    "slug": "denden-farm",
+    "name": "Denden Farm",
+    "description": "A farm destination included in the city’s eco-tourism list.",
+    "categories": [
+      "Farms"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Denden%20Farm%20Kabankalan%20Negros%20Occidental",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the approach road and entrance with the operator. Map positions, when available, are approximate.",
+      "hil": "Kumpirmaha anay ang dalan kag entrada sa operator.",
+      "fil": "Kumpirmahin muna ang daan at pasukan sa operator."
+    },
+    "aiNotes": "Real sourced destination. Never invent entry fees, schedules, access, guide rules or safety conditions. Unknown coordinates must not be replaced with another place.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 3,
+    "sources": [
+      {
+        "title": "Kabankalan City Government tourism directory",
+        "url": "https://kabankalancity.gov.ph/tourism/eco-tourism/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Official destination name. Listing does not establish current opening, fees or exact entrance."
+      }
+    ],
+    "website": "https://kabankalancity.gov.ph/tourism/eco-tourism/",
+    "kind": "attraction",
+    "visitInfo": "Contact city tourism for current operator details and visiting arrangements.",
+    "admission": "Current admission fees and opening hours are unconfirmed. Check the linked source or operator."
+  },
+  {
+    "id": "visit-inapoy-ostrich-farm",
+    "slug": "inapoy-ostrich-farm",
+    "name": "Inapoy Ostrich Farm",
+    "description": "An ostrich farm named in the city’s eco-tourism directory.",
+    "categories": [
+      "Farms"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Inapoy, Kabankalan City, Negros Occidental",
+    "barangay": "Inapoy",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Inapoy%20Ostrich%20Farm%20Kabankalan%20Negros%20Occidental",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the approach road and entrance with the operator. Map positions, when available, are approximate.",
+      "hil": "Kumpirmaha anay ang dalan kag entrada sa operator.",
+      "fil": "Kumpirmahin muna ang daan at pasukan sa operator."
+    },
+    "aiNotes": "Real sourced destination. Never invent entry fees, schedules, access, guide rules or safety conditions. Unknown coordinates must not be replaced with another place.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 3,
+    "sources": [
+      {
+        "title": "Kabankalan City Government tourism directory",
+        "url": "https://kabankalancity.gov.ph/tourism/eco-tourism/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Official destination name. Listing does not establish current opening, fees or exact entrance."
+      }
+    ],
+    "website": "https://kabankalancity.gov.ph/tourism/eco-tourism/",
+    "kind": "attraction",
+    "visitInfo": "Confirm that visits are currently accepted and arrange with the operator.",
+    "admission": "Current admission fees and opening hours are unconfirmed. Check the linked source or operator."
+  },
+  {
+    "id": "visit-kabankalan-cathedral",
+    "slug": "kabankalan-cathedral",
+    "name": "Kabankalan Cathedral",
+    "description": "St. Francis Xavier Cathedral, a mapped religious landmark in the city centre.",
+    "categories": [
+      "Heritage"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Poblacion, Kabankalan City, Negros Occidental",
+    "barangay": "Poblacion",
+    "landmark": "",
+    "lat": 9.989426941666666,
+    "lng": 122.814795575,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kabankalan%20Cathedral%20Kabankalan%20Negros%20Occidental",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the approach road and entrance with the operator. Map positions, when available, are approximate.",
+      "hil": "Kumpirmaha anay ang dalan kag entrada sa operator.",
+      "fil": "Kumpirmahin muna ang daan at pasukan sa operator."
+    },
+    "aiNotes": "Real sourced destination. Never invent entry fees, schedules, access, guide rules or safety conditions. Unknown coordinates must not be replaced with another place.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 3,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/247031156",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map landmark; approximate map position, ODbL. Confirm access locally."
+      }
+    ],
+    "website": "https://www.openstreetmap.org/way/247031156",
+    "kind": "attraction",
+    "visitInfo": "Respect worship services and confirm visiting arrangements.",
+    "admission": "Current admission fees and opening hours are unconfirmed. Check the linked source or operator."
+  },
+  {
+    "id": "visit-kabankalan-plaza",
+    "slug": "kabankalan-plaza",
+    "name": "Kabankalan Public Plaza",
+    "description": "A public park mapped along Guanzon and Coloso streets.",
+    "categories": [
+      "Parks & Plazas"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Poblacion, Kabankalan City, Negros Occidental",
+    "barangay": "Poblacion",
+    "landmark": "",
+    "lat": 9.98882764,
+    "lng": 122.81332428,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kabankalan%20Public%20Plaza%20Kabankalan%20Negros%20Occidental",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the approach road and entrance with the operator. Map positions, when available, are approximate.",
+      "hil": "Kumpirmaha anay ang dalan kag entrada sa operator.",
+      "fil": "Kumpirmahin muna ang daan at pasukan sa operator."
+    },
+    "aiNotes": "Real sourced destination. Never invent entry fees, schedules, access, guide rules or safety conditions. Unknown coordinates must not be replaced with another place.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 3,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/247293144",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map landmark; approximate map position, ODbL. Confirm access locally."
+      }
+    ],
+    "website": "https://www.openstreetmap.org/way/247293144",
+    "kind": "attraction",
+    "visitInfo": "Check local notices for events and temporary access restrictions.",
+    "admission": "Current admission fees and opening hours are unconfirmed. Check the linked source or operator."
+  },
+  {
+    "id": "visit-old-city-hall",
+    "slug": "old-city-hall",
+    "name": "Kabankalan Old City Hall",
+    "description": "The old city hall, mapped in central Kabankalan.",
+    "categories": [
+      "Heritage"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Poblacion, Kabankalan City, Negros Occidental",
+    "barangay": "Poblacion",
+    "landmark": "",
+    "lat": 9.98953736,
+    "lng": 122.81375676,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kabankalan%20Old%20City%20Hall%20Kabankalan%20Negros%20Occidental",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the approach road and entrance with the operator. Map positions, when available, are approximate.",
+      "hil": "Kumpirmaha anay ang dalan kag entrada sa operator.",
+      "fil": "Kumpirmahin muna ang daan at pasukan sa operator."
+    },
+    "aiNotes": "Real sourced destination. Never invent entry fees, schedules, access, guide rules or safety conditions. Unknown coordinates must not be replaced with another place.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 3,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/491714835",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map landmark; approximate map position, ODbL. Confirm access locally."
+      }
+    ],
+    "website": "https://www.openstreetmap.org/way/491714835",
+    "kind": "attraction",
+    "visitInfo": "A civic landmark; interior access is not confirmed.",
+    "admission": "Current admission fees and opening hours are unconfirmed. Check the linked source or operator."
+  },
+  {
+    "id": "visit-zaycoland-resort",
+    "slug": "zaycoland-resort",
+    "name": "Zaycoland Resort & Hotel",
+    "description": "A resort and hotel in Don Emilio Village, listed by the city tourism directory.",
+    "categories": [
+      "Nature & Resorts"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Barangay 9, Kabankalan City, Negros Occidental",
+    "barangay": "Barangay 9",
+    "landmark": "",
+    "lat": 9.9821065,
+    "lng": 122.820843,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Zaycoland%20Resort%20%26%20Hotel%20Kabankalan%20Negros%20Occidental",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the approach road and entrance with the operator. Map positions, when available, are approximate.",
+      "hil": "Kumpirmaha anay ang dalan kag entrada sa operator.",
+      "fil": "Kumpirmahin muna ang daan at pasukan sa operator."
+    },
+    "aiNotes": "Real sourced destination. Never invent entry fees, schedules, access, guide rules or safety conditions. Unknown coordinates must not be replaced with another place.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 3,
+    "sources": [
+      {
+        "title": "Kabankalan City Government tourism directory",
+        "url": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Official destination name. Listing does not establish current opening, fees or exact entrance."
+      }
+    ],
+    "website": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+    "kind": "attraction",
+    "visitInfo": "Contact the operator for day-use access, bookings and current fees.",
+    "admission": "Current admission fees and opening hours are unconfirmed. Check the linked source or operator."
+  },
+  {
+    "id": "visit-plumeria-garden",
+    "slug": "plumeria-garden",
+    "name": "Plumeria Garden",
+    "description": "A garden resort listed in Sitio Panique by the city tourism directory.",
+    "categories": [
+      "Nature & Resorts"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Hilamonan, Kabankalan City, Negros Occidental",
+    "barangay": "Hilamonan",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Plumeria%20Garden%20Kabankalan%20Negros%20Occidental",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the approach road and entrance with the operator. Map positions, when available, are approximate.",
+      "hil": "Kumpirmaha anay ang dalan kag entrada sa operator.",
+      "fil": "Kumpirmahin muna ang daan at pasukan sa operator."
+    },
+    "aiNotes": "Real sourced destination. Never invent entry fees, schedules, access, guide rules or safety conditions. Unknown coordinates must not be replaced with another place.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 3,
+    "sources": [
+      {
+        "title": "Kabankalan City Government tourism directory",
+        "url": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Official destination name. Listing does not establish current opening, fees or exact entrance."
+      },
+      {
+        "title": "City Government operator directory",
+        "url": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Published business contact; confirm that it is still active."
+      }
+    ],
+    "website": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+    "kind": "attraction",
+    "phone": "+639158161142",
+    "visitInfo": "Contact the operator for bookings, access and current fees.",
+    "admission": "Current admission fees and opening hours are unconfirmed. Check the linked source or operator."
+  }
+]

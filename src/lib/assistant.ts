@@ -1,3 +1,4 @@
+import { unsafeInstruction } from "./query-policy";
 import { replySchema, defaultFilters } from "./schema";
 import type {
   AssistantReply,
@@ -20,12 +21,26 @@ export function parseIntent(query: string) {
   const q = query.toLowerCase(),
     filters = { ...defaultFilters };
   const categories: [RegExp, string][] = [
+    [/waterfall|falls|talon/, "Waterfalls"],
+    [/cave|langub/, "Caves"],
+    [/heritage|cathedral|church|simbahan/, "Heritage"],
+    [/farm|uma/, "Farms"],
     [/seafood|isda|talaba|bangus/, "Seafood"],
     [/cafe|café|coffee|kape|latte/, "Café"],
     [/bakery|pandesal|bread|tinapay/, "Bakery"],
     [/street|isaw/, "Street Food"],
     [/vegetar|gulay|utan/, "Vegetarian"],
   ];
+  if (
+    /touris|attraction|waterfall|falls|cave|resort|nature|heritage|visit|travel|lagaw|pasyal/.test(
+      q,
+    )
+  )
+    filters.kind = "attraction";
+  else if (
+    /eat|food|restaurant|cafe|coffee|lunch|dinner|merienda|kaon|pagkain/.test(q)
+  )
+    filters.kind = "food";
   filters.category = categories.find(([re]) => re.test(q))?.[1] ?? "all";
   if (/cheap|budget|barato|mura|cheapest/.test(q)) {
     filters.budget = 1;
@@ -69,6 +84,12 @@ export function localAnswer(
   restaurants: Restaurant[],
   origin?: Coordinates,
 ): AssistantReply {
+  if (unsafeInstruction(query))
+    return {
+      reply:
+        "I can help with Kabankalan food, tourist spots and transport. I cannot follow requests to override instructions or disclose private configuration.",
+      restaurantIds: [],
+    };
   const intent = parseIntent(query),
     q = query.toLowerCase();
   let candidates = searchRestaurants(restaurants, intent.filters, origin);
@@ -102,14 +123,14 @@ export function localAnswer(
   const lead =
     intent.language === "hil"
       ? picks.length
-        ? `Ari ang mahimo mo matilawan: ${names}.`
+        ? `Ari ang mahimo mo kadtuan: ${names}.`
         : "Wala sang lugar nga nag-angay. Sulayi ang iban nga filter."
       : intent.language === "fil"
         ? picks.length
           ? `Subukan ang ${names}.`
           : "Walang tugma. Subukan ang ibang filter."
         : picks.length
-          ? `Here are a few bites to consider: ${names}.`
+          ? `Here are a few places to explore: ${names}.`
           : "No spots match all of that yet. Try a different budget or category.";
   let extra =
     intent.order && picks.length
@@ -175,6 +196,7 @@ export async function askAssistant(
       reply:
         "The assistant is disabled. You can still browse, search and estimate fares.",
     };
+  if (unsafeInstruction(query)) return fallback;
   const url = import.meta.env.VITE_CHAT_URL;
   if (!navigator.onLine || !url) return fallback;
   const intent = parseIntent(query),

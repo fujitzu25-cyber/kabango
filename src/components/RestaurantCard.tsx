@@ -22,7 +22,7 @@ export default function RestaurantCard({
   return (
     <article className="restaurant-card" data-testid="restaurant-card">
       <div className="card-photo">
-        <Link to={`/restaurant/${r.slug}`} tabIndex={-1} aria-hidden="true">
+        <Link to={`/place/${r.slug}`} tabIndex={-1} aria-hidden="true">
           <PlacePhoto restaurant={r} priority={priority} />
         </Link>
         <span
@@ -61,7 +61,7 @@ export default function RestaurantCard({
       <div className="card-info">
         <div className="card-title-row">
           <h3>
-            <Link to={`/restaurant/${r.slug}`}>{r.name}</Link>
+            <Link to={`/place/${r.slug}`}>{r.name}</Link>
           </h3>
           {r.reviewCount > 0 && (
             <span className="card-rating" title={t("sampleRating")}>
@@ -85,7 +85,7 @@ export default function RestaurantCard({
             ))}
           </div>
           <Link
-            to={`/restaurant/${r.slug}`}
+            to={`/place/${r.slug}`}
             className="card-arrow"
             aria-label={`${t("viewDetails")}: ${r.name}`}
           >

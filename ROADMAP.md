@@ -1,4 +1,4 @@
-# KabanGo roadmap
+# KabGo roadmap
 
 The production directory now uses 69 public-source real business records. Next priorities: owner confirmation, broader barangay coverage beyond the city-proper OSM extract and current delivery catalog, permissioned branch-interior photo galleries, published dine-in prices, and city confirmation of fare-table ambiguities. A public-source check date is not an owner verification.
 

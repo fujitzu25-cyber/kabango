@@ -1,6 +1,15 @@
 import { describe, it, expect, vi } from "vitest";
 import handler, { parseModelJSON, validate, RateBudget } from "./index";
 describe("cloud guardrails", () => {
+  it("does not reset a current-day budget when a midnight alarm is delivered late", async () => {
+    const clear = vi.fn();
+    const date = new Date().toISOString().slice(0, 10);
+    const budget = new RateBudget({
+      storage: { get: async () => ({ date, count: 100 }), deleteAll: clear },
+    } as never);
+    await budget.alarm();
+    expect(clear).not.toHaveBeenCalled();
+  });
   it("stops global usage across sessions and expires counters at UTC midnight", async () => {
     const clock = vi
       .spyOn(Date, "now")

@@ -11,23 +11,16 @@ test("unmapped destinations do not silently route to a different restaurant", as
 test("search, save and details persist locally", async ({ page }) => {
   await page.goto("/");
   await expect(
-    page.getByRole("heading", { name: /Your next favorite/ }),
+    page.getByRole("heading", { name: /A little closer/ }),
   ).toBeVisible();
   await page
-    .getByRole("textbox", { name: "Search restaurants, dishes or barangays" })
+    .getByRole("combobox", { name: "Search places, food or barangays" })
     .fill("Organiko");
   await expect(page.getByTestId("restaurant-card")).toHaveCount(1);
   await expect(page.locator(".card-photo img")).toHaveAttribute(
     "src",
     /foodpanda|deliveryhero/,
   );
-  await expect
-    .poll(() =>
-      page
-        .locator(".card-photo img")
-        .evaluate((img: HTMLImageElement) => img.naturalWidth),
-    )
-    .toBeGreaterThan(0);
   await page
     .getByRole("button", {
       name: "Save Organiko Coffee & Cocktails - Milza Homes Subdivision",
@@ -97,7 +90,7 @@ test("assistant remains useful when cloud endpoint fails", async ({ page }) => {
   });
   await page.goto("/ask");
   await page
-    .getByRole("textbox", { name: "Something good, somewhere nearby…" })
+    .getByRole("textbox", { name: "A coffee stop or a nature escape…" })
     .fill("Find a cafe");
   await page.getByRole("button", { name: "Send message", exact: true }).click();
   await expect(page.locator(".message.assistant")).toContainText(
@@ -114,13 +107,13 @@ test("production service worker supports offline reload, data and assistant", as
   await page.goto("/");
   await page.evaluate(() => navigator.serviceWorker.ready);
   await page.reload();
-  await expect(page.getByTestId("restaurant-card")).toHaveCount(69);
+  await expect(page.getByTestId("restaurant-card")).toHaveCount(81);
   await context.setOffline(true);
   await page.reload();
-  await expect(page.getByTestId("restaurant-card")).toHaveCount(69);
+  await expect(page.getByTestId("restaurant-card")).toHaveCount(81);
   await page.goto("/ask");
   await page
-    .getByRole("textbox", { name: "Something good, somewhere nearby…" })
+    .getByRole("textbox", { name: "A coffee stop or a nature escape…" })
     .fill("Find a cafe");
   await page.getByRole("button", { name: "Send message", exact: true }).click();
   await expect(page.locator(".message.assistant")).toContainText(

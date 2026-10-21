@@ -1,3 +1,6 @@
+import { AppProvider } from "./context";
+import Modal from "./components/Modal";
+import { readSaved } from "./lib/storage-validation";
 import {
   Component,
   lazy,
@@ -16,7 +19,6 @@ import {
   useLocation,
 } from "react-router-dom";
 import {
-  UtensilsCrossed,
   Compass,
   Map,
   Heart,
@@ -32,6 +34,7 @@ import {
 import { useTranslation } from "react-i18next";
 import Home from "./pages/Home";
 import OfflineTools from "./components/OfflineTools";
+import { guideSchema } from "./lib/data";
 import { localData } from "./lib/data";
 import { db } from "./lib/db";
 import type { Saved } from "./lib/db";
@@ -78,6 +81,9 @@ export default function App() {
         <Route element={<Shell />}>
           <Route index element={<Home />} />
           <Route path="map" element={<Home mapMode />} />
+          <Route path="place/:slug" element={<Detail />} />
+          <Route path="attractions" element={<Home />} />
+          <Route path="food" element={<Home />} />
           <Route path="restaurant/:slug" element={<Detail />} />
           <Route path="fare" element={<Fare />} />
           <Route path="ask" element={<Chat />} />
@@ -101,11 +107,23 @@ function Shell() {
     [saved, setSaved] = useState<Saved[]>([]),
     [origin, setOrigin] = useState<Coordinates>(),
     [notice, setNotice] = useState(""),
+    [undo, setUndo] = useState<null | (() => Promise<void>)>(null),
+    [chatOpen, setChatOpen] = useState(false),
+    [scrolled, setScrolled] = useState(false),
     [online, setOnline] = useState(navigator.onLine),
     [theme, setTheme] = useState(
-      localStorage.getItem("kabango-theme") ?? "system",
+      ["light", "dark", "system"].includes(
+        localStorage.getItem("kabango-theme") ?? "",
+      )
+        ? localStorage.getItem("kabango-theme")!
+        : "system",
     );
   const toast = useCallback((message: string) => setNotice(message), []);
+  useEffect(() => {
+    const update = () => setScrolled(window.scrollY > 160);
+    window.addEventListener("scroll", update, { passive: true });
+    return () => window.removeEventListener("scroll", update);
+  }, []);
   useEffect(() => {
     let active = true;
     Promise.all([
@@ -127,13 +145,14 @@ function Shell() {
       .catch(async () => {
         const cached = await db.cache.get("guide").catch(() => undefined);
         if (active) {
-          if (cached) setData(cached.value as typeof data);
+          const parsed = guideSchema.safeParse(cached?.value);
+          if (parsed.success) setData(parsed.data);
           else setError(true);
         }
       });
     db.saved
       .toArray()
-      .then(setSaved)
+      .then((rows) => setSaved(readSaved(rows)))
       .catch(() => {});
     return () => {
       active = false;
@@ -150,7 +169,10 @@ function Shell() {
   }, []);
   useEffect(() => {
     if (!notice) return;
-    const timer = setTimeout(() => setNotice(""), 5000);
+    const timer = setTimeout(() => {
+      setNotice("");
+      setUndo(null);
+    }, 5000);
     return () => clearTimeout(timer);
   }, [notice]);
   useEffect(() => {
@@ -161,10 +183,19 @@ function Shell() {
           : "light"
         : theme;
     localStorage.setItem("kabango-theme", theme);
+    const media = matchMedia("(prefers-color-scheme: dark)");
+    const update = () => {
+      if (theme === "system")
+        document.documentElement.dataset.theme = media.matches
+          ? "dark"
+          : "light";
+    };
+    media.addEventListener("change", update);
+    return () => media.removeEventListener("change", update);
   }, [theme]);
   useEffect(() => {
     window.scrollTo(0, 0);
-    if (location.pathname.startsWith("/restaurant/")) return;
+    if (/^\/(restaurant|place)\//.test(location.pathname)) return;
     document.title = t(
       location.pathname === "/ask"
         ? "titleAsk"
@@ -181,9 +212,17 @@ function Shell() {
         exists = await db.saved.get(key);
       if (exists) await db.saved.delete(key);
       else await db.saved.put({ id: key, list, createdAt: Date.now() });
-      setSaved(await db.saved.toArray());
+      setSaved(readSaved(await db.saved.toArray()));
+      setNotice(t(exists ? "removedSaved" : "savedToast"));
+      setUndo(() => async () => {
+        if (exists) await db.saved.put(exists);
+        else await db.saved.delete(key);
+        setSaved(readSaved(await db.saved.toArray()));
+        setUndo(null);
+        setNotice("");
+      });
     },
-    [],
+    [t],
   );
   const locate = useCallback(async () => {
     if (!navigator.geolocation) {
@@ -216,18 +255,30 @@ function Shell() {
       </a>
       <header className="header">
         <div className="header-inner">
-          <Link className="logo" to="/" aria-label="KabanGo home">
+          <Link className="logo" to="/">
             <span className="logo-mark">
-              <UtensilsCrossed size={22} />
+              <Compass size={22} />
             </span>
             <span>
-              Kaban<span className="accent">Go</span>
+              Kab<span className="accent">Go</span>
               <small>{t("tagline")}</small>
             </span>
           </Link>
           <nav className="desktop-nav" aria-label={t("explore")}>
-            {nav.slice(0, 4).map((item) => (
-              <NavLink key={item.to} to={item.to} end>
+            {nav.map((item) => (
+              <NavLink
+                key={item.to}
+                to={item.to}
+                end
+                onClick={
+                  item.key === "ask"
+                    ? (e) => {
+                        e.preventDefault();
+                        setChatOpen(true);
+                      }
+                    : undefined
+                }
+              >
                 {t(item.key)}
                 {item.key === "ask" && <span className="tiny-new">AI</span>}
               </NavLink>
@@ -305,18 +356,20 @@ function Shell() {
               </div>
             }
           >
-            <Outlet
-              context={
-                {
-                  ...data,
-                  saved,
-                  toggleSave,
-                  origin,
-                  locate,
-                  toast,
-                } satisfies AppContext
-              }
-            />
+            <AppProvider
+              value={{ ...data, saved, toggleSave, origin, locate, toast }}
+            >
+              <Outlet />
+              {chatOpen && (
+                <Modal
+                  title={t("ask")}
+                  onClose={() => setChatOpen(false)}
+                  className="chat-modal"
+                >
+                  <Chat embedded />
+                </Modal>
+              )}
+            </AppProvider>
           </Suspense>
         )}
       </main>
@@ -324,10 +377,10 @@ function Shell() {
         <div>
           <Link className="logo footer-logo" to="/">
             <span className="logo-mark">
-              <UtensilsCrossed size={18} />
+              <Compass size={18} />
             </span>
             <span>
-              Kaban<span className="accent">Go</span>
+              Kab<span className="accent">Go</span>
             </span>
           </Link>
           <p>{t("footerText")}</p>
@@ -342,7 +395,15 @@ function Shell() {
         </div>
         {data && <OfflineTools restaurants={data.restaurants} toast={toast} />}
         <small className="footer-credit">
-          {t("photoCredit")} ·{" "}
+          {t("photoCredit")}{" "}
+          <a
+            href="https://commons.wikimedia.org/wiki/File:Mag-asoFallsKabankalanNegrosOcc.jpg"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Photo source ↗
+          </a>{" "}
+          ·{" "}
           <a
             href="https://www.openstreetmap.org/copyright"
             target="_blank"
@@ -355,7 +416,19 @@ function Shell() {
       </footer>
       <nav className="bottom-nav" aria-label={t("more")}>
         {nav.map((item) => (
-          <NavLink to={item.to} end key={item.to}>
+          <NavLink
+            to={item.to}
+            end
+            key={item.to}
+            onClick={
+              item.key === "ask"
+                ? (e) => {
+                    e.preventDefault();
+                    setChatOpen(true);
+                  }
+                : undefined
+            }
+          >
             <item.icon size={21} />
             <span>
               {t(
@@ -374,15 +447,21 @@ function Shell() {
         ))}
       </nav>
       {location.pathname !== "/ask" &&
+        !chatOpen &&
         import.meta.env.VITE_AI_ENABLED !== "false" && (
-          <Link to="/ask" className="floating-ai" aria-label={t("ask")}>
+          <button
+            onClick={() => setChatOpen(true)}
+            className={`floating-ai ${scrolled ? "is-collapsed" : ""}`}
+            aria-label={t("ask")}
+          >
             <Sparkles size={21} />
             <span>{t("ask")}</span>
-          </Link>
+          </button>
         )}
       {notice && (
         <div className="toast" role="status">
           {notice}
+          {undo && <button onClick={() => void undo()}>{t("undo")}</button>}
         </div>
       )}
     </>

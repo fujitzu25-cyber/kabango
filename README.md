@@ -1,12 +1,12 @@
-# KabanGo
+# KabGo
 
-A free-first, offline-ready food guide for Kabankalan City. React 19, Vite, strict TypeScript, Tailwind, Leaflet, Workbox, Dexie, Fuse and a multilingual local food assistant.
+A free, offline-ready food and travel guide for Kabankalan City. Browse local meals, cafés, waterfalls, caves, farms and heritage landmarks; save places, share a list, add private notes and check fare references. Built with React 19, Vite, TypeScript, Leaflet, Workbox, Dexie and Fuse.
 
-Live app: [kabango-eight.vercel.app](https://kabango-eight.vercel.app). Source: [fujitzu25-cyber/kabango](https://github.com/fujitzu25-cyber/kabango). The optional AI endpoint is `https://kabango-ai.kabango.workers.dev/api/chat`; the production client falls back locally whenever it is unavailable. The Worker has a 100-request daily cap and uses `@cf/meta/llama-3.1-8b-instruct-fast` through the Workers AI binding, without a browser-visible provider key.
+Live app: [kabgo-kabankalan.vercel.app](https://kabgo-kabankalan.vercel.app). The previous address remains available so existing local saves can still be accessed. Browser data is specific to each site origin. Source: [fujitzu25-cyber/kabango](https://github.com/fujitzu25-cyber/kabango). Legacy repository, Worker and database identifiers are retained for compatibility. The optional AI endpoint is `https://kabango-ai.kabango.workers.dev/api/chat`; the client falls back locally whenever it is unavailable. The Worker has a 100-request daily cap and uses `@cf/meta/llama-3.1-8b-instruct-fast` without a browser-visible provider key.
 
 ## Honest data boundaries
 
-The production directory contains **69 real, publicly sourced listings** checked on 2026-10-21: OpenStreetMap city-proper food businesses, foodpanda merchants, city-government tourism records, official Jollibee/Mang Inasal pages, and named cafe sources. **30 listings have externally hosted published merchant/owner images**; some show promotional food rather than branch interiors. Remaining listings show a placeholder. Every record links its sources, source kind, limitations and checked date. Coverage is not exhaustive and current operation is not guaranteed. No Google reviews, ratings or invented prices are imported. Decorative homepage food imagery remains illustrative Unsplash imagery.
+The production directory contains **81 real, publicly sourced places** checked on 2026-10-21: 69 food listings and 12 tourist destinations. **30 food listings have externally hosted merchant/owner images**; some show promotional food rather than branch interiors. The homepage uses a real, credited Mag-aso Falls photograph under CC BY-SA 4.0, with local resized WebP derivatives. Missing images show a named placeholder. Every record links its sources, limitations and check date. Coverage is not exhaustive; current operation, admission fees, access, hours and unpublished prices need confirmation. No Google reviews, ratings, speculative map pins or invented prices are imported. See [sources and image rights](public/data/SOURCES.md).
 
 **Tricycle tariffs are separate:** `public/data/tricycle-tariffs.json` contains 43 schedules transcribed from the user's screenshots labeled City Ordinance 2026-006, received October 20, 2026. This is a transcription, not independent legal verification. The app requires an explicit fuel band; it does not pretend to know the current fuel price or applicable band. It preserves exact printed regular and discounted amounts, CPPA/CCPA spellings, missing values, and the two ambiguous Casipsipan schedules. It does not infer reverse fares. City-proper add-ons are recorded as notes because discount treatment is not stated. The distance-based estimator uses clearly labeled **illustrative rates**, not this tariff.
 
@@ -75,7 +75,7 @@ Set `VITE_AI_ENABLED=false` to disable the assistant UI and both optional AI mod
 - [Gemini pricing](https://ai.google.dev/gemini-api/docs/pricing) and [rate limits](https://ai.google.dev/gemini-api/docs/rate-limits): free access is model/account/region dependent; active project limits are displayed in AI Studio. Get a free key in [Google AI Studio](https://aistudio.google.com/apikey), keep billing disabled and verify the selected model's free eligibility. There is no universal reliable fixed RPM value to bake into this app.
 - [Groq limits](https://console.groq.com/docs/rate-limits): the Free Plan table lists per-model limits; account limits and headers are authoritative. Get a key in [Groq Console](https://console.groq.com/keys), choose a currently free model and do not enable paid billing. The adapter requires an explicit model rather than assuming a free model stays available indefinitely.
 
-No provider promises unlimited free inference. The local fallback is what keeps KabanGo usable when free cloud quotas run out.
+No provider promises unlimited free inference. The local fallback is what keeps KabGo usable when free cloud quotas run out.
 
 ### Deploy the optional Cloudflare Worker
 
@@ -123,4 +123,4 @@ No analytics or ad trackers, no account requirement, no payments. Location stays
 
 Core hours/search/fare/assistant tests, Worker guards and browser smoke tests are included. Lighthouse scores are targets and should not be claimed without a measured report for the deployment. On-device model downloads and genuine provider access depend on the visitor's hardware and the configured account; those cannot be verified by local unit tests alone.
 
-Graphify can retrieve relevant code after this repository is connected and its index is ready. At initial build time the selected Graphify connector returned `no_workspace`, including for workspace discovery, so no token-savings claim is made.
+Graphify's free workspace `fuji-s-workspace` has indexed this repository. Its dashboard successfully returned a grounded query about search, offline data and AI limits on 21 October 2026. Direct plugin calls still returned `403 no_workspace`, including workspace selection; they require the connector binding to be repaired. No measured token-savings claim is made. [AGENTS.md](AGENTS.md) records the workspace, repository ID and efficient fallback guidance for future work. See [upgrade verification](UPGRADE_REPORT.md) for checks and outstanding limits.

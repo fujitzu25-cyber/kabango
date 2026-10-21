@@ -1,9 +1,22 @@
 import { z } from "zod";
+const httpUrl = z
+  .string()
+  .url()
+  .refine((v) => /^https?:\/\//i.test(v), "HTTP(S) URL required");
+const photoUrl = z
+  .string()
+  .refine(
+    (v) => /^https?:\/\//i.test(v) || /^\/(?!\/)[\w/.-]+$/.test(v),
+    "Local image or HTTP(S) URL required",
+  );
 const interval = z.tuple([
   z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/),
   z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/),
 ]);
 export const restaurantSchema = z.object({
+  kind: z.enum(["food", "attraction"]).default("food"),
+  visitInfo: z.string().optional(),
+  admission: z.string().optional(),
   id: z.string().min(1),
   slug: z.string().regex(/^[a-z0-9-]+$/),
   name: z.string().min(1),
@@ -19,23 +32,23 @@ export const restaurantSchema = z.object({
   lat: z.number().min(-90).max(90).nullable(),
   lng: z.number().min(-180).max(180).nullable(),
   phone: z.string().optional(),
-  facebookUrl: z.string().url().optional(),
-  googleMapsUrl: z.string().url(),
-  website: z.string().url().optional(),
+  facebookUrl: httpUrl.optional(),
+  googleMapsUrl: httpUrl,
+  website: httpUrl.optional(),
   hours: z
     .array(z.array(interval))
     .refine((days) => days.length === 0 || days.length === 7),
   hoursText: z.string().optional(),
-  photos: z.array(z.string()),
+  photos: z.array(photoUrl),
   photoCredit: z.string().optional(),
-  photoSourceUrl: z.string().url().optional(),
-  menuUrl: z.string().url().optional(),
-  facebookPostUrl: z.string().url().optional(),
+  photoSourceUrl: httpUrl.optional(),
+  menuUrl: httpUrl.optional(),
+  facebookPostUrl: httpUrl.optional(),
   sources: z
     .array(
       z.object({
         title: z.string(),
-        url: z.string().url(),
+        url: httpUrl,
         kind: z.enum([
           "official",
           "government",
@@ -53,7 +66,7 @@ export const restaurantSchema = z.object({
       name: z.string(),
       price: z.number().nonnegative(),
       category: z.string(),
-      photo: z.string().optional(),
+      photo: photoUrl.optional(),
     }),
   ),
   tags: z.array(z.string()),
@@ -105,6 +118,7 @@ export const fareSchema = z.object({
 });
 export type FareConfig = z.infer<typeof fareSchema>;
 export type Filters = {
+  kind: "all" | "food" | "attraction";
   query: string;
   category: string;
   open: boolean;
@@ -116,6 +130,7 @@ export type Filters = {
   sort: string;
 };
 export const defaultFilters: Filters = {
+  kind: "all",
   query: "",
   category: "all",
   open: false,

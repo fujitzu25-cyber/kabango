@@ -1,3 +1,4 @@
+import { readMessages } from "../lib/storage-validation";
 import PlacePhoto from "../components/PlacePhoto";
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
@@ -19,7 +20,8 @@ import { useTranslation } from "react-i18next";
 import { useApp } from "../context";
 import { db } from "../lib/db";
 import type { Message } from "../lib/db";
-import { askAssistant, detectLanguage } from "../lib/assistant";
+import { askAssistant, detectLanguage, parseIntent } from "../lib/assistant";
+import { searchRestaurants } from "../lib/search";
 import {
   deviceAnswer,
   loadDeviceAI,
@@ -37,8 +39,8 @@ type Recognition = {
   start: () => void;
   stop: () => void;
 };
-export default function Chat() {
-  const { restaurants, origin, toast } = useApp(),
+export default function Chat({ embedded = false }: { embedded?: boolean }) {
+  const { restaurants, origin, toast, saved, toggleSave } = useApp(),
     { t, i18n } = useTranslation(),
     [messages, setMessages] = useState<Message[]>([]),
     [input, setInput] = useState(""),
@@ -53,7 +55,10 @@ export default function Chat() {
     recognition = useRef<Recognition | null>(null),
     deviceActive = useRef(false);
   useEffect(() => {
-    db.messages.orderBy("createdAt").toArray().then(setMessages);
+    db.messages
+      .orderBy("createdAt")
+      .toArray()
+      .then((rows) => setMessages(readMessages(rows)));
     return () => {
       controller.current?.abort();
       recognition.current?.stop();
@@ -67,7 +72,7 @@ export default function Chat() {
   async function send(query = input) {
     if (!query.trim() || busy || import.meta.env.VITE_AI_ENABLED === "false")
       return;
-    const text = query.trim().slice(0, 600),
+    const text = query.trim().slice(0, 500),
       user: Message = {
         id: crypto.randomUUID(),
         role: "user",
@@ -85,7 +90,14 @@ export default function Chat() {
       if (deviceActive.current) {
         try {
           answer = {
-            ...(await deviceAnswer(text, restaurants.slice(0, 8))),
+            ...(await deviceAnswer(
+              text,
+              searchRestaurants(
+                restaurants,
+                parseIntent(text).filters,
+                origin,
+              ).slice(0, 8),
+            )),
             mode: "device",
           };
         } catch {
@@ -199,7 +211,9 @@ export default function Chat() {
       </div>
     );
   return (
-    <div className="page-container chat-page">
+    <div
+      className={`page-container chat-page ${embedded ? "embedded-chat" : ""}`}
+    >
       <div className="chat-header">
         <div className="chat-brand">
           <span className="chat-icon">
@@ -207,6 +221,7 @@ export default function Chat() {
           </span>
           <div>
             <h1>{t("ask")}</h1>
+            <p className="ai-disclaimer">{t("aiDisclaimer")}</p>
             <span className="mode-badge">
               <i />
               {t(
@@ -268,7 +283,7 @@ export default function Chat() {
                     <div className="chat-result" key={id}>
                       <PlacePhoto restaurant={r} />
                       <div>
-                        <Link to={`/restaurant/${r.slug}`}>
+                        <Link to={`/place/${r.slug}`}>
                           <strong>{r.name}</strong>
                         </Link>
                         <small>
@@ -292,6 +307,19 @@ export default function Chat() {
                               {t("searchLocation")}
                             </a>
                           )}
+                          <button
+                            className="text-button"
+                            aria-pressed={saved.some(
+                              (x) => x.id === `favorites:${r.id}`,
+                            )}
+                            onClick={() => toggleSave(r.id)}
+                          >
+                            {t(
+                              saved.some((x) => x.id === `favorites:${r.id}`)
+                                ? "saved"
+                                : "savePlace",
+                            )}
+                          </button>
                           <Link to="/fare">
                             <Ticket size={12} />
                             {t("fare")}
@@ -363,13 +391,20 @@ export default function Chat() {
           >
             <Mic size={19} />
           </button>
-          <input
+          <textarea
+            rows={2}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && !e.shiftKey) {
+                e.preventDefault();
+                void send();
+              }
+            }}
             autoComplete="off"
             aria-label={t("chatPlaceholder")}
             placeholder={t("chatPlaceholder")}
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            maxLength={600}
+            maxLength={500}
           />
           {busy ? (
             <button
@@ -391,6 +426,9 @@ export default function Chat() {
             </button>
           )}
         </form>
+        <p className="input-counter">
+          {input.length}/500 · {t("aiDisclaimer")}
+        </p>
         <p className="chat-privacy">
           <ShieldCheck size={12} />
           {t("chatPrivacy")}

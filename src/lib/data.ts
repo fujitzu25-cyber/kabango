@@ -1,3 +1,4 @@
+import { z } from "zod";
 import { restaurantSchema, fareSchema } from "./schema";
 import type { Restaurant, FareConfig, Coordinates } from "./schema";
 export interface DataProvider {
@@ -15,8 +16,31 @@ async function get(file: string) {
 }
 export const localData: DataProvider = {
   restaurants: async () =>
-    restaurantSchema.array().parse(await get("restaurants")),
+    restaurantSchema
+      .array()
+      .parse(
+        (await Promise.all([get("restaurants"), get("tourist-spots")])).flat(),
+      ),
   fares: async () => fareSchema.parse(await get("fares")),
-  landmarks: () => get("landmarks"),
-  categories: () => get("categories"),
+  landmarks: async () => landmarkSchema.array().parse(await get("landmarks")),
+  categories: async () =>
+    z
+      .string()
+      .max(100)
+      .array()
+      .max(100)
+      .parse(await get("categories")),
 };
+
+const landmarkSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  lat: z.number().min(-90).max(90),
+  lng: z.number().min(-180).max(180),
+});
+export const guideSchema = z.object({
+  restaurants: restaurantSchema.array().max(5000),
+  fares: fareSchema,
+  categories: z.string().array().max(100),
+  landmarks: landmarkSchema.array().max(1000),
+});

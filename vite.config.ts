@@ -16,9 +16,10 @@ export default defineConfig({
         "images/*.webp",
       ],
       manifest: {
-        name: "KabanGo — Kabankalan Food Guide",
-        short_name: "KabanGo",
-        description: "Your local guide to good food in Kabankalan City.",
+        name: "KabGo — Eat & Explore Kabankalan",
+        short_name: "KabGo",
+        description:
+          "Food, tourist spots and local adventures in Kabankalan City.",
         theme_color: "#f45b2b",
         background_color: "#faf8f4",
         display: "standalone",
@@ -34,8 +35,9 @@ export default defineConfig({
           },
         ],
         shortcuts: [
-          { name: "Find food", url: "/" },
-          { name: "Ask KabanGo", url: "/ask" },
+          { name: "Eat & drink", url: "/food" },
+          { name: "Tourist spots", url: "/attractions" },
+          { name: "Ask KabGo", url: "/ask" },
           { name: "Saved places", url: "/saved" },
         ],
       },

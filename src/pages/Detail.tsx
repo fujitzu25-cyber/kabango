@@ -1,3 +1,4 @@
+import { validateImage } from "../lib/image-validation";
 import PlacePhoto from "../components/PlacePhoto";
 import { lazy, Suspense, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
@@ -42,7 +43,7 @@ export default function Detail() {
     [ownRating, setOwnRating] = useState({ rating: 0, count: 0 });
   useEffect(() => {
     if (!r) return;
-    document.title = `${r.name} · KabanGo`;
+    document.title = `${r.name} · KabGo`;
     db.reviews.where("restaurantId").equals(r.id).toArray().then(setReviews);
     localRatings.get(r.id).then(setOwnRating);
   }, [r]);
@@ -58,7 +59,7 @@ export default function Detail() {
   const favorite = saved.some((s) => s.id === `favorites:${r.id}`),
     want = saved.some((s) => s.id === `want:${r.id}`),
     open = isOpen(r),
-    url = `${window.location.origin}/restaurant/${r.slug}`;
+    url = `${import.meta.env.VITE_SITE_URL ?? window.location.origin}/place/${r.slug}`;
   async function copy(value: string) {
     try {
       await navigator.clipboard.writeText(value);
@@ -87,7 +88,7 @@ export default function Detail() {
       toast(t("reviewSpam"));
       return;
     }
-    if (file && (file.size > 2097152 || !file.type.startsWith("image/"))) {
+    if (file && !(await validateImage(file))) {
       toast(t("reviewTooLarge"));
       return;
     }
@@ -118,7 +119,11 @@ export default function Detail() {
         <div className="gallery-gradient" />
         <span className="gallery-category">
           {t(r.categories[0])} ·{" "}
-          {r.priceLevel ? "₱".repeat(r.priceLevel) : t("priceUnknown")}
+          {r.kind === "attraction"
+            ? t("planVisit")
+            : r.priceLevel
+              ? "₱".repeat(r.priceLevel)
+              : t("priceUnknown")}
         </span>
         <div className="gallery-actions">
           <button
@@ -167,6 +172,13 @@ export default function Detail() {
             {t(r.sample ? "sample" : "sourcedListing")}
           </span>
           <h1>{r.name}</h1>
+          <p className="checked-date">
+            {t("lastChecked")}{" "}
+            {r.sources
+              .map((x) => x.checkedAt)
+              .sort()
+              .at(-1) ?? r.updatedAt}
+          </p>
           <p>
             <MapPin size={16} />
             {r.barangay} · {r.landmark}
@@ -254,39 +266,47 @@ export default function Detail() {
                 : t("capacityUnknown")}
             </p>
           </section>
-          <section className="detail-section" id="menu">
-            <div className="section-title">
-              <h2>{t("menu")}</h2>
-              {r.sample && (
-                <span className="sample-pill">{t("sampleShort")}</span>
+          {r.kind === "attraction" && (
+            <section className="detail-section">
+              <h2>{t("planVisit")}</h2>
+              <p>{r.visitInfo}</p>
+              <p className="muted">{r.admission ?? t("admissionUnknown")}</p>
+            </section>
+          )}
+          {r.kind !== "attraction" && (
+            <section className="detail-section" id="menu">
+              <div className="section-title">
+                <h2>{t("menu")}</h2>
+                {r.sample && (
+                  <span className="sample-pill">{t("sampleShort")}</span>
+                )}
+              </div>
+              {r.menuUrl && (
+                <a
+                  className="secondary"
+                  href={r.menuUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Globe size={16} />
+                  {t("publishedMenu")}
+                </a>
               )}
-            </div>
-            {r.menuUrl && (
-              <a
-                className="secondary"
-                href={r.menuUrl}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Globe size={16} />
-                {t("publishedMenu")}
-              </a>
-            )}
-            {!r.menu.length && <p className="muted">{t("menuUnknown")}</p>}
-            <div className="menu-list">
-              {r.menu.map((item, i) => (
-                <div key={item.name}>
-                  <span className="menu-number">0{i + 1}</span>
-                  <div>
-                    <strong>{item.name}</strong>
-                    <small>{item.category}</small>
+              {!r.menu.length && <p className="muted">{t("menuUnknown")}</p>}
+              <div className="menu-list">
+                {r.menu.map((item, i) => (
+                  <div key={item.name}>
+                    <span className="menu-number">0{i + 1}</span>
+                    <div>
+                      <strong>{item.name}</strong>
+                      <small>{item.category}</small>
+                    </div>
+                    <strong className="menu-price">₱{item.price}</strong>
                   </div>
-                  <strong className="menu-price">₱{item.price}</strong>
-                </div>
-              ))}
-            </div>
-          </section>
-
+                ))}
+              </div>
+            </section>
+          )}
           <section className="detail-section source-section">
             <h2>{t("photosAndSources")}</h2>
             {r.photoCredit && (
@@ -379,7 +399,7 @@ export default function Detail() {
                 {t("reviewPhoto")}
                 <input
                   type="file"
-                  accept="image/*"
+                  accept="image/jpeg,image/png,image/webp"
                   onChange={(e) => setFile(e.target.files?.[0])}
                 />
               </label>
@@ -469,6 +489,8 @@ export default function Detail() {
           </section>
           <section className="info-panel qr-panel">
             <QRCodeSVG
+              role="img"
+              aria-label={t("qr")}
               value={url}
               size={112}
               marginSize={2}

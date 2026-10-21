@@ -4,6 +4,7 @@ export type Saved = {
   id: string;
   list: "favorites" | "want";
   createdAt: number;
+  note?: string;
 };
 export type Message = {
   id: string;

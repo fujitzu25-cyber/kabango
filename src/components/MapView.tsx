@@ -14,6 +14,13 @@ type Props = {
   route?: RouteResult;
   onSelect?: (r: Restaurant) => void;
   compact?: boolean;
+  selectedId?: string;
+  onAreaChange?: (bounds: {
+    south: number;
+    north: number;
+    west: number;
+    east: number;
+  }) => void;
 };
 export default function MapView({
   restaurants,
@@ -21,22 +28,32 @@ export default function MapView({
   route,
   onSelect,
   compact,
+  selectedId,
+  onAreaChange,
 }: Props) {
   const div = useRef<HTMLDivElement>(null),
     [error, setError] = useState(false);
   const { t } = useTranslation();
+  const mapRef = useRef<L.Map | null>(null),
+    markerRef = useRef(new Map<string, L.Marker>());
+  useEffect(() => {
+    for (const [id, m] of markerRef.current)
+      m.getElement()?.classList.toggle("highlighted-marker", id === selectedId);
+  }, [selectedId]);
   useEffect(() => {
     if (!div.current) return;
     const map = L.map(div.current, {
       scrollWheelZoom: false,
       zoomControl: !compact,
     }).setView([cityCenter.lat, cityCenter.lng], 14);
+    mapRef.current = map;
+    const activeMarkers = markerRef.current;
     const tiles = L.tileLayer(
       "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
       {
         attribution:
           '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-        minZoom: 12,
+        minZoom: 9,
         maxZoom: 17,
       },
     );
@@ -50,7 +67,7 @@ export default function MapView({
     for (const r of mapped) {
       const icon = L.divIcon({
         className: "food-marker",
-        html: "<span>🍴</span>",
+        html: r.kind === "attraction" ? "<span>🌿</span>" : "<span>🍴</span>",
         iconSize: [36, 36],
         iconAnchor: [18, 36],
       });
@@ -68,6 +85,7 @@ export default function MapView({
       }
       marker.bindPopup(box);
       markers.addLayer(marker);
+      activeMarkers.set(r.id, marker);
     }
     map.addLayer(markers);
     if (origin)
@@ -92,11 +110,30 @@ export default function MapView({
     return () => {
       observer.disconnect();
       map.remove();
+      mapRef.current = null;
+      activeMarkers.clear();
     };
   }, [restaurants, origin, route, onSelect, compact, t]);
   return (
     <div className={`map-wrap ${compact ? "compact" : ""}`}>
       <div ref={div} className="leaflet-map" aria-label={t("foodMap")} />
+      {onAreaChange && (
+        <button
+          className="secondary search-area"
+          onClick={() => {
+            const b = mapRef.current?.getBounds();
+            if (b)
+              onAreaChange({
+                south: b.getSouth(),
+                north: b.getNorth(),
+                west: b.getWest(),
+                east: b.getEast(),
+              });
+          }}
+        >
+          {t("searchArea")}
+        </button>
+      )}
       {error && <div className="map-notice">{t("mapOffline")}</div>}
     </div>
   );

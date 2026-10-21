@@ -6,10 +6,12 @@ export default function Modal({
   children,
   onClose,
   title,
+  className = "",
 }: {
   children: ReactNode;
   onClose: () => void;
   title: string;
+  className?: string;
 }) {
   const ref = useRef<HTMLDialogElement>(null);
   const { t } = useTranslation();
@@ -21,7 +23,7 @@ export default function Modal({
   return (
     <dialog
       ref={ref}
-      className="modal"
+      className={`modal ${className}`}
       aria-label={title}
       onCancel={onClose}
       onClick={(e) => {

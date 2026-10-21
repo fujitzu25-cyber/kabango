@@ -7,7 +7,7 @@ compatibility_date = "2026-10-19"
 AI_ENABLED = "true"
 AI_PROVIDER = "cloudflare"
 CF_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast"
-ALLOWED_ORIGINS = "https://kabango-eight.vercel.app,https://kabango-fuji-92d1.vercel.app"
+ALLOWED_ORIGINS = "https://kabgo-kabankalan.vercel.app,https://kabango-eight.vercel.app,https://kabango-fuji-92d1.vercel.app"
 DAILY_BUDGET = "100"
 
 [ai]

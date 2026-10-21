@@ -1,3 +1,4 @@
+import synonyms from "../../public/data/search-synonyms.json";
 import Fuse from "fuse.js";
 import type { Coordinates, Filters, Restaurant } from "./schema";
 export const cityCenter: Coordinates = { lat: 9.9902, lng: 122.8148 };
@@ -55,6 +56,9 @@ export function searchRestaurants(
   origin: Coordinates = cityCenter,
   date = new Date(),
 ) {
+  const expanded = Object.entries(synonyms)
+    .filter(([key]) => key === filters.query.toLocaleLowerCase().trim())
+    .flatMap(([, values]) => values);
   let found = filters.query.trim()
     ? new Fuse(restaurants, {
         keys: [
@@ -68,12 +72,25 @@ export function searchRestaurants(
         ],
         threshold: 0.36,
         ignoreLocation: true,
+        ignoreDiacritics: true,
       })
         .search(filters.query.trim())
         .map((m) => m.item)
     : [...restaurants];
+  if (expanded.length) {
+    const extra = restaurants.filter((r) =>
+      expanded.some((term) =>
+        [r.name, ...r.categories, ...r.cuisine, ...r.signatureDishes]
+          .join(" ")
+          .toLocaleLowerCase()
+          .includes(term.toLocaleLowerCase()),
+      ),
+    );
+    found = [...new Map([...found, ...extra].map((r) => [r.id, r])).values()];
+  }
   found = found.filter(
     (r) =>
+      (filters.kind === "all" || r.kind === filters.kind) &&
       (filters.category === "all" || r.categories.includes(filters.category)) &&
       (!filters.open || isOpen(r, date)) &&
       (!filters.budget || r.priceLevel === filters.budget) &&
@@ -82,6 +99,11 @@ export function searchRestaurants(
       (!filters.payment || r.payments.includes(filters.payment)) &&
       r.rating >= filters.rating,
   );
+  if (
+    filters.query &&
+    (filters.sort === "recommended" || filters.sort === "relevance")
+  )
+    return found;
   return found.sort((a, b) =>
     filters.sort === "distance"
       ? distanceKm(a, origin) - distanceKm(b, origin)
