@@ -342,7 +342,15 @@ function Shell() {
         </div>
         {data && <OfflineTools restaurants={data.restaurants} toast={toast} />}
         <small className="footer-credit">
-          {t("photoCredit")} · {t("allRights")}
+          {t("photoCredit")} ·{" "}
+          <a
+            href="https://www.openstreetmap.org/copyright"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Directory map data © OpenStreetMap contributors · ODbL
+          </a>{" "}
+          · {t("allRights")}
         </small>
       </footer>
       <nav className="bottom-nav" aria-label={t("more")}>

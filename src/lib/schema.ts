@@ -11,18 +11,43 @@ export const restaurantSchema = z.object({
   categories: z.array(z.string()),
   cuisine: z.array(z.string()),
   signatureDishes: z.array(z.string()),
-  priceLevel: z.union([z.literal(1), z.literal(2), z.literal(3)]),
+  // Zero means unpublished, never a free meal or a zero-star review.
+  priceLevel: z.union([z.literal(0), z.literal(1), z.literal(2), z.literal(3)]),
   address: z.string(),
   barangay: z.string(),
   landmark: z.string(),
-  lat: z.number().min(-90).max(90),
-  lng: z.number().min(-180).max(180),
+  lat: z.number().min(-90).max(90).nullable(),
+  lng: z.number().min(-180).max(180).nullable(),
   phone: z.string().optional(),
   facebookUrl: z.string().url().optional(),
   googleMapsUrl: z.string().url(),
   website: z.string().url().optional(),
-  hours: z.array(z.array(interval)).length(7),
-  photos: z.array(z.string()).min(1),
+  hours: z
+    .array(z.array(interval))
+    .refine((days) => days.length === 0 || days.length === 7),
+  hoursText: z.string().optional(),
+  photos: z.array(z.string()),
+  photoCredit: z.string().optional(),
+  photoSourceUrl: z.string().url().optional(),
+  menuUrl: z.string().url().optional(),
+  facebookPostUrl: z.string().url().optional(),
+  sources: z
+    .array(
+      z.object({
+        title: z.string(),
+        url: z.string().url(),
+        kind: z.enum([
+          "official",
+          "government",
+          "merchant",
+          "community",
+          "directory",
+        ]),
+        checkedAt: z.string(),
+        note: z.string(),
+      }),
+    )
+    .default([]),
   menu: z.array(
     z.object({
       name: z.string(),
@@ -32,7 +57,7 @@ export const restaurantSchema = z.object({
     }),
   ),
   tags: z.array(z.string()),
-  maxGroupSize: z.number().positive(),
+  maxGroupSize: z.number().nonnegative(),
   payments: z.array(z.string()),
   services: z.array(z.string()),
   directions: z.object({ en: z.string(), hil: z.string(), fil: z.string() }),

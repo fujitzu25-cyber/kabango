@@ -158,8 +158,8 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
               <img src="/images/seafood.webp" alt="" />
             </span>
             <span>
-              <strong>15</strong>{" "}
-              {t("results", { count: 15 }).replace(/^15 /, "")}
+              <strong>{restaurants.length}</strong>{" "}
+              {t("results", { count: restaurants.length }).replace(/^\d+ /, "")}
               <small>
                 <span className="green-dot" />
                 {t("localFree")}
@@ -204,8 +204,12 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
         </div>
       </section>
       <div className="sample-strip page-container">
-        <span className="sample-pill">{t("sampleLabel")}</span>
-        <p>{t("sampleNotice")}</p>
+        <span className="sample-pill">{t("realDirectory")}</span>
+        <p>
+          {t("coverageNotice", {
+            count: restaurants.filter((r) => r.photos.length).length,
+          })}
+        </p>
       </div>
       <section id="spots" className="explore-section page-container">
         <div className="category-row">
@@ -216,7 +220,7 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
               aria-pressed={filters.category === c}
               onClick={() => patch({ category: c })}
             >
-              <span className="category-icon">{categoryIcons[c]}</span>
+              <span className="category-icon">{categoryIcons[c] ?? "🍽️"}</span>
               <span>{t(c)}</span>
             </button>
           ))}

@@ -1,7 +1,16 @@
 import Fuse from "fuse.js";
 import type { Coordinates, Filters, Restaurant } from "./schema";
 export const cityCenter: Coordinates = { lat: 9.9902, lng: 122.8148 };
-export function distanceKm(a: Coordinates, b: Coordinates) {
+export function hasCoordinates<
+  T extends { lat: number | null; lng: number | null },
+>(r: T): r is T & Coordinates {
+  return r.lat !== null && r.lng !== null;
+}
+export function distanceKm(
+  a: { lat: number | null; lng: number | null },
+  b: Coordinates,
+) {
+  if (!hasCoordinates(a)) return Infinity;
   const rad = Math.PI / 180,
     dlat = (b.lat - a.lat) * rad,
     dlng = (b.lng - a.lng) * rad;
@@ -13,6 +22,7 @@ export function distanceKm(a: Coordinates, b: Coordinates) {
 const minutes = (time: string) =>
   Number(time.slice(0, 2)) * 60 + Number(time.slice(3));
 export function isOpen(r: Restaurant, date = new Date()) {
+  if (!r.hours.length) return null;
   const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: "Asia/Manila",
     weekday: "short",
@@ -78,9 +88,9 @@ export function searchRestaurants(
       : filters.sort === "rating"
         ? b.rating - a.rating
         : filters.sort === "price"
-          ? a.priceLevel - b.priceLevel
+          ? (a.priceLevel || Infinity) - (b.priceLevel || Infinity)
           : filters.sort === "new"
             ? b.createdAt.localeCompare(a.createdAt)
-            : b.popularity - a.popularity,
+            : b.popularity - a.popularity || a.name.localeCompare(b.name),
   );
 }

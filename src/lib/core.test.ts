@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import source from "../../public/data/restaurants.json";
+import source from "../../tests/fixtures/sample-restaurants.json";
 import fareSource from "../../public/data/fares.json";
 import tariffsSource from "../../public/data/tricycle-tariffs.json";
 import { restaurantSchema, fareSchema, defaultFilters } from "./schema";

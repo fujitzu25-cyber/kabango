@@ -6,7 +6,7 @@ import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import type { Restaurant, Coordinates } from "../lib/schema";
 import type { RouteResult } from "../lib/routing";
-import { cityCenter } from "../lib/search";
+import { cityCenter, hasCoordinates } from "../lib/search";
 import { useTranslation } from "react-i18next";
 type Props = {
   restaurants: Restaurant[];
@@ -46,7 +46,8 @@ export default function MapView({
       showCoverageOnHover: false,
       maxClusterRadius: 45,
     });
-    for (const r of restaurants) {
+    const mapped = restaurants.filter(hasCoordinates);
+    for (const r of mapped) {
       const icon = L.divIcon({
         className: "food-marker",
         html: "<span>🍴</span>",
@@ -84,8 +85,8 @@ export default function MapView({
         dashArray: route.estimated ? "8 8" : undefined,
       }).addTo(map);
       map.fitBounds(L.latLngBounds(route.points).pad(0.25));
-    } else if (restaurants.length === 1)
-      map.setView([restaurants[0].lat, restaurants[0].lng], 15);
+    } else if (mapped.length === 1)
+      map.setView([mapped[0].lat, mapped[0].lng], 15);
     const observer = new ResizeObserver(() => map.invalidateSize());
     observer.observe(div.current);
     return () => {

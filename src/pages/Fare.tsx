@@ -1,3 +1,4 @@
+import type { Restaurant, Coordinates } from "../lib/schema";
 import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import {
@@ -259,19 +260,29 @@ function TripEstimate() {
     [params] = useSearchParams(),
     { t, i18n } = useTranslation();
   const [from, setFrom] = useState("plaza"),
-    [to, setTo] = useState(params.get("to") ?? restaurants[0].id),
+    [to, setTo] = useState(
+      params.get("to") ??
+        restaurants.find((r) => r.lat !== null && r.lng !== null)!.id,
+    ),
     [mode, setMode] = useState("tricycle"),
     [discount, setDiscount] = useState("regular"),
     [route, setRoute] = useState<RouteResult>(),
     [loading, setLoading] = useState(false);
-  const destination = restaurants.find((r) => r.id === to) ?? restaurants[0],
+  const mappedRestaurants = restaurants.filter(
+    (r): r is Restaurant & Coordinates => r.lat !== null && r.lng !== null,
+  );
+  const destination =
+      mappedRestaurants.find((r) => r.id === to) ?? mappedRestaurants[0],
     point =
       from === "gps"
         ? (origin ?? cityCenter)
         : (landmarks.find((l) => l.id === from) ?? cityCenter),
     km = route?.km ?? offlineRoute(point, destination).km,
     estimate = estimateFare(fares, mode, km, discount);
-  const mapRestaurants = useMemo(() => [destination], [destination]);
+  const mapRestaurants = useMemo(
+    () => restaurants.filter((r) => r.id === to),
+    [restaurants, to],
+  );
   useEffect(() => {
     setRoute(offlineRoute(point, destination));
   }, [point, destination]);
@@ -317,7 +328,7 @@ function TripEstimate() {
           <label>
             {t("destination")}
             <select value={to} onChange={(e) => setTo(e.target.value)}>
-              {restaurants.map((r) => (
+              {mappedRestaurants.map((r) => (
                 <option key={r.id} value={r.id}>
                   {r.name}
                 </option>

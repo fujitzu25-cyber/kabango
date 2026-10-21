@@ -1,6 +1,6 @@
 # KabanGo roadmap
 
-The first priority is replacing fictional listings with permissioned, verified restaurant and menu data, confirming fare-table ambiguities with the city, and maintaining a clear updated date.
+The production directory now uses 69 public-source real business records. Next priorities: owner confirmation, broader barangay coverage beyond the city-proper OSM extract and current delivery catalog, permissioned branch-interior photo galleries, published dine-in prices, and city confirmation of fare-table ambiguities. A public-source check date is not an owner verification.
 
 - Supabase free-tier data provider, authenticated owner dashboard, verified claims and moderated public reviews with spam controls.
 - Community submission inbox and photo moderation; local draft export already works.

@@ -40,7 +40,9 @@ export default function OfflineTools({
           "/data/fares.json",
           "/data/landmarks.json",
           "/data/categories.json",
-          ...restaurants.flatMap((r) => r.photos),
+          ...restaurants
+            .flatMap((r) => r.photos)
+            .filter((url) => url.startsWith("/")),
         ]),
       ];
       for (let i = 0; i < urls.length; i++) {

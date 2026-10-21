@@ -1,3 +1,4 @@
+import PlacePhoto from "../components/PlacePhoto";
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import {
@@ -265,20 +266,14 @@ export default function Chat() {
                 return (
                   r && (
                     <div className="chat-result" key={id}>
-                      <img
-                        src={r.photos[0]}
-                        alt={r.signatureDishes[0]}
-                        width="64"
-                        height="64"
-                        loading="lazy"
-                      />
+                      <PlacePhoto restaurant={r} />
                       <div>
                         <Link to={`/restaurant/${r.slug}`}>
                           <strong>{r.name}</strong>
                         </Link>
                         <small>
                           {t(r.categories[0])} · {"₱".repeat(r.priceLevel)} ·{" "}
-                          {t("sampleShort")}
+                          {t(r.sample ? "sampleShort" : "sourcedListing")}
                         </small>
                         <div>
                           <Link to={`/fare?to=${r.id}&trip=1`}>

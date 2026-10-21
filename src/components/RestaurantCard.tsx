@@ -1,3 +1,4 @@
+import PlacePhoto from "./PlacePhoto";
 import { Heart, MapPin, Star, ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -22,17 +23,13 @@ export default function RestaurantCard({
     <article className="restaurant-card" data-testid="restaurant-card">
       <div className="card-photo">
         <Link to={`/restaurant/${r.slug}`} tabIndex={-1} aria-hidden="true">
-          <img
-            src={r.photos[0]}
-            alt={r.signatureDishes[0]}
-            width="600"
-            height="420"
-            loading={priority ? "eager" : "lazy"}
-          />
+          <PlacePhoto restaurant={r} priority={priority} />
         </Link>
-        <span className={`open-badge ${open ? "" : "is-closed"}`}>
+        <span
+          className={`open-badge ${open === null ? "is-unknown" : open ? "" : "is-closed"}`}
+        >
           <i />
-          {t(open ? "open" : "closed")}
+          {open === null ? t("hoursUnknown") : t(open ? "open" : "closed")}
         </span>
         <button
           className={`save-button ${saved ? "is-saved" : ""}`}
@@ -44,27 +41,42 @@ export default function RestaurantCard({
         </button>
         <span className="photo-caption">
           {t(r.categories[0])}
-          <span>·</span>
-          {"₱".repeat(r.priceLevel)}
+          {r.priceLevel > 0 && (
+            <>
+              <span>·</span>
+              {"₱".repeat(r.priceLevel)}
+            </>
+          )}
         </span>
-        <span className="sample-photo">{t("sampleShort")}</span>
+        <span className="sample-photo">
+          {t(
+            r.sample
+              ? "sampleShort"
+              : r.photoCredit
+                ? "publishedPhoto"
+                : "sourcedListing",
+          )}
+        </span>
       </div>
       <div className="card-info">
         <div className="card-title-row">
           <h3>
             <Link to={`/restaurant/${r.slug}`}>{r.name}</Link>
           </h3>
-          <span className="card-rating" title={t("sampleRating")}>
-            <Star size={14} fill="currentColor" />
-            {r.rating.toFixed(1)}
-            <small>({r.reviewCount})</small>
-          </span>
+          {r.reviewCount > 0 && (
+            <span className="card-rating" title={t("sampleRating")}>
+              <Star size={14} fill="currentColor" />
+              {r.rating.toFixed(1)}
+              <small>({r.reviewCount})</small>
+            </span>
+          )}
         </div>
         <p className="card-address">
           <MapPin size={13} />
           {r.barangay} <span>·</span>{" "}
-          {distanceKm(r, origin ?? cityCenter).toFixed(1)} km{" "}
-          {t(origin ? "fromYou" : "fromCenter")}
+          {Number.isFinite(distanceKm(r, origin ?? cityCenter))
+            ? `${distanceKm(r, origin ?? cityCenter).toFixed(1)} km ${t(origin ? "fromYou" : "fromCenter")}`
+            : t("mapUnconfirmed")}
         </p>
         <div className="card-bottom">
           <div className="card-tags">

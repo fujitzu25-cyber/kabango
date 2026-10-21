@@ -1,1730 +1,4157 @@
 [
   {
-    "id": "kg-1",
-    "slug": "sidlak-kitchen",
-    "name": "Sidlak Kitchen",
-    "description": "Sidlak Kitchen is a fictional sample of a filipino spot in Kabankalan. Think chicken inasal, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "id": "ayahay-bistro",
+    "slug": "ayahay-bistro",
+    "name": "Ayahay Bistro",
+    "description": "A Kabankalan bistro whose official website places it near Holy Mother of Mercy Hospital and Zaycoland Resort and Hotel.",
     "categories": [
-      "Filipino"
+      "Bar & Bistro",
+      "Restaurant"
     ],
-    "cuisine": [
-      "Filipino"
-    ],
-    "signatureDishes": [
-      "Chicken inasal"
-    ],
-    "priceLevel": 1,
-    "address": "Sample location near City plaza, Poblacion, Kabankalan City",
-    "barangay": "Poblacion",
-    "landmark": "City plaza",
-    "lat": 9.9902,
-    "lng": 122.8148,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9902,122.8148",
-    "hours": [
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ]
-    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Near Holy Mother of Mercy Hospital and Zaycoland Resort and Hotel, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "Holy Mother of Mercy Hospital / Zaycoland",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ayahay%20Bistro%20Kabankalan%20City",
+    "hours": [],
     "photos": [
-      "/images/inasal.webp",
-      "/images/inasal.webp"
+      "https://static.wixstatic.com/media/91e610_7cbe2ee40116476195418279f86f61c8~mv2.jpg"
     ],
-    "menu": [
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 2,
+    "sources": [
       {
-        "name": "Chicken inasal",
-        "price": 85,
-        "category": "House favorites"
-      },
-      {
-        "name": "Garlic rice",
-        "price": 25,
-        "category": "Sides"
-      },
-      {
-        "name": "Fresh calamansi juice",
-        "price": 45,
-        "category": "Drinks"
+        "title": "Official business website",
+        "url": "https://ayahaybistro.wixsite.com/kabankalan-city",
+        "kind": "official",
+        "checkedAt": "2026-10-21",
+        "note": "Owner website supplies business identity, landmark, photo and Facebook menu/post link."
       }
     ],
-    "tags": [
-      "family",
-      "parking",
-      "kid-friendly"
-    ],
-    "maxGroupSize": 18,
-    "payments": [
-      "cash",
-      "GCash",
-      "Maya"
-    ],
-    "services": [
-      "dine-in",
-      "takeout"
-    ],
-    "directions": {
-      "en": "Start at City plaza. This is a sample location; confirm the address before traveling.",
-      "hil": "Halin sa City plaza. Sample lang ini nga lugar; kumpirmaha anay ang address.",
-      "fil": "Mula sa City plaza. Halimbawang lugar lamang; kumpirmahin muna ang address."
-    },
-    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
-    "createdAt": "2026-10-01",
-    "updatedAt": "2026-10-20",
-    "verified": false,
-    "sample": true,
-    "rating": 4.8,
-    "reviewCount": 28,
-    "popularity": 100
+    "facebookUrl": "https://www.facebook.com/Ayahay.Bistro",
+    "facebookPostUrl": "https://www.facebook.com/Ayahay.Bistro/posts/pfbid0AVy6zUZmEZ26CgEqS4PNrgco5qB2QbTJdZGvK6oo1pqRKij7wKVLSgUUS1vQQgwAl",
+    "menuUrl": "https://www.facebook.com/Ayahay.Bistro/posts/pfbid0AVy6zUZmEZ26CgEqS4PNrgco5qB2QbTJdZGvK6oo1pqRKij7wKVLSgUUS1vQQgwAl",
+    "photoCredit": "Ayahay Bistro — image published on its official website.",
+    "photoSourceUrl": "https://ayahaybistro.wixsite.com/kabankalan-city",
+    "website": "https://ayahaybistro.wixsite.com/kabankalan-city"
   },
   {
-    "id": "kg-2",
-    "slug": "kape-sa-kanto",
-    "name": "Kape sa Kanto",
-    "description": "Kape sa Kanto is a fictional sample of a café spot in Kabankalan. Think iced spanish latte, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "id": "jollibee-citymall-kabankalan",
+    "slug": "jollibee-citymall-kabankalan",
+    "name": "Jollibee — CityMall Kabankalan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
     "categories": [
-      "Café"
-    ],
-    "cuisine": [
-      "Filipino",
-      "Coffee"
-    ],
-    "signatureDishes": [
-      "Iced Spanish latte"
-    ],
-    "priceLevel": 2,
-    "address": "Sample location near City plaza, Poblacion, Kabankalan City",
-    "barangay": "Poblacion",
-    "landmark": "City plaza",
-    "lat": 9.9932,
-    "lng": 122.81880000000001,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9932,122.81880000000001",
-    "hours": [
-      [
-        [
-          "08:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "08:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "08:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "08:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "08:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "08:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "08:00",
-          "21:00"
-        ]
-      ]
-    ],
-    "photos": [
-      "/images/cafe.webp",
-      "/images/filipino.webp"
-    ],
-    "menu": [
-      {
-        "name": "Iced Spanish latte",
-        "price": 185,
-        "category": "House favorites"
-      },
-      {
-        "name": "Garlic rice",
-        "price": 25,
-        "category": "Sides"
-      },
-      {
-        "name": "Iced café latte",
-        "price": 110,
-        "category": "Drinks"
-      }
-    ],
-    "tags": [
-      "date",
-      "wifi",
-      "aircon",
-      "vegetarian-friendly"
-    ],
-    "maxGroupSize": 8,
-    "payments": [
-      "cash",
-      "GCash"
-    ],
-    "services": [
-      "dine-in",
-      "takeout",
-      "delivery"
-    ],
-    "directions": {
-      "en": "Start at City plaza. This is a sample location; confirm the address before traveling.",
-      "hil": "Halin sa City plaza. Sample lang ini nga lugar; kumpirmaha anay ang address.",
-      "fil": "Mula sa City plaza. Halimbawang lugar lamang; kumpirmahin muna ang address."
-    },
-    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
-    "createdAt": "2026-10-02",
-    "updatedAt": "2026-10-20",
-    "verified": false,
-    "sample": true,
-    "rating": 4.7,
-    "reviewCount": 16,
-    "popularity": 97
-  },
-  {
-    "id": "kg-3",
-    "slug": "dagat-dunggan",
-    "name": "Dagat & Dunggan",
-    "description": "Dagat & Dunggan is a fictional sample of a seafood spot in Kabankalan. Think grilled bangus, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
-    "categories": [
-      "Seafood"
-    ],
-    "cuisine": [
-      "Filipino"
-    ],
-    "signatureDishes": [
-      "Grilled bangus"
-    ],
-    "priceLevel": 2,
-    "address": "Sample location near Public market, Barangay 1, Kabankalan City",
-    "barangay": "Barangay 1",
-    "landmark": "Public market",
-    "lat": 9.988199999999999,
-    "lng": 122.8118,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.988199999999999,122.8118",
-    "hours": [
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ]
-    ],
-    "photos": [
-      "/images/seafood.webp",
-      "/images/inasal.webp"
-    ],
-    "menu": [
-      {
-        "name": "Grilled bangus",
-        "price": 185,
-        "category": "House favorites"
-      },
-      {
-        "name": "Garlic rice",
-        "price": 25,
-        "category": "Sides"
-      },
-      {
-        "name": "Fresh calamansi juice",
-        "price": 45,
-        "category": "Drinks"
-      }
-    ],
-    "tags": [
-      "family",
-      "group",
-      "outdoor",
-      "parking"
-    ],
-    "maxGroupSize": 24,
-    "payments": [
-      "cash",
-      "GCash"
-    ],
-    "services": [
-      "dine-in",
-      "takeout"
-    ],
-    "directions": {
-      "en": "Start at Public market. This is a sample location; confirm the address before traveling.",
-      "hil": "Halin sa Public market. Sample lang ini nga lugar; kumpirmaha anay ang address.",
-      "fil": "Mula sa Public market. Halimbawang lugar lamang; kumpirmahin muna ang address."
-    },
-    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
-    "createdAt": "2026-10-03",
-    "updatedAt": "2026-10-20",
-    "verified": false,
-    "sample": true,
-    "rating": 4.6,
-    "reviewCount": 42,
-    "popularity": 94
-  },
-  {
-    "id": "kg-4",
-    "slug": "lola-nenas-lutong-bahay",
-    "name": "Lola Nena’s Lutong Bahay",
-    "description": "Lola Nena’s Lutong Bahay is a fictional sample of a carinderia spot in Kabankalan. Think pork adobo, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
-    "categories": [
-      "Carinderia"
-    ],
-    "cuisine": [
-      "Filipino"
-    ],
-    "signatureDishes": [
-      "Pork adobo"
-    ],
-    "priceLevel": 1,
-    "address": "Sample location near Public market, Barangay 2, Kabankalan City",
-    "barangay": "Barangay 2",
-    "landmark": "Public market",
-    "lat": 9.9912,
-    "lng": 122.81280000000001,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9912,122.81280000000001",
-    "hours": [
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ]
-    ],
-    "photos": [
-      "/images/filipino.webp",
-      "/images/filipino.webp"
-    ],
-    "menu": [
-      {
-        "name": "Pork adobo",
-        "price": 85,
-        "category": "House favorites"
-      },
-      {
-        "name": "Garlic rice",
-        "price": 25,
-        "category": "Sides"
-      },
-      {
-        "name": "Fresh calamansi juice",
-        "price": 45,
-        "category": "Drinks"
-      }
-    ],
-    "tags": [
-      "budget",
-      "family",
-      "takeout"
-    ],
-    "maxGroupSize": 10,
-    "payments": [
-      "cash",
-      "GCash",
-      "Maya"
-    ],
-    "services": [
-      "dine-in",
-      "takeout",
-      "delivery"
-    ],
-    "directions": {
-      "en": "Start at Public market. This is a sample location; confirm the address before traveling.",
-      "hil": "Halin sa Public market. Sample lang ini nga lugar; kumpirmaha anay ang address.",
-      "fil": "Mula sa Public market. Halimbawang lugar lamang; kumpirmahin muna ang address."
-    },
-    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
-    "createdAt": "2026-10-04",
-    "updatedAt": "2026-10-20",
-    "verified": false,
-    "sample": true,
-    "rating": 4.9,
-    "reviewCount": 13,
-    "popularity": 91
-  },
-  {
-    "id": "kg-5",
-    "slug": "ember-yard",
-    "name": "Ember Yard",
-    "description": "Ember Yard is a fictional sample of a filipino spot in Kabankalan. Think sizzling pork sisig, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
-    "categories": [
-      "Filipino"
-    ],
-    "cuisine": [
-      "Filipino"
-    ],
-    "signatureDishes": [
-      "Sizzling pork sisig"
-    ],
-    "priceLevel": 2,
-    "address": "Sample location near City plaza, Barangay 9, Kabankalan City",
-    "barangay": "Barangay 9",
-    "landmark": "City plaza",
-    "lat": 9.9952,
-    "lng": 122.8168,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9952,122.8168",
-    "hours": [
-      [
-        [
-          "10:00",
-          "01:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "01:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "01:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "01:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "01:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "01:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "01:00"
-        ]
-      ]
-    ],
-    "photos": [
-      "/images/grill.webp",
-      "/images/inasal.webp"
-    ],
-    "menu": [
-      {
-        "name": "Sizzling pork sisig",
-        "price": 185,
-        "category": "House favorites"
-      },
-      {
-        "name": "Garlic rice",
-        "price": 25,
-        "category": "Sides"
-      },
-      {
-        "name": "Fresh calamansi juice",
-        "price": 45,
-        "category": "Drinks"
-      }
-    ],
-    "tags": [
-      "group",
-      "late-night",
-      "outdoor",
-      "pet-friendly"
-    ],
-    "maxGroupSize": 20,
-    "payments": [
-      "cash",
-      "GCash"
-    ],
-    "services": [
-      "dine-in",
-      "takeout"
-    ],
-    "directions": {
-      "en": "Start at City plaza. This is a sample location; confirm the address before traveling.",
-      "hil": "Halin sa City plaza. Sample lang ini nga lugar; kumpirmaha anay ang address.",
-      "fil": "Mula sa City plaza. Halimbawang lugar lamang; kumpirmahin muna ang address."
-    },
-    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
-    "createdAt": "2026-10-05",
-    "updatedAt": "2026-10-20",
-    "verified": false,
-    "sample": true,
-    "rating": 4.5,
-    "reviewCount": 31,
-    "popularity": 88
-  },
-  {
-    "id": "kg-6",
-    "slug": "butter-crumb",
-    "name": "Butter & Crumb",
-    "description": "Butter & Crumb is a fictional sample of a bakery spot in Kabankalan. Think fresh pandesal, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
-    "categories": [
-      "Bakery"
-    ],
-    "cuisine": [
-      "Filipino"
-    ],
-    "signatureDishes": [
-      "Fresh pandesal"
-    ],
-    "priceLevel": 1,
-    "address": "Sample location near City plaza, Barangay 3, Kabankalan City",
-    "barangay": "Barangay 3",
-    "landmark": "City plaza",
-    "lat": 9.9892,
-    "lng": 122.81880000000001,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9892,122.81880000000001",
-    "hours": [
-      [
-        [
-          "05:00",
-          "18:00"
-        ]
-      ],
-      [
-        [
-          "05:00",
-          "18:00"
-        ]
-      ],
-      [
-        [
-          "05:00",
-          "18:00"
-        ]
-      ],
-      [
-        [
-          "05:00",
-          "18:00"
-        ]
-      ],
-      [
-        [
-          "05:00",
-          "18:00"
-        ]
-      ],
-      [
-        [
-          "05:00",
-          "18:00"
-        ]
-      ],
-      [
-        [
-          "05:00",
-          "18:00"
-        ]
-      ]
-    ],
-    "photos": [
-      "/images/bakery.webp",
-      "/images/filipino.webp"
-    ],
-    "menu": [
-      {
-        "name": "Fresh pandesal",
-        "price": 85,
-        "category": "House favorites"
-      },
-      {
-        "name": "Garlic rice",
-        "price": 25,
-        "category": "Sides"
-      },
-      {
-        "name": "Fresh calamansi juice",
-        "price": 45,
-        "category": "Drinks"
-      }
-    ],
-    "tags": [
-      "budget",
-      "takeout",
-      "vegetarian-friendly"
-    ],
-    "maxGroupSize": 6,
-    "payments": [
-      "cash",
-      "GCash"
-    ],
-    "services": [
-      "dine-in",
-      "takeout",
-      "delivery"
-    ],
-    "directions": {
-      "en": "Start at City plaza. This is a sample location; confirm the address before traveling.",
-      "hil": "Halin sa City plaza. Sample lang ini nga lugar; kumpirmaha anay ang address.",
-      "fil": "Mula sa City plaza. Halimbawang lugar lamang; kumpirmahin muna ang address."
-    },
-    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
-    "createdAt": "2026-10-06",
-    "updatedAt": "2026-10-20",
-    "verified": false,
-    "sample": true,
-    "rating": 4.8,
-    "reviewCount": 28,
-    "popularity": 85
-  },
-  {
-    "id": "kg-7",
-    "slug": "balsa-grill-house",
-    "name": "Balsa Grill House",
-    "description": "Balsa Grill House is a fictional sample of a filipino spot in Kabankalan. Think pork barbecue, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
-    "categories": [
-      "Filipino"
-    ],
-    "cuisine": [
-      "Filipino"
-    ],
-    "signatureDishes": [
-      "Pork barbecue"
-    ],
-    "priceLevel": 1,
-    "address": "Sample location near Ceres terminal, Barangay 6, Kabankalan City",
-    "barangay": "Barangay 6",
-    "landmark": "Ceres terminal",
-    "lat": 9.9992,
-    "lng": 122.8198,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9992,122.8198",
-    "hours": [
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ]
-    ],
-    "photos": [
-      "/images/grill.webp",
-      "/images/inasal.webp"
-    ],
-    "menu": [
-      {
-        "name": "Pork barbecue",
-        "price": 85,
-        "category": "House favorites"
-      },
-      {
-        "name": "Garlic rice",
-        "price": 25,
-        "category": "Sides"
-      },
-      {
-        "name": "Fresh calamansi juice",
-        "price": 45,
-        "category": "Drinks"
-      }
-    ],
-    "tags": [
-      "group",
-      "budget",
-      "outdoor"
-    ],
-    "maxGroupSize": 20,
-    "payments": [
-      "cash",
-      "GCash",
-      "Maya"
-    ],
-    "services": [
-      "dine-in",
-      "takeout"
-    ],
-    "directions": {
-      "en": "Start at Ceres terminal. This is a sample location; confirm the address before traveling.",
-      "hil": "Halin sa Ceres terminal. Sample lang ini nga lugar; kumpirmaha anay ang address.",
-      "fil": "Mula sa Ceres terminal. Halimbawang lugar lamang; kumpirmahin muna ang address."
-    },
-    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
-    "createdAt": "2026-10-07",
-    "updatedAt": "2026-10-20",
-    "verified": false,
-    "sample": true,
-    "rating": 4.7,
-    "reviewCount": 16,
-    "popularity": 82
-  },
-  {
-    "id": "kg-8",
-    "slug": "paseo-street-bites",
-    "name": "Paseo Street Bites",
-    "description": "Paseo Street Bites is a fictional sample of a street food spot in Kabankalan. Think chicken isaw, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
-    "categories": [
-      "Street Food"
-    ],
-    "cuisine": [
-      "Filipino"
-    ],
-    "signatureDishes": [
-      "Chicken isaw"
-    ],
-    "priceLevel": 1,
-    "address": "Sample location near Public market, Barangay 4, Kabankalan City",
-    "barangay": "Barangay 4",
-    "landmark": "Public market",
-    "lat": 9.9922,
-    "lng": 122.80980000000001,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9922,122.80980000000001",
-    "hours": [
-      [
-        [
-          "10:00",
-          "01:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "01:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "01:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "01:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "01:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "01:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "01:00"
-        ]
-      ]
-    ],
-    "photos": [
-      "/images/street.webp",
-      "/images/filipino.webp"
-    ],
-    "menu": [
-      {
-        "name": "Chicken isaw",
-        "price": 85,
-        "category": "House favorites"
-      },
-      {
-        "name": "Garlic rice",
-        "price": 25,
-        "category": "Sides"
-      },
-      {
-        "name": "Fresh calamansi juice",
-        "price": 45,
-        "category": "Drinks"
-      }
-    ],
-    "tags": [
-      "late-night",
-      "budget",
-      "outdoor"
-    ],
-    "maxGroupSize": 8,
-    "payments": [
-      "cash",
-      "GCash"
-    ],
-    "services": [
-      "dine-in",
-      "takeout",
-      "delivery"
-    ],
-    "directions": {
-      "en": "Start at Public market. This is a sample location; confirm the address before traveling.",
-      "hil": "Halin sa Public market. Sample lang ini nga lugar; kumpirmaha anay ang address.",
-      "fil": "Mula sa Public market. Halimbawang lugar lamang; kumpirmahin muna ang address."
-    },
-    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
-    "createdAt": "2026-10-08",
-    "updatedAt": "2026-10-20",
-    "verified": false,
-    "sample": true,
-    "rating": 4.6,
-    "reviewCount": 42,
-    "popularity": 79
-  },
-  {
-    "id": "kg-9",
-    "slug": "green-table",
-    "name": "Green Table",
-    "description": "Green Table is a fictional sample of a vegetarian spot in Kabankalan. Think vegetable rice bowl, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
-    "categories": [
-      "Vegetarian"
-    ],
-    "cuisine": [
-      "Filipino"
-    ],
-    "signatureDishes": [
-      "Vegetable rice bowl"
-    ],
-    "priceLevel": 2,
-    "address": "Sample location near Hilamonan barangay hall, Hilamonan, Kabankalan City",
-    "barangay": "Hilamonan",
-    "landmark": "Hilamonan barangay hall",
-    "lat": 10.014199999999999,
-    "lng": 122.8288,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.014199999999999,122.8288",
-    "hours": [
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ]
-    ],
-    "photos": [
-      "/images/healthy.webp",
-      "/images/inasal.webp"
-    ],
-    "menu": [
-      {
-        "name": "Vegetable rice bowl",
-        "price": 185,
-        "category": "House favorites"
-      },
-      {
-        "name": "Garlic rice",
-        "price": 25,
-        "category": "Sides"
-      },
-      {
-        "name": "Fresh calamansi juice",
-        "price": 45,
-        "category": "Drinks"
-      }
-    ],
-    "tags": [
-      "vegetarian-friendly",
-      "family",
-      "parking"
-    ],
-    "maxGroupSize": 12,
-    "payments": [
-      "cash",
-      "GCash"
-    ],
-    "services": [
-      "dine-in",
-      "takeout"
-    ],
-    "directions": {
-      "en": "Start at Hilamonan barangay hall. This is a sample location; confirm the address before traveling.",
-      "hil": "Halin sa Hilamonan barangay hall. Sample lang ini nga lugar; kumpirmaha anay ang address.",
-      "fil": "Mula sa Hilamonan barangay hall. Halimbawang lugar lamang; kumpirmahin muna ang address."
-    },
-    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
-    "createdAt": "2026-10-09",
-    "updatedAt": "2026-10-20",
-    "verified": false,
-    "sample": true,
-    "rating": 4.9,
-    "reviewCount": 13,
-    "popularity": 76
-  },
-  {
-    "id": "kg-10",
-    "slug": "hapon-coffee-studio",
-    "name": "Hapon Coffee Studio",
-    "description": "Hapon Coffee Studio is a fictional sample of a café spot in Kabankalan. Think pour-over coffee, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
-    "categories": [
-      "Café"
-    ],
-    "cuisine": [
-      "Filipino",
-      "Coffee"
-    ],
-    "signatureDishes": [
-      "Pour-over coffee"
-    ],
-    "priceLevel": 2,
-    "address": "Sample location near City plaza, Barangay 5, Kabankalan City",
-    "barangay": "Barangay 5",
-    "landmark": "City plaza",
-    "lat": 9.9942,
-    "lng": 122.8138,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9942,122.8138",
-    "hours": [
-      [
-        [
-          "08:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "08:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "08:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "08:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "08:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "08:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "08:00",
-          "21:00"
-        ]
-      ]
-    ],
-    "photos": [
-      "/images/cafe.webp",
-      "/images/filipino.webp"
-    ],
-    "menu": [
-      {
-        "name": "Pour-over coffee",
-        "price": 185,
-        "category": "House favorites"
-      },
-      {
-        "name": "Garlic rice",
-        "price": 25,
-        "category": "Sides"
-      },
-      {
-        "name": "Iced café latte",
-        "price": 110,
-        "category": "Drinks"
-      }
-    ],
-    "tags": [
-      "date",
-      "wifi",
-      "aircon"
-    ],
-    "maxGroupSize": 6,
-    "payments": [
-      "cash",
-      "GCash",
-      "Maya"
-    ],
-    "services": [
-      "dine-in",
-      "takeout",
-      "delivery"
-    ],
-    "directions": {
-      "en": "Start at City plaza. This is a sample location; confirm the address before traveling.",
-      "hil": "Halin sa City plaza. Sample lang ini nga lugar; kumpirmaha anay ang address.",
-      "fil": "Mula sa City plaza. Halimbawang lugar lamang; kumpirmahin muna ang address."
-    },
-    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
-    "createdAt": "2026-10-10",
-    "updatedAt": "2026-10-20",
-    "verified": false,
-    "sample": true,
-    "rating": 4.5,
-    "reviewCount": 31,
-    "popularity": 73
-  },
-  {
-    "id": "kg-11",
-    "slug": "baryo-batchoy",
-    "name": "Baryo Batchoy",
-    "description": "Baryo Batchoy is a fictional sample of a filipino spot in Kabankalan. Think la paz batchoy, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
-    "categories": [
-      "Filipino"
-    ],
-    "cuisine": [
-      "Filipino"
-    ],
-    "signatureDishes": [
-      "La Paz batchoy"
-    ],
-    "priceLevel": 1,
-    "address": "Sample location near Ceres terminal, Barangay 7, Kabankalan City",
-    "barangay": "Barangay 7",
-    "landmark": "Ceres terminal",
-    "lat": 10.0002,
-    "lng": 122.8178,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.0002,122.8178",
-    "hours": [
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ],
-      [
-        [
-          "10:00",
-          "21:00"
-        ]
-      ]
-    ],
-    "photos": [
-      "/images/noodles.webp",
-      "/images/inasal.webp"
-    ],
-    "menu": [
-      {
-        "name": "La Paz batchoy",
-        "price": 85,
-        "category": "House favorites"
-      },
-      {
-        "name": "Garlic rice",
-        "price": 25,
-        "category": "Sides"
-      },
-      {
-        "name": "Fresh calamansi juice",
-        "price": 45,
-        "category": "Drinks"
-      }
-    ],
-    "tags": [
-      "budget",
-      "family",
-      "kid-friendly"
-    ],
-    "maxGroupSize": 12,
-    "payments": [
-      "cash",
-      "GCash"
-    ],
-    "services": [
-      "dine-in",
-      "takeout"
-    ],
-    "directions": {
-      "en": "Start at Ceres terminal. This is a sample location; confirm the address before traveling.",
-      "hil": "Halin sa Ceres terminal. Sample lang ini nga lugar; kumpirmaha anay ang address.",
-      "fil": "Mula sa Ceres terminal. Halimbawang lugar lamang; kumpirmahin muna ang address."
-    },
-    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
-    "createdAt": "2026-10-11",
-    "updatedAt": "2026-10-20",
-    "verified": false,
-    "sample": true,
-    "rating": 4.8,
-    "reviewCount": 28,
-    "popularity": 70
-  },
-  {
-    "id": "kg-12",
-    "slug": "sunset-talabahan",
-    "name": "Sunset Talabahan",
-    "description": "Sunset Talabahan is a fictional sample of a seafood spot in Kabankalan. Think steamed oysters, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
-    "categories": [
-      "Seafood"
-    ],
-    "cuisine": [
-      "Filipino"
-    ],
-    "signatureDishes": [
-      "Steamed oysters"
-    ],
-    "priceLevel": 2,
-    "address": "Sample location near Talubangi barangay hall, Talubangi, Kabankalan City",
+      "Fast Food"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Level 1, CityMall Kabankalan, Justice Perez Highway, Talubangi, Kabankalan City",
     "barangay": "Talubangi",
-    "landmark": "Talubangi barangay hall",
-    "lat": 9.972199999999999,
-    "lng": 122.80680000000001,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.972199999999999,122.80680000000001",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jollibee%20%E2%80%94%20CityMall%20Kabankalan%20Kabankalan%20City",
     "hours": [
       [
         [
-          "10:00",
-          "21:00"
+          "09:00",
+          "20:00"
         ]
       ],
       [
         [
-          "10:00",
-          "21:00"
+          "09:00",
+          "20:00"
         ]
       ],
       [
         [
-          "10:00",
-          "21:00"
+          "09:00",
+          "20:00"
         ]
       ],
       [
         [
-          "10:00",
-          "21:00"
+          "09:00",
+          "20:00"
         ]
       ],
       [
         [
-          "10:00",
-          "21:00"
+          "09:00",
+          "20:00"
         ]
       ],
       [
         [
-          "10:00",
-          "21:00"
+          "09:00",
+          "20:00"
         ]
       ],
       [
         [
-          "10:00",
-          "21:00"
+          "09:00",
+          "20:00"
         ]
       ]
     ],
-    "photos": [
-      "/images/seafood.webp",
-      "/images/filipino.webp"
-    ],
-    "menu": [
-      {
-        "name": "Steamed oysters",
-        "price": 185,
-        "category": "House favorites"
-      },
-      {
-        "name": "Garlic rice",
-        "price": 25,
-        "category": "Sides"
-      },
-      {
-        "name": "Fresh calamansi juice",
-        "price": 45,
-        "category": "Drinks"
-      }
-    ],
-    "tags": [
-      "family",
-      "group",
-      "outdoor"
-    ],
-    "maxGroupSize": 30,
-    "payments": [
-      "cash",
-      "GCash"
-    ],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
     "services": [
       "dine-in",
-      "takeout",
-      "delivery"
+      "delivery",
+      "takeout"
     ],
     "directions": {
-      "en": "Start at Talubangi barangay hall. This is a sample location; confirm the address before traveling.",
-      "hil": "Halin sa Talubangi barangay hall. Sample lang ini nga lugar; kumpirmaha anay ang address.",
-      "fil": "Mula sa Talubangi barangay hall. Halimbawang lugar lamang; kumpirmahin muna ang address."
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
     },
-    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
-    "createdAt": "2026-10-12",
-    "updatedAt": "2026-10-20",
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
     "verified": false,
-    "sample": true,
-    "rating": 4.7,
-    "reviewCount": 16,
-    "popularity": 67
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 2,
+    "sources": [
+      {
+        "title": "Official business website",
+        "url": "https://order.jollibee.com/en/ph/stores/jollibee-citymall-kabankalan",
+        "kind": "official",
+        "checkedAt": "2026-10-21",
+        "note": "Official branch address, telephone, services and seven-day hours; fulfillment hours may vary."
+      }
+    ],
+    "phone": "+639985204976",
+    "website": "https://order.jollibee.com/en/ph/stores/jollibee-citymall-kabankalan",
+    "menuUrl": "https://order.jollibee.com/en/ph/stores/jollibee-citymall-kabankalan"
   },
   {
-    "id": "kg-13",
-    "slug": "the-little-burger-co",
-    "name": "The Little Burger Co.",
-    "description": "The Little Burger Co. is a fictional sample of a fast food spot in Kabankalan. Think classic cheeseburger, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "id": "fp-vsus",
+    "slug": "jollibee-kabankalan-gaisano",
+    "name": "Jollibee — Kabankalan Gaisano",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
     "categories": [
       "Fast Food"
     ],
     "cuisine": [
-      "Filipino"
+      "Chicken",
+      "Fried Chicken",
+      "Burgers",
+      "Fast Food"
     ],
-    "signatureDishes": [
-      "Classic cheeseburger"
-    ],
-    "priceLevel": 1,
-    "address": "Sample location near City plaza, Barangay 8, Kabankalan City",
-    "barangay": "Barangay 8",
-    "landmark": "City plaza",
-    "lat": 9.9962,
-    "lng": 122.82180000000001,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9962,122.82180000000001",
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Level 1, Gaisano Grand Kabankalan, National Road corner Tan Lorenzo Street, Barangay 1 (Pob.), Kabankalan City",
+    "barangay": "Barangay 1",
+    "landmark": "",
+    "lat": 9.9934017,
+    "lng": 122.8184615,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jollibee%20-%20Kabankalan%20Gaisano%20Kabankalan%20City",
     "hours": [
       [
         [
-          "10:00",
-          "21:00"
+          "08:00",
+          "19:00"
         ]
       ],
       [
         [
-          "10:00",
-          "21:00"
+          "08:00",
+          "19:00"
         ]
       ],
       [
         [
-          "10:00",
-          "21:00"
+          "08:00",
+          "19:00"
         ]
       ],
       [
         [
-          "10:00",
-          "21:00"
+          "08:00",
+          "19:00"
         ]
       ],
       [
         [
-          "10:00",
-          "21:00"
+          "08:00",
+          "19:00"
         ]
       ],
       [
         [
-          "10:00",
-          "21:00"
+          "08:00",
+          "19:00"
         ]
       ],
       [
         [
-          "10:00",
-          "21:00"
+          "08:00",
+          "19:00"
         ]
       ]
     ],
     "photos": [
-      "/images/burger.webp",
-      "/images/inasal.webp"
+      "https://foodpanda.dhmedia.io/image/fd-ph/LH/cg0ep-listing.jpg?width=800&height=450"
     ],
-    "menu": [
-      {
-        "name": "Classic cheeseburger",
-        "price": 85,
-        "category": "House favorites"
-      },
-      {
-        "name": "Garlic rice",
-        "price": 25,
-        "category": "Sides"
-      },
-      {
-        "name": "Fresh calamansi juice",
-        "price": 45,
-        "category": "Drinks"
-      }
-    ],
-    "tags": [
-      "budget",
-      "aircon",
-      "kid-friendly"
-    ],
-    "maxGroupSize": 10,
-    "payments": [
-      "cash",
-      "GCash",
-      "Maya"
-    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
     "services": [
       "dine-in",
+      "delivery",
       "takeout"
     ],
     "directions": {
-      "en": "Start at City plaza. This is a sample location; confirm the address before traveling.",
-      "hil": "Halin sa City plaza. Sample lang ini nga lugar; kumpirmaha anay ang address.",
-      "fil": "Mula sa City plaza. Halimbawang lugar lamang; kumpirmahin muna ang address."
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
     },
-    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
-    "createdAt": "2026-10-13",
-    "updatedAt": "2026-10-20",
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
     "verified": false,
-    "sample": true,
-    "rating": 4.6,
-    "reviewCount": 42,
-    "popularity": 64
-  },
-  {
-    "id": "kg-14",
-    "slug": "casa-merienda",
-    "name": "Casa Merienda",
-    "description": "Casa Merienda is a fictional sample of a bakery spot in Kabankalan. Think bibingka and hot chocolate, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
-    "categories": [
-      "Bakery"
-    ],
-    "cuisine": [
-      "Filipino"
-    ],
-    "signatureDishes": [
-      "Bibingka and hot chocolate"
-    ],
-    "priceLevel": 1,
-    "address": "Sample location near Camugao barangay hall, Camugao, Kabankalan City",
-    "barangay": "Camugao",
-    "landmark": "Camugao barangay hall",
-    "lat": 9.9812,
-    "lng": 122.83680000000001,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9812,122.83680000000001",
-    "hours": [
-      [
-        [
-          "05:00",
-          "18:00"
-        ]
-      ],
-      [
-        [
-          "05:00",
-          "18:00"
-        ]
-      ],
-      [
-        [
-          "05:00",
-          "18:00"
-        ]
-      ],
-      [
-        [
-          "05:00",
-          "18:00"
-        ]
-      ],
-      [
-        [
-          "05:00",
-          "18:00"
-        ]
-      ],
-      [
-        [
-          "05:00",
-          "18:00"
-        ]
-      ],
-      [
-        [
-          "05:00",
-          "18:00"
-        ]
-      ]
-    ],
-    "photos": [
-      "/images/bakery.webp",
-      "/images/filipino.webp"
-    ],
-    "menu": [
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 2,
+    "sources": [
       {
-        "name": "Bibingka and hot chocolate",
-        "price": 85,
-        "category": "House favorites"
+        "title": "Official business website",
+        "url": "https://order.jollibee.com/en/ph/stores/jollibee-kabankalan-gaisano",
+        "kind": "official",
+        "checkedAt": "2026-10-21",
+        "note": "Official branch address, telephone, services and seven-day hours; fulfillment hours may vary."
       },
       {
-        "name": "Garlic rice",
-        "price": 25,
-        "category": "Sides"
-      },
-      {
-        "name": "Fresh calamansi juice",
-        "price": 45,
-        "category": "Drinks"
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/vsus/jollibee-kabankalan-gaisano",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
       }
     ],
-    "tags": [
-      "family",
-      "date",
-      "vegetarian-friendly"
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/vsus/jollibee-kabankalan-gaisano",
+    "menuUrl": "https://order.jollibee.com/en/ph/stores/jollibee-kabankalan-gaisano",
+    "phone": "+639955345204",
+    "website": "https://order.jollibee.com/en/ph/stores/jollibee-kabankalan-gaisano"
+  },
+  {
+    "id": "fp-v3fa",
+    "slug": "mang-inasal-citymall-kabankalan",
+    "name": "Mang Inasal - CityMall Kabankalan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food"
     ],
-    "maxGroupSize": 12,
-    "payments": [
-      "cash",
-      "GCash"
+    "cuisine": [
+      "Chicken",
+      "Desserts",
+      "BBQ"
     ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Justice Perez Highway Barangay Talubangi 1st District, Kabankalan City",
+    "barangay": "Talubangi",
+    "landmark": "",
+    "lat": 10.00087455,
+    "lng": 122.80987465,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mang%20Inasal%20-%20CityMall%20Kabankalan%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://foodpanda.dhmedia.io/image/fd-ph/LH/cf9vi-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
     "services": [
       "dine-in",
       "takeout",
       "delivery"
     ],
     "directions": {
-      "en": "Start at Camugao barangay hall. This is a sample location; confirm the address before traveling.",
-      "hil": "Halin sa Camugao barangay hall. Sample lang ini nga lugar; kumpirmaha anay ang address.",
-      "fil": "Mula sa Camugao barangay hall. Halimbawang lugar lamang; kumpirmahin muna ang address."
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
     },
-    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
-    "createdAt": "2026-10-14",
-    "updatedAt": "2026-10-20",
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
     "verified": false,
-    "sample": true,
-    "rating": 4.9,
-    "reviewCount": 13,
-    "popularity": 61
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 2,
+    "sources": [
+      {
+        "title": "Official business website",
+        "url": "https://www.manginasal.ph/locations",
+        "kind": "official",
+        "checkedAt": "2026-10-21",
+        "note": "Official CityMall Kabankalan branch: address, contact, services and listed business hours 9 AM–6 PM. Weekday coverage is not explicit, so no open-now claim."
+      },
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/v3fa/mang-inasal-citymall-kabankalan",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/v3fa/mang-inasal-citymall-kabankalan",
+    "menuUrl": "https://foodpanda.ph/restaurant/v3fa/mang-inasal-citymall-kabankalan",
+    "phone": "+639991749241",
+    "hoursText": "9:00 AM – 6:00 PM (days not specified)",
+    "website": "https://www.manginasal.ph/locations"
   },
   {
-    "id": "kg-15",
-    "slug": "harvest-house",
-    "name": "Harvest House",
-    "description": "Harvest House is a fictional sample of a filipino spot in Kabankalan. Think family boodle platter, easy conversations, and a little local flavor. Replace this listing with verified details before planning a visit.",
+    "id": "osm-node-4567883293",
+    "slug": "ample-corner-restaurant-cordova",
+    "name": "Ample Corner Restaurant - Cordova",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
     "categories": [
+      "Restaurant",
       "Filipino"
     ],
     "cuisine": [
+      "Filipino",
+      "Asian"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Cordova Street Barangay 5 1st District, Kabankalan City",
+    "barangay": "Barangay 5",
+    "landmark": "",
+    "lat": 9.9896351,
+    "lng": 122.8140845,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ample%20Corner%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/k7ls-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "City Government tourism directory",
+        "url": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Name and published contact/address; directory publication date is unspecified. Call to confirm."
+      },
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4567883293",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      },
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/k7ls/ample-corner-restaurant-cordova",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "phone": "+63344712922",
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/k7ls/ample-corner-restaurant-cordova",
+    "menuUrl": "https://foodpanda.ph/restaurant/k7ls/ample-corner-restaurant-cordova"
+  },
+  {
+    "id": "fp-s3i4",
+    "slug": "andok-s-kabankalan-2",
+    "name": "Andok's - Kabankalan 2",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food",
       "Filipino"
     ],
-    "signatureDishes": [
-      "Family boodle platter"
+    "cuisine": [
+      "Chicken",
+      "Snacks",
+      "Ulam",
+      "Asian",
+      "Fast Food",
+      "Filipino"
     ],
-    "priceLevel": 3,
-    "address": "Sample location near Hilamonan barangay hall, Hilamonan, Kabankalan City",
-    "barangay": "Hilamonan",
-    "landmark": "Hilamonan barangay hall",
-    "lat": 10.0112,
-    "lng": 122.8318,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.0112,122.8318",
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Jy Perez Highway Barangay 2 6th District, Kabankalan City",
+    "barangay": "Barangay 2",
+    "landmark": "",
+    "lat": 9.99839245,
+    "lng": 122.811735,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Andok's%20-%20Kabankalan%202%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://foodpanda.dhmedia.io/image/fd-ph/LH/s3i4-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/s3i4/andoks-kabankalan-2",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/s3i4/andoks-kabankalan-2",
+    "menuUrl": "https://foodpanda.ph/restaurant/s3i4/andoks-kabankalan-2"
+  },
+  {
+    "id": "fp-eb82",
+    "slug": "bascon-cakes-perez-highway",
+    "name": "Bascon Cakes - Perez Highway",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Bakery"
+    ],
+    "cuisine": [
+      "Cakes",
+      "Desserts"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "NZ Business Center 3 JY Perez Avenue National Highway Negros South Road Poblacion 1st District, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.998635,
+    "lng": 122.8116301,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bascon%20Cakes%20-%20Perez%20Highway%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/eb82-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/eb82/bascon-cakes-perez-highway",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/eb82/bascon-cakes-perez-highway",
+    "menuUrl": "https://foodpanda.ph/restaurant/eb82/bascon-cakes-perez-highway"
+  },
+  {
+    "id": "fp-uveh",
+    "slug": "chooks-to-go-kabankalan-crossing",
+    "name": "Chooks to Go - Kabankalan Crossing",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food"
+    ],
+    "cuisine": [
+      "Chicken"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Justice Perez Memorial Highway Kabankalan 6th District, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9961655,
+    "lng": 122.81384465,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chooks%20to%20Go%20-%20Kabankalan%20Crossing%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/uveh-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/uveh/chooks-to-go-kabankalan-crossing",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/uveh/chooks-to-go-kabankalan-crossing",
+    "menuUrl": "https://foodpanda.ph/restaurant/uveh/chooks-to-go-kabankalan-crossing"
+  },
+  {
+    "id": "fp-u8nt",
+    "slug": "chowking-citymall-kabankalan",
+    "name": "Chowking - CityMall Kabankalan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food"
+    ],
+    "cuisine": [
+      "Chicken",
+      "Fried Chicken",
+      "Fast Food"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "L1 CityMall Kabankalan Justice Perez Street Baranga 6th District, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 10.00088245,
+    "lng": 122.8099069,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chowking%20-%20CityMall%20Kabankalan%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/u8nt-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/u8nt/chowking-citymall-kabankalan",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/u8nt/chowking-citymall-kabankalan",
+    "menuUrl": "https://foodpanda.ph/restaurant/u8nt/chowking-citymall-kabankalan"
+  },
+  {
+    "id": "osm-node-4567933294",
+    "slug": "daily-brew-guanzon-street",
+    "name": "Daily Brew - Guanzon Street",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Café",
+      "Filipino"
+    ],
+    "cuisine": [
+      "Beverages",
+      "Coffee",
+      "Sandwiches",
+      "Western",
+      "Filipino",
+      "Asian"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Gargantiel Building Guanzon Street Poblacion 1st District, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9926882,
+    "lng": 122.81420415,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=daily%20brew%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/s0qz-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4567933294",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      },
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/s0qz/daily-brew-guanzon-street",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/s0qz/daily-brew-guanzon-street",
+    "menuUrl": "https://foodpanda.ph/restaurant/s0qz/daily-brew-guanzon-street"
+  },
+  {
+    "id": "fp-hj0m",
+    "slug": "goldilocks-gaisano-kabankalan",
+    "name": "Goldilocks - Gaisano Kabankalan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Bakery"
+    ],
+    "cuisine": [
+      "Cakes",
+      "Bread",
+      "Desserts"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Gaisano City Kabankalan National Road corner Tan Lorenzo Street Kabankalan, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.99340345,
+    "lng": 122.81868805,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Goldilocks%20-%20Gaisano%20Kabankalan%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://foodpanda.dhmedia.io/image/fd-ph/LH/cz1xo-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/hj0m/goldilocks-gaisano-kabankalan",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/hj0m/goldilocks-gaisano-kabankalan",
+    "menuUrl": "https://foodpanda.ph/restaurant/hj0m/goldilocks-gaisano-kabankalan"
+  },
+  {
+    "id": "fp-z8ck",
+    "slug": "greenoz-pizzeria-rizal-street",
+    "name": "Greenoz Pizzeria - Rizal Street",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food"
+    ],
+    "cuisine": [
+      "Pizza",
+      "Western",
+      "Fast Food"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Lot 151 A2 Rizal Street Barangay 7 Poblacion 6th District XRQ7+3H Kabankalan, Negros Occidental, Kabankalan City",
+    "barangay": "Barangay 7",
+    "landmark": "",
+    "lat": 9.9876875,
+    "lng": 122.8139375,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Greenoz%20Pizzeria%20-%20Rizal%20Street%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/z8ck-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/z8ck/greenoz-pizzeria-rizal-street",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/z8ck/greenoz-pizzeria-rizal-street",
+    "menuUrl": "https://foodpanda.ph/restaurant/z8ck/greenoz-pizzeria-rizal-street"
+  },
+  {
+    "id": "fp-z5um",
+    "slug": "greenwich-gaisano-grand-kabankalan",
+    "name": "Greenwich - Gaisano Grand Kabankalan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [
+      "Pasta",
+      "Pizza",
+      "Western"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Level 1 Gaisano Grand Kabankalan National Road corner Tan Lorenzo Street Barangay 1 6th District, Kabankalan City",
+    "barangay": "Barangay 1",
+    "landmark": "",
+    "lat": 9.9933464,
+    "lng": 122.8185405,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Greenwich%20-%20Gaisano%20Grand%20Kabankalan%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://foodpanda.dhmedia.io/image/fd-ph/LH/cb7yi-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/z5um/greenwich-gaisano-grand-kabankalan",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/z5um/greenwich-gaisano-grand-kabankalan",
+    "menuUrl": "https://foodpanda.ph/restaurant/z5um/greenwich-gaisano-grand-kabankalan"
+  },
+  {
+    "id": "fp-a5m2",
+    "slug": "highlands-coffee-citymall-kabankalan",
+    "name": "Highlands Coffee - CityMall Kabankalan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [
+      "Beverages",
+      "Coffee"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Ground Floor CityMall Kabankalan Justice Perez Highway Barangay Talubangi 1st District, Kabankalan City",
+    "barangay": "Talubangi",
+    "landmark": "",
+    "lat": 10.00086245,
+    "lng": 122.80987275,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Highlands%20Coffee%20-%20CityMall%20Kabankalan%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://foodpanda.dhmedia.io/image/fd-ph/LH/a5m2-listing.png?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/a5m2/highlands-coffee-citymall-kabankalan",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/a5m2/highlands-coffee-citymall-kabankalan",
+    "menuUrl": "https://foodpanda.ph/restaurant/a5m2/highlands-coffee-citymall-kabankalan"
+  },
+  {
+    "id": "fp-svnj",
+    "slug": "jet-jo-s-roadside-grill-kabankalan-city",
+    "name": "Jet & Jo's Roadside Grill - Kabankalan City",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [
+      "Chicken",
+      "BBQ"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Aquiles - Zayco Ave lKabankalan City, Negros Occidental 6QX4XRW8+G5, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9963125,
+    "lng": 122.8154375,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jet%20%26%20Jo's%20Roadside%20Grill%20-%20Kabankalan%20City%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://foodpanda.dhmedia.io/image/fd-ph/LH/svnj-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/svnj/jet-and-jos-roadside-grill-kabankalan-city-svnj",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/svnj/jet-and-jos-roadside-grill-kabankalan-city-svnj",
+    "menuUrl": "https://foodpanda.ph/restaurant/svnj/jet-and-jos-roadside-grill-kabankalan-city-svnj"
+  },
+  {
+    "id": "fp-a5i0",
+    "slug": "kambal-inasal-kabangkalan",
+    "name": "Kambal Inasal - Kabangkalan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food"
+    ],
+    "cuisine": [
+      "Chicken"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "44 Bonifacio Street Kabankalan City Negros Occidental, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9928125,
+    "lng": 122.8159375,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kambal%20Inasal%20-%20Kabangkalan%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/a5i0-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/a5i0/kambal-inasal-kabangkalan",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/a5i0/kambal-inasal-kabangkalan",
+    "menuUrl": "https://foodpanda.ph/restaurant/a5i0/kambal-inasal-kabangkalan"
+  },
+  {
+    "id": "fp-s7lb",
+    "slug": "kameals-gregoria-village",
+    "name": "KaMeals - Gregoria Village",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant",
+      "Filipino"
+    ],
+    "cuisine": [
+      "Chicken",
+      "Rice Dishes",
+      "Filipino",
+      "Asian"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Lot 12 block 8 phase 5 gregoria village barangay 3 gregoria village Kabankalan city negros occidental 6111, Kabankalan City",
+    "barangay": "barangay 3",
+    "landmark": "",
+    "lat": 9.99372435,
+    "lng": 122.81058485,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=KaMeals%20-%20Gregoria%20Village%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/s7lb-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/s7lb/kameals-gregoria-village",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/s7lb/kameals-gregoria-village",
+    "menuUrl": "https://foodpanda.ph/restaurant/s7lb/kameals-gregoria-village"
+  },
+  {
+    "id": "fp-i5jb",
+    "slug": "luzville-cafe-talubangi",
+    "name": "Luzville Cafe - Talubangi",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [
+      "Beverages",
+      "Chicken",
+      "Snacks",
+      "Fast Food"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "PUROK 7 TALUBANGI CITY OF KABANKALAN NEGROS OCCIDENTAL 6QX4XRX4+4J, Kabankalan City",
+    "barangay": "Talubangi",
+    "landmark": "",
+    "lat": 9.997818,
+    "lng": 122.806539,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Luzville%20Cafe%20-%20Talubangi%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/i5jb-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/i5jb/luzville-cafe-talubangi",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/i5jb/luzville-cafe-talubangi",
+    "menuUrl": "https://foodpanda.ph/restaurant/i5jb/luzville-cafe-talubangi"
+  },
+  {
+    "id": "fp-lr8y",
+    "slug": "mcdonald-s-talubangi-kabankalan",
+    "name": "McDonald's - Talubangi Kabankalan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food"
+    ],
+    "cuisine": [
+      "American",
+      "Chicken",
+      "Rice Dishes",
+      "Burgers",
+      "Western",
+      "Fast Food"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Lot 502 JY Perez Memorial Highway Talubangi Barangay Talubangi Lone District 2R25+9PW, Kabankalan City, Negros Occidental, Kabankalan City",
+    "barangay": "Talubangi",
+    "landmark": "",
+    "lat": 10.00101882,
+    "lng": 122.80930352,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=McDonald's%20-%20Talubangi%20Kabankalan%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://foodpanda.dhmedia.io/image/fd-ph/LH/cg5qv-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/lr8y/mcdonalds-talubangi-kabankalan",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/lr8y/mcdonalds-talubangi-kabankalan",
+    "menuUrl": "https://foodpanda.ph/restaurant/lr8y/mcdonalds-talubangi-kabankalan"
+  },
+  {
+    "id": "osm-node-4579208589",
+    "slug": "merzci-bread-and-pastries-guanzon-street",
+    "name": "Merzci Bread and Pastries - Guanzon Street",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Bakery"
+    ],
+    "cuisine": [
+      "Asian",
+      "Fast Food"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Merzci Kabankalan 2 Guanzon Street Barangay 2 1st District, Kabankalan City",
+    "barangay": "Barangay 2",
+    "landmark": "",
+    "lat": 9.9958072,
+    "lng": 122.8146862,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Merci%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/h4tg-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4579208589",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      },
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/h4tg/merzci-bread-and-pastries-guanzon-street",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/h4tg/merzci-bread-and-pastries-guanzon-street",
+    "menuUrl": "https://foodpanda.ph/restaurant/h4tg/merzci-bread-and-pastries-guanzon-street"
+  },
+  {
+    "id": "fp-a3ev",
+    "slug": "mister-donut-gaisano-kabankalan",
+    "name": "Mister Donut -  Gaisano Kabankalan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Bakery"
+    ],
+    "cuisine": [
+      "Bread",
+      "Donut",
+      "Desserts"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Ground Floor Gaisano National Road Corner Tan Lorenzo Street Grand Kabankalan 1st district, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9933983,
+    "lng": 122.8184995,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mister%20Donut%20-%20%20Gaisano%20Kabankalan%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/a3ev-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/a3ev/mister-donut-gaisano-kabankalan",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/a3ev/mister-donut-gaisano-kabankalan",
+    "menuUrl": "https://foodpanda.ph/restaurant/a3ev/mister-donut-gaisano-kabankalan"
+  },
+  {
+    "id": "fp-zld9",
+    "slug": "organiko-coffee-cocktails-milza-homes-subdivision",
+    "name": "Organiko Coffee & Cocktails - Milza Homes Subdivision",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Blk. 5 Lot 5 Milza Homes Subdivision, JY Perez Highway, Brgy. Talubangi Kabankalan City (7Q242R36+42C), Kabankalan City",
+    "barangay": "Talubangi",
+    "landmark": "",
+    "lat": 10.00281562,
+    "lng": 122.81000926,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Organiko%20Coffee%20%26%20Cocktails%20-%20Milza%20Homes%20Subdivision%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://foodpanda.dhmedia.io/image/fd-ph/LH/zld9-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/zld9/organiko-coffee-and-cocktails-milza-homes-subdivision",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/zld9/organiko-coffee-and-cocktails-milza-homes-subdivision",
+    "menuUrl": "https://foodpanda.ph/restaurant/zld9/organiko-coffee-and-cocktails-milza-homes-subdivision"
+  },
+  {
+    "id": "osm-node-4567933293",
+    "slug": "perico-restaurant-and-travel-beans-jy-perez-highway",
+    "name": "Perico Restaurant and Travel Beans - JY Perez Highway",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant",
+      "Filipino"
+    ],
+    "cuisine": [
+      "Chicken",
+      "Asian",
+      "Filipino"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "JY Perez Highway Barangay Talubangi 1st District, Kabankalan City",
+    "barangay": "Talubangi",
+    "landmark": "",
+    "lat": 10.000304,
+    "lng": 122.809693,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Perico%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/zq7l-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4567933293",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      },
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/zq7l/perico-restaurant-and-travel-beans-jy-perez-highway",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/zq7l/perico-restaurant-and-travel-beans-jy-perez-highway",
+    "menuUrl": "https://foodpanda.ph/restaurant/zq7l/perico-restaurant-and-travel-beans-jy-perez-highway"
+  },
+  {
+    "id": "fp-n4ye",
+    "slug": "potato-corner-puregold-kabankalan",
+    "name": "Potato Corner - Puregold Kabankalan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food"
+    ],
+    "cuisine": [
+      "Snacks",
+      "Fries",
+      "Fast Food"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Guanzon Street Corner Road 1 Solas Street Barangay Poblacion 1st District, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9939903,
+    "lng": 122.8141546,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Potato%20Corner%20-%20Puregold%20Kabankalan%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://foodpanda.dhmedia.io/image/fd-ph/LH/cu3up-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/n4ye/potato-corner-puregold-kabankalan",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/n4ye/potato-corner-puregold-kabankalan",
+    "menuUrl": "https://foodpanda.ph/restaurant/n4ye/potato-corner-puregold-kabankalan"
+  },
+  {
+    "id": "fp-g8vp",
+    "slug": "red-ribbon-citymall-kabankalan",
+    "name": "Red Ribbon - Citymall Kabankalan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Bakery"
+    ],
+    "cuisine": [
+      "Cakes",
+      "Desserts"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Level 1 Citymall Kabankalan Justice Perez Highway Talubangi 1st District, Kabankalan City",
+    "barangay": "Talubangi",
+    "landmark": "",
+    "lat": 10.00086315,
+    "lng": 122.809907,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Red%20Ribbon%20-%20Citymall%20Kabankalan%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://foodpanda.dhmedia.io/image/fd-ph/LH/cq1iq-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/g8vp/red-ribbon-citymall-kabankalan",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/g8vp/red-ribbon-citymall-kabankalan",
+    "menuUrl": "https://foodpanda.ph/restaurant/g8vp/red-ribbon-citymall-kabankalan"
+  },
+  {
+    "id": "osm-node-4567931908",
+    "slug": "reegals-refreshment-rizal",
+    "name": "Reegals Refreshment - Rizal",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant",
+      "Filipino"
+    ],
+    "cuisine": [
+      "Dim Sum",
+      "Soups",
+      "Chinese",
+      "Asian",
+      "Filipino"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Rizal Street Barangay 7 1st District, Kabankalan City",
+    "barangay": "Barangay 7",
+    "landmark": "",
+    "lat": 9.9880056,
+    "lng": 122.81351125,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Regals%20Refreshments%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/h6ww-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4567931908",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      },
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/h6ww/reegals-refreshment-rizal",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      },
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/awk1/reegals-kabankalan",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Additional merchant page for this location."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/h6ww/reegals-refreshment-rizal",
+    "menuUrl": "https://foodpanda.ph/restaurant/h6ww/reegals-refreshment-rizal"
+  },
+  {
+    "id": "fp-v2nd",
+    "slug": "snackee-kabankalan",
+    "name": "Snackee - Kabankalan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food"
+    ],
+    "cuisine": [
+      "Chicken",
+      "Fried Chicken"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "South National Road Corner Repollo Street Kabankalan 1st District, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.99718645,
+    "lng": 122.81278435,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Snackee%20-%20Kabankalan%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/v2nd-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/v2nd/snackee-kabankalan",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/v2nd/snackee-kabankalan",
+    "menuUrl": "https://foodpanda.ph/restaurant/v2nd/snackee-kabankalan"
+  },
+  {
+    "id": "fp-gbyv",
+    "slug": "sugar-n-ice-milk-tea-tan-lorenzo-street",
+    "name": "Sugar 'n Ice Milk Tea - Tan Lorenzo Street",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [
+      "Beverages",
+      "Milk Tea"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Inside Han’s Guest House Corner Tan Lorenzo and Sola Streets Barangay 9 6th District, Kabankalan City",
+    "barangay": "Barangay 9",
+    "landmark": "",
+    "lat": 9.99437625,
+    "lng": 122.81323765,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sugar%20'n%20Ice%20Milk%20Tea%20-%20Tan%20Lorenzo%20Street%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/gbyv-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/gbyv/sugar-n-ice-milk-tea-tan-lorenzo-street",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/gbyv/sugar-n-ice-milk-tea-tan-lorenzo-street",
+    "menuUrl": "https://foodpanda.ph/restaurant/gbyv/sugar-n-ice-milk-tea-tan-lorenzo-street"
+  },
+  {
+    "id": "fp-ej52",
+    "slug": "takotasty-citymall",
+    "name": "TakoTasty - CityMall",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [
+      "Beverages",
+      "Snacks",
+      "Takoyaki",
+      "Japanese",
+      "Asian"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "IN FRONT OF SAVEMORE GROCERY CITYMALL KABANKALAN JUSTICE PEREZ HIGHWAY KABANKALAN CITY 2R25+8X Kabankalan City, Negros Occidental, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 10.0016156,
+    "lng": 122.8105336,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=TakoTasty%20-%20CityMall%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/ej52-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/ej52/takotasty-citymall",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/ej52/takotasty-citymall",
+    "menuUrl": "https://foodpanda.ph/restaurant/ej52/takotasty-citymall"
+  },
+  {
+    "id": "fp-azz4",
+    "slug": "uling-roasters-guanzon-st-kabankalan",
+    "name": "Uling Roasters - Guanzon St Kabankalan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food",
+      "Filipino"
+    ],
+    "cuisine": [
+      "Chicken",
+      "Lechon",
+      "Filipino",
+      "Asian"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Guanzon Street Barangay Poblacion Kabankalan 6th District (6QX4XRV7+VR8), Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9946625,
+    "lng": 122.8145781,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Uling%20Roasters%20-%20Guanzon%20St%20Kabankalan%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/azz4-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/azz4/uling-roasters-guanzon-st-kabankalan",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/azz4/uling-roasters-guanzon-st-kabankalan",
+    "menuUrl": "https://foodpanda.ph/restaurant/azz4/uling-roasters-guanzon-st-kabankalan"
+  },
+  {
+    "id": "fp-lb9x",
+    "slug": "wow-shawarma-kabankalan",
+    "name": "WOW Shawarma - Kabankalan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [
+      "Wraps",
+      "Rice Dishes",
+      "Rice Bowl"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "St. Brgy. 4,, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.99038645,
+    "lng": 122.8149621,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=WOW%20Shawarma%20-%20Kabankalan%20Kabankalan%20City",
+    "hours": [],
+    "photos": [
+      "https://images.deliveryhero.io/image/fd-ph/LH/lb9x-listing.jpg?width=800&height=450"
+    ],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 1,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://foodpanda.ph/restaurant/lb9x/wow-shawarma-kabankalan",
+        "kind": "merchant",
+        "checkedAt": "2026-10-21",
+        "note": "Published merchant name, address, coordinates, cuisine and image. Delivery menus/prices and availability may differ from dine-in. No review text or ratings copied."
+      }
+    ],
+    "photoCredit": "Published merchant food/listing image via foodpanda; may be a brand promotion, not a branch interior.",
+    "photoSourceUrl": "https://foodpanda.ph/restaurant/lb9x/wow-shawarma-kabankalan",
+    "menuUrl": "https://foodpanda.ph/restaurant/lb9x/wow-shawarma-kabankalan"
+  },
+  {
+    "id": "226-kitchen-and-cafe",
+    "slug": "226-kitchen-and-cafe",
+    "name": "226 Kitchen And Cafe",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Café",
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Punta Guanzon Street, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=226%20Kitchen%20And%20Cafe%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Sluurpy business directory",
+        "url": "https://www.sluurpy.com/en/kabankalan/restaurant/7098302/226-kitchen-and-cafe",
+        "kind": "directory",
+        "checkedAt": "2026-10-21",
+        "note": "Directory publishes address, contact and owner Facebook link. Verify with the business; no reviews or images copied."
+      }
+    ],
+    "phone": "+63342138035",
+    "facebookUrl": "https://www.facebook.com/226kitchenandcafe/",
+    "menuUrl": "https://www.facebook.com/226kitchenandcafe/"
+  },
+  {
+    "id": "osm-node-14095675601",
+    "slug": "amore-mio-pizza-inasal",
+    "name": "Amore Mio Pizza & Inasal",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [
+      "italian",
+      "pasta",
+      "pizza"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9834436,
+    "lng": 122.8218418,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Amore%20Mio%20Pizza%20%26%20Inasal%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/14095675601",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-5487354733",
+    "slug": "ayen-s",
+    "name": "Ayen's",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9937724,
+    "lng": 122.8188091,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ayen's%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/5487354733",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-way-839098320",
+    "slug": "balay-tulahan",
+    "name": "Balay Tulahan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant",
+      "Filipino"
+    ],
+    "cuisine": [
+      "filipino"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Aquiles-Zayco Avenue, Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.996371479999999,
+    "lng": 122.81549598000001,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Balay%20Tulahan%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/839098320",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-4266112291",
+    "slug": "bbj",
+    "name": "bbj",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9962959,
+    "lng": 122.8167255,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=bbj%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4266112291",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-12231041434",
+    "slug": "bimbimbowls",
+    "name": "Bimbimbowls",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9844601,
+    "lng": 122.8194831,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bimbimbowls%20Kabankalan%20City",
     "hours": [
       [
         [
           "10:00",
-          "21:00"
+          "20:00"
         ]
       ],
       [
         [
           "10:00",
-          "21:00"
+          "20:00"
         ]
       ],
       [
         [
           "10:00",
-          "21:00"
+          "20:00"
         ]
       ],
       [
         [
           "10:00",
-          "21:00"
+          "20:00"
         ]
       ],
       [
         [
           "10:00",
-          "21:00"
+          "20:00"
         ]
       ],
       [
         [
           "10:00",
-          "21:00"
+          "20:00"
         ]
       ],
       [
         [
           "10:00",
-          "21:00"
+          "20:00"
         ]
       ]
     ],
-    "photos": [
-      "/images/filipino.webp",
-      "/images/inasal.webp"
+    "photos": [],
+    "menu": [],
+    "tags": [
+      "aircon",
+      "vegetarian-friendly"
     ],
-    "menu": [
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
       {
-        "name": "Family boodle platter",
-        "price": 425,
-        "category": "House favorites"
-      },
-      {
-        "name": "Garlic rice",
-        "price": 25,
-        "category": "Sides"
-      },
-      {
-        "name": "Fresh calamansi juice",
-        "price": 45,
-        "category": "Drinks"
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/12231041434",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
       }
     ],
-    "tags": [
-      "group",
-      "parking",
-      "family",
-      "aircon"
+    "phone": "09604213643",
+    "hoursText": "Mo-Su 10:00-20:00"
+  },
+  {
+    "id": "osm-node-4567933306",
+    "slug": "bread-box",
+    "name": "Bread Box",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Bakery"
     ],
-    "maxGroupSize": 40,
-    "payments": [
-      "cash",
-      "GCash"
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9909842,
+    "lng": 122.8151358,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bread%20Box%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4567933306",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-4579156694",
+    "slug": "breadbox",
+    "name": "Breadbox",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Bakery"
     ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9934364,
+    "lng": 122.8141154,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Breadbox%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4579156694",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "bros-diner",
+    "slug": "bro-s-diner",
+    "name": "Bro’s Diner",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "South Gate Inn, Guanzon Street, Barangay 1, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bro%E2%80%99s%20Diner%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "City Government tourism directory",
+        "url": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Published restaurant name, address and contact; call to confirm current operation."
+      }
+    ],
+    "phone": "+63344712729"
+  },
+  {
+    "id": "osm-node-12192549354",
+    "slug": "calle-ramos",
+    "name": "Calle Ramos",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9891542,
+    "lng": 122.8173732,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Calle%20Ramos%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/12192549354",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-4579156693",
+    "slug": "chicken-ati-atihan",
+    "name": "Chicken Ati-Atihan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Guanzon Street, Barangay 2, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9935937,
+    "lng": 122.8142272,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chicken%20Ati-Atihan%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "City Government tourism directory",
+        "url": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Name and published contact/address; directory publication date is unspecified. Call to confirm."
+      },
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4579156693",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ],
+    "phone": "+639177048947"
+  },
+  {
+    "id": "osm-node-4579192092",
+    "slug": "chicken-deli",
+    "name": "Chicken Deli",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9949958,
+    "lng": 122.8143515,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chicken%20Deli%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4579192092",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-12290919180",
+    "slug": "coffee-talk",
+    "name": "Coffee & Talk",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [
+      "coffee_shop"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9984149,
+    "lng": 122.8220198,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Coffee%20%26%20Talk%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/12290919180",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-way-769589075",
+    "slug": "cofioca",
+    "name": "Cofioca",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [
+      "milk_tea"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9879929,
+    "lng": 122.81336538000001,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cofioca%20Kabankalan%20City",
+    "hours": [
+      [
+        [
+          "10:00",
+          "20:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "20:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "20:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "20:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "20:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "20:00"
+        ]
+      ],
+      [
+        [
+          "10:00",
+          "20:00"
+        ]
+      ]
+    ],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/769589075",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ],
+    "hoursText": "Mo-Su 10:00-20:00"
+  },
+  {
+    "id": "osm-node-12126355902",
+    "slug": "de-la-gente-pizza",
+    "name": "De La Gente Pizza",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [
+      "pizza"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Aquiles-Zayco Avenue, Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9932879,
+    "lng": 122.8179978,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=De%20La%20Gente%20Pizza%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/12126355902",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-4567931896",
+    "slug": "golden-plate-pizza",
+    "name": "Golden Plate Pizza",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9925233,
+    "lng": 122.8139784,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Golden%20Plate%20Pizza%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4567931896",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-4567931895",
+    "slug": "greenoz",
+    "name": "Greenoz",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9916643,
+    "lng": 122.8140735,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Greenoz%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4567931895",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-way-769589073",
+    "slug": "j-m-sizzler",
+    "name": "J.M. Sizzler",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant",
+      "Filipino"
+    ],
+    "cuisine": [
+      "filipino",
+      "asian"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.98743808,
+    "lng": 122.81483229999999,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=J.M.%20Sizzler%20Kabankalan%20City",
+    "hours": [
+      [
+        [
+          "17:00",
+          "02:00"
+        ]
+      ],
+      [
+        [
+          "17:00",
+          "02:00"
+        ]
+      ],
+      [
+        [
+          "17:00",
+          "02:00"
+        ]
+      ],
+      [
+        [
+          "17:00",
+          "02:00"
+        ]
+      ],
+      [
+        [
+          "17:00",
+          "02:00"
+        ]
+      ],
+      [
+        [
+          "17:00",
+          "02:00"
+        ]
+      ],
+      [
+        [
+          "17:00",
+          "02:00"
+        ]
+      ]
+    ],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/769589073",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ],
+    "hoursText": "Mo-Su 17:00-02:00"
+  },
+  {
+    "id": "osm-node-4567931893",
+    "slug": "jollibee",
+    "name": "Jollibee",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food"
+    ],
+    "cuisine": [
+      "burger"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Guanzon Street, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9955845,
+    "lng": 122.8149727,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jollibee%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
     "services": [
-      "dine-in",
       "takeout"
     ],
     "directions": {
-      "en": "Start at Hilamonan barangay hall. This is a sample location; confirm the address before traveling.",
-      "hil": "Halin sa Hilamonan barangay hall. Sample lang ini nga lugar; kumpirmaha anay ang address.",
-      "fil": "Mula sa Hilamonan barangay hall. Halimbawang lugar lamang; kumpirmahin muna ang address."
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
     },
-    "aiNotes": "Fictional demonstration listing. All prices, hours, coordinates and ratings are illustrative.",
-    "createdAt": "2026-10-15",
-    "updatedAt": "2026-10-20",
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
     "verified": false,
-    "sample": true,
-    "rating": 4.5,
-    "reviewCount": 31,
-    "popularity": 58
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "City Government tourism directory",
+        "url": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Name and published contact/address; directory publication date is unspecified. Call to confirm."
+      },
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4567931893",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "kalamay-artisan-patisserie-cafe",
+    "slug": "kalamay-artisan-patisserie-cafe",
+    "name": "Kalamay Artisan Patisserie & Cafe",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Café",
+      "Bakery"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "42 Lirazan Street, Barangay 4, Kabankalan City",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kalamay%20Artisan%20Patisserie%20%26%20Cafe%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Waze place listing",
+        "url": "https://www.waze.com/live-map/directions/ph/western-visayas/kabankalan-city/kalamay-artisan-patisserie-and-cafe?to=place.ChIJURlxBZcRrDMRW5SS_UN0C-Y",
+        "kind": "directory",
+        "checkedAt": "2026-10-21",
+        "note": "Community address and phone; hours require confirmation."
+      },
+      {
+        "title": "Negros Season of Culture",
+        "url": "https://www.negrosseasonofculture.com/2021/12/home-sweet-home.html",
+        "kind": "directory",
+        "checkedAt": "2026-10-21",
+        "note": "2021 feature corroborates the Kabankalan pastry business. Historical feature, not a current hours source."
+      }
+    ],
+    "phone": "+639694367810"
+  },
+  {
+    "id": "osm-node-12159153690",
+    "slug": "kape-centrale",
+    "name": "Kape Centrale",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.988411,
+    "lng": 122.812553,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kape%20Centrale%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/12159153690",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-4567931897",
+    "slug": "kawayan-s",
+    "name": "Kawayan's",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9864191,
+    "lng": 122.8167645,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kawayan's%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4567931897",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-6859277486",
+    "slug": "liam-cakes-n-cupcakes-6859277486",
+    "name": "Liam Cakes n’ Cupcakes",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Bakery"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Guanzon Street, Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9939435,
+    "lng": 122.8142053,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Liam%20Cakes%20n%E2%80%99%20Cupcakes%20Kabankalan%20City",
+    "hours": [
+      [
+        [
+          "09:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "09:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "09:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "09:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "09:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "09:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "09:00",
+          "18:00"
+        ]
+      ]
+    ],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/6859277486",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ],
+    "hoursText": "Mo-Su 09:00-18:00"
+  },
+  {
+    "id": "osm-node-6859277487",
+    "slug": "liam-cakes-n-cupcakes-6859277487",
+    "name": "Liam Cakes N’ Cupcakes",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Bakery"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9935609,
+    "lng": 122.8188889,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Liam%20Cakes%20N%E2%80%99%20Cupcakes%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [
+      "wifi"
+    ],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/6859277487",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-4579208389",
+    "slug": "max-s",
+    "name": "Max's",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9940798,
+    "lng": 122.8149653,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Max's%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4579208389",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-way-1324311963",
+    "slug": "mcdonald-s",
+    "name": "McDonald's",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food"
+    ],
+    "cuisine": [
+      "burger"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Aquiles-Zayco Avenue, Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9970944,
+    "lng": 122.81568360000001,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=McDonald's%20Kabankalan%20City",
+    "hours": [
+      [
+        [
+          "06:00",
+          "23:00"
+        ]
+      ],
+      [
+        [
+          "06:00",
+          "23:00"
+        ]
+      ],
+      [
+        [
+          "06:00",
+          "23:00"
+        ]
+      ],
+      [
+        [
+          "06:00",
+          "23:00"
+        ]
+      ],
+      [
+        [
+          "06:00",
+          "23:00"
+        ]
+      ],
+      [
+        [
+          "06:00",
+          "23:00"
+        ]
+      ],
+      [
+        [
+          "06:00",
+          "23:00"
+        ]
+      ]
+    ],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [
+      "takeout"
+    ],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/1324311963",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ],
+    "hoursText": "Mo-Su 06:00-23:00"
+  },
+  {
+    "id": "osm-node-5487360540",
+    "slug": "melting-pot",
+    "name": "Melting Pot",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant",
+      "Seafood",
+      "Filipino"
+    ],
+    "cuisine": [
+      "burger",
+      "sandwich",
+      "heuriger",
+      "ice_cream",
+      "coffee_shop",
+      "noodles",
+      "filipino",
+      "diner",
+      "chicken",
+      "fish_and_chips",
+      "fish",
+      "breakfast",
+      "hotdog",
+      "seafood",
+      "sausage",
+      "fine_dining",
+      "barbecue"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Rizal Street, Barangay 7, Kabankalan City",
+    "barangay": "Barangay 7",
+    "landmark": "",
+    "lat": 9.9883102,
+    "lng": 122.8129579,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Melting%20Pot%20Kabankalan%20City",
+    "hours": [
+      [
+        [
+          "00:00",
+          "00:00"
+        ]
+      ],
+      [
+        [
+          "00:00",
+          "00:00"
+        ]
+      ],
+      [
+        [
+          "00:00",
+          "00:00"
+        ]
+      ],
+      [
+        [
+          "00:00",
+          "00:00"
+        ]
+      ],
+      [
+        [
+          "00:00",
+          "00:00"
+        ]
+      ],
+      [
+        [
+          "00:00",
+          "00:00"
+        ]
+      ],
+      [
+        [
+          "00:00",
+          "00:00"
+        ]
+      ]
+    ],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "City Government tourism directory",
+        "url": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Name and published contact/address; directory publication date is unspecified. Call to confirm."
+      },
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/5487360540",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ],
+    "phone": "+63344713893",
+    "hoursText": "24/7"
+  },
+  {
+    "id": "osm-node-6201015385",
+    "slug": "nanay-mer-s-eatery",
+    "name": "Nanay Mer's Eatery",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food"
+    ],
+    "cuisine": [
+      "regional"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Rizal Street, Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9863803,
+    "lng": 122.8165352,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nanay%20Mer's%20Eatery%20Kabankalan%20City",
+    "hours": [
+      [],
+      [
+        [
+          "05:00",
+          "20:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "20:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "20:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "20:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "20:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "20:00"
+        ]
+      ]
+    ],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/6201015385",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ],
+    "phone": "+639214582713",
+    "hoursText": "Mo-Sa 05:00-20:00"
+  },
+  {
+    "id": "osm-node-4567931905",
+    "slug": "pcr",
+    "name": "PCR",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Bar & Bistro"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9859614,
+    "lng": 122.8166924,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=PCR%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4567931905",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-4567931909",
+    "slug": "pensiang",
+    "name": "Pensiang",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9895838,
+    "lng": 122.8143707,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pensiang%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "City Government tourism directory",
+        "url": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "Name and published contact/address; directory publication date is unspecified. Call to confirm."
+      },
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4567931909",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ],
+    "phone": "+639206290226"
+  },
+  {
+    "id": "osm-node-4579164597",
+    "slug": "redbucks",
+    "name": "Redbucks",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9951105,
+    "lng": 122.8143337,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Redbucks%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4579164597",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-6440009208",
+    "slug": "ricardo-s-cuisine",
+    "name": "Ricardo's Cuisine",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [
+      "chicken"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Justice Y. Perez Avenue, Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9966165,
+    "lng": 122.8134,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ricardo's%20Cuisine%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/6440009208",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-4567933296",
+    "slug": "rock-o",
+    "name": "Rock'O",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Bar & Bistro"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9976199,
+    "lng": 122.8159387,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rock'O%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4567933296",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-6440009793",
+    "slug": "rosalino-s-chechen",
+    "name": "Rosalino's Chechen",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant",
+      "Seafood"
+    ],
+    "cuisine": [
+      "barbecue",
+      "seafood"
+    ],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9957312,
+    "lng": 122.8134839,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rosalino's%20Chechen%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/6440009793",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-4266076191",
+    "slug": "serfino-s-asalan",
+    "name": "serfino's asalan",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9909708,
+    "lng": 122.8153522,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=serfino's%20asalan%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4266076191",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-4579164596",
+    "slug": "shakehouse",
+    "name": "Shakehouse",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Fast Food"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9958026,
+    "lng": 122.8149033,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shakehouse%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/4579164596",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ]
+  },
+  {
+    "id": "osm-node-12137330729",
+    "slug": "sol-s-garden-cafe",
+    "name": "Sol's Garden Café",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 9.9837771,
+    "lng": 122.8176657,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sol's%20Garden%20Caf%C3%A9%20Kabankalan%20City",
+    "hours": [
+      [
+        [
+          "08:00",
+          "18:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "20:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "20:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "20:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "20:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "22:00"
+        ]
+      ],
+      [
+        [
+          "08:00",
+          "22:00"
+        ]
+      ]
+    ],
+    "photos": [],
+    "menu": [],
+    "tags": [
+      "outdoor",
+      "aircon",
+      "vegetarian-friendly"
+    ],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/12137330729",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      }
+    ],
+    "phone": "+63 969 455 8101",
+    "hoursText": "Mo-Th 08:00-20:00; Fr,Sa 08:00-22:00; Su 08:00-18:00"
+  },
+  {
+    "id": "osm-node-7830079848",
+    "slug": "wow-restaurant",
+    "name": "Wow Restaurant",
+    "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Kabankalan City, Negros Occidental",
+    "barangay": "Kabankalan City",
+    "landmark": "",
+    "lat": 10.0164269,
+    "lng": 122.8226155,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Wow%20Restaurant%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the entrance and current location with the business or linked map source.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/node/7830079848",
+        "kind": "community",
+        "checkedAt": "2026-10-21",
+        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+      },
+      {
+        "title": "City Government tourism directory",
+        "url": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+        "kind": "government",
+        "checkedAt": "2026-10-21",
+        "note": "WOW Chicken is listed on Justice Perez Highway, Binicuil; confirm this map record corresponds to the same business."
+      }
+    ]
   }
 ]

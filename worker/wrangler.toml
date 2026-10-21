@@ -1,12 +1,13 @@
 name = "kabango-ai"
+account_id = "bd0f8309b302856e49733f84e58ebc75"
 main = "src/index.ts"
 compatibility_date = "2026-10-19"
 
 [vars]
-AI_ENABLED = "false"
+AI_ENABLED = "true"
 AI_PROVIDER = "cloudflare"
-CF_MODEL = "@cf/meta/llama-3.1-8b-instruct"
-ALLOWED_ORIGINS = "http://localhost:5173"
+CF_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast"
+ALLOWED_ORIGINS = "https://kabango-eight.vercel.app,https://kabango-fuji-92d1.vercel.app"
 DAILY_BUDGET = "100"
 
 [ai]
@@ -14,7 +15,7 @@ binding = "AI"
 
 [[kv_namespaces]]
 binding = "CACHE"
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
+id = "9b0aff920e7440ffa3572fb38512083c"
 
 [[durable_objects.bindings]]
 name = "BUDGET"

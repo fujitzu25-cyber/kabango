@@ -1,3 +1,4 @@
+import PlacePhoto from "../components/PlacePhoto";
 import { lazy, Suspense, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import {
@@ -113,15 +114,11 @@ export default function Detail() {
         {t("back")}
       </Link>
       <div className="gallery">
-        <img
-          src={r.photos[photo % r.photos.length]}
-          alt={`${r.name} — ${r.signatureDishes[0]} (illustrative)`}
-          width="1200"
-          height="650"
-        />
+        <PlacePhoto key={r.id + photo} restaurant={r} index={photo} priority />
         <div className="gallery-gradient" />
         <span className="gallery-category">
-          {t(r.categories[0])} · {"₱".repeat(r.priceLevel)}
+          {t(r.categories[0])} ·{" "}
+          {r.priceLevel ? "₱".repeat(r.priceLevel) : t("priceUnknown")}
         </span>
         <div className="gallery-actions">
           <button
@@ -140,60 +137,80 @@ export default function Detail() {
             <Heart size={20} fill={favorite ? "currentColor" : "none"} />
           </button>
         </div>
-        <div className="gallery-controls">
-          <button
-            className="save-button"
-            aria-label={t("previousPhoto")}
-            onClick={() =>
-              setPhoto((photo + r.photos.length - 1) % r.photos.length)
-            }
-          >
-            <ChevronLeft size={20} />
-          </button>
-          <span>
-            {photo + 1} / {r.photos.length}
-          </span>
-          <button
-            className="save-button"
-            aria-label={t("nextPhoto")}
-            onClick={() => setPhoto((photo + 1) % r.photos.length)}
-          >
-            <ChevronRight size={20} />
-          </button>
-        </div>
+        {r.photos.length > 1 && (
+          <div className="gallery-controls">
+            <button
+              className="save-button"
+              aria-label={t("previousPhoto")}
+              onClick={() =>
+                setPhoto((photo + r.photos.length - 1) % r.photos.length)
+              }
+            >
+              <ChevronLeft size={20} />
+            </button>
+            <span>
+              {photo + 1} / {r.photos.length}
+            </span>
+            <button
+              className="save-button"
+              aria-label={t("nextPhoto")}
+              onClick={() => setPhoto((photo + 1) % r.photos.length)}
+            >
+              <ChevronRight size={20} />
+            </button>
+          </div>
+        )}
       </div>
       <div className="detail-heading">
         <div>
-          <span className="eyebrow">{t("sample")}</span>
+          <span className="eyebrow">
+            {t(r.sample ? "sample" : "sourcedListing")}
+          </span>
           <h1>{r.name}</h1>
           <p>
             <MapPin size={16} />
             {r.barangay} · {r.landmark}
-            <span className="card-rating" title={t("sampleRating")}>
-              <Star size={15} fill="currentColor" />
-              {r.rating.toFixed(1)}{" "}
-              <small>
-                ({r.reviewCount} · {t("sampleShort")})
-              </small>
-            </span>
+            {r.reviewCount > 0 && (
+              <span className="card-rating" title={t("sampleRating")}>
+                <Star size={15} fill="currentColor" />
+                {r.rating.toFixed(1)}{" "}
+                <small>
+                  ({r.reviewCount} · {t("sampleShort")})
+                </small>
+              </span>
+            )}
           </p>
         </div>
-        <span className={`status-pill ${open ? "" : "is-closed"}`}>
+        <span
+          className={`status-pill ${open === null ? "is-unknown" : open ? "" : "is-closed"}`}
+        >
           <i />
-          {t(open ? "open" : "closed")}
+          {open === null ? t("hoursUnknown") : t(open ? "open" : "closed")}
         </span>
       </div>
       <div className="sample-detail">
         <Flag size={17} />
-        {t("sampleDetail")}
+        {t(r.sample ? "sampleDetail" : "sourceDetail")}
       </div>
       <div className="detail-layout">
         <div className="detail-main">
           <div className="detail-actions">
-            <Link to={`/fare?to=${r.id}&trip=1`} className="primary">
-              <Navigation size={18} />
-              {t("directions")}
-            </Link>
+            {r.lat !== null && r.lng !== null ? (
+              <Link to={`/fare?to=${r.id}&trip=1`} className="primary">
+                <Navigation size={18} />
+                {t("directions")}
+              </Link>
+            ) : (
+              <a
+                className="primary"
+                href={r.googleMapsUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Navigation size={18} />
+                {t("searchLocation")}
+              </a>
+            )}
             {r.phone && (
               <a className="secondary" href={`tel:${r.phone}`}>
                 <Phone size={17} />
@@ -232,14 +249,30 @@ export default function Detail() {
               ))}
             </div>
             <p className="muted small">
-              {t("groupSize", { count: r.maxGroupSize })}
+              {r.maxGroupSize
+                ? t("groupSize", { count: r.maxGroupSize })
+                : t("capacityUnknown")}
             </p>
           </section>
           <section className="detail-section" id="menu">
             <div className="section-title">
               <h2>{t("menu")}</h2>
-              <span className="sample-pill">{t("sampleShort")}</span>
+              {r.sample && (
+                <span className="sample-pill">{t("sampleShort")}</span>
+              )}
             </div>
+            {r.menuUrl && (
+              <a
+                className="secondary"
+                href={r.menuUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Globe size={16} />
+                {t("publishedMenu")}
+              </a>
+            )}
+            {!r.menu.length && <p className="muted">{t("menuUnknown")}</p>}
             <div className="menu-list">
               {r.menu.map((item, i) => (
                 <div key={item.name}>
@@ -252,6 +285,43 @@ export default function Detail() {
                 </div>
               ))}
             </div>
+          </section>
+
+          <section className="detail-section source-section">
+            <h2>{t("photosAndSources")}</h2>
+            {r.photoCredit && (
+              <p className="muted">
+                {r.photoCredit}{" "}
+                <a href={r.photoSourceUrl} target="_blank" rel="noreferrer">
+                  {t("originalPhoto")}
+                </a>
+              </p>
+            )}
+            {r.facebookUrl && (
+              <a
+                className="secondary"
+                href={r.facebookPostUrl ?? r.facebookUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Globe size={16} />
+                {t("officialPosts")}
+              </a>
+            )}
+            <p className="small muted">{t("sourcePolicy")}</p>
+            <ul className="source-list">
+              {r.sources.map((source) => (
+                <li key={source.url}>
+                  <a href={source.url} target="_blank" rel="noreferrer">
+                    {source.title} ↗
+                  </a>
+                  <small>
+                    {source.kind} · {t("checked")} {source.checkedAt}
+                  </small>
+                  <p>{source.note}</p>
+                </li>
+              ))}
+            </ul>
           </section>
           <section className="detail-section">
             <h2>
@@ -334,6 +404,11 @@ export default function Detail() {
               <Clock size={18} />
               {t("hours")}
             </h2>
+            {!r.hours.length && (
+              <p className="muted">
+                {t("hoursUnknown")}. {r.hoursText ?? t("confirmHours")}
+              </p>
+            )}
             <div className="hours-list">
               {r.hours.map((day, i) => (
                 <div key={i}>
@@ -360,7 +435,11 @@ export default function Detail() {
               {t("copyAddress")}
             </button>
             <Suspense fallback={<div className="skeleton map-skeleton" />}>
-              <MapView restaurants={[r]} compact />
+              {r.lat !== null && r.lng !== null ? (
+                <MapView restaurants={[r]} compact />
+              ) : (
+                <p className="muted">{t("mapUnconfirmed")}</p>
+              )}
             </Suspense>
             <p className="small muted">
               {r.directions[i18n.language as Language] ?? r.directions.en}
@@ -371,7 +450,7 @@ export default function Detail() {
               rel="noreferrer"
               className="text-button"
             >
-              {t("googleReviews")}
+              {t("searchMaps")}
               <ArrowRight size={14} />
             </a>
             {r.facebookUrl && (

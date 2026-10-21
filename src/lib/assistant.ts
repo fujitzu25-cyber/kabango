@@ -72,8 +72,9 @@ export function localAnswer(
   const intent = parseIntent(query),
     q = query.toLowerCase();
   let candidates = searchRestaurants(restaurants, intent.filters, origin);
-  const barangay = restaurants.find((r) =>
-    q.includes(r.barangay.toLowerCase()),
+  const barangay = restaurants.find(
+    (r) =>
+      r.barangay !== "Kabankalan City" && q.includes(r.barangay.toLowerCase()),
   );
   if (barangay)
     candidates = candidates.filter((r) => r.barangay === barangay.barangay);
@@ -123,7 +124,7 @@ export function localAnswer(
           ? "I-tap ang Fare at piliin ang pinanggalingan."
           : "Tap Fare and choose your starting point for a transport estimate.");
   if (intent.compare && picks.length === 2)
-    extra += ` ${picks.map((r) => `${r.name}: ${"₱".repeat(r.priceLevel)}, ${r.maxGroupSize} ${intent.language === "en" ? "people" : "tawo"}`).join(" · ")}.`;
+    extra += ` ${picks.map((r) => `${r.name}: ${r.priceLevel ? "₱".repeat(r.priceLevel) : "price unpublished"}, ${r.maxGroupSize ? r.maxGroupSize + " people" : "capacity unconfirmed"}`).join(" · ")}.`;
   if (sample)
     extra +=
       " " +
@@ -132,6 +133,13 @@ export function localAnswer(
         : intent.language === "fil"
           ? "Halimbawa lang ang mga lugar at presyo; kumpirmahin muna."
           : "These are sample listings and prices; please verify before visiting.");
+  if (!sample)
+    extra +=
+      intent.language === "hil"
+        ? " Kumpirmaha ang oras kag presyo sa ginhalinan nga link; wala pa nakumpirma ang iban nga detalye."
+        : intent.language === "fil"
+          ? " Kumpirmahin ang oras at presyo sa source link; may mga detalyeng hindi pa alam."
+          : " Check the source links for current hours and prices; unpublished details are unknown.";
   return {
     reply: lead + extra,
     restaurantIds: picks.map((r) => r.id),

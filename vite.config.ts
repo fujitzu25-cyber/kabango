@@ -61,7 +61,9 @@ export default defineConfig({
             },
           },
           {
-            urlPattern: ({ request }) => request.destination === "image",
+            urlPattern: ({ request, url }) =>
+              request.destination === "image" &&
+              url.origin === self.location.origin,
             handler: "CacheFirst",
             options: {
               cacheName: "kabango-images",

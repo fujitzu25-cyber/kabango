@@ -1,6 +1,6 @@
 import fs from "node:fs";
 const base = (
-  process.env.VITE_SITE_URL ?? "https://kabango.vercel.app"
+  process.env.VITE_SITE_URL ?? "https://kabango-eight.vercel.app"
 ).replace(/\/$/, "");
 const restaurants = JSON.parse(
   fs.readFileSync("public/data/restaurants.json", "utf8"),
@@ -20,22 +20,22 @@ for (const r of restaurants) {
     description = `${r.sample ? "Fictional sample listing. " : ""}${r.description}`;
   const jsonld = r.sample
     ? ""
-    : `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "Restaurant", name: r.name, address: r.address, geo: { "@type": "GeoCoordinates", latitude: r.lat, longitude: r.lng }, image: r.photos.map((p) => base + p), url, priceRange: "₱".repeat(r.priceLevel), servesCuisine: r.cuisine }).replace(/</g, "\\u003c")}</script>`;
+    : `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "Restaurant", name: r.name, address: r.address, ...(r.lat !== null && r.lng !== null ? { geo: { "@type": "GeoCoordinates", latitude: r.lat, longitude: r.lng } } : {}), ...(r.photos.length ? { image: r.photos.map((p) => (p.startsWith("https:") ? p : base + p)) } : {}), url, ...(r.priceLevel ? { priceRange: "₱".repeat(r.priceLevel) } : {}), servesCuisine: r.cuisine }).replace(/</g, "\\u003c")}</script>`;
   const page = shell
     .replace(
       /<title>.*?<\/title>/,
       `<title>${escape(r.name)} · KabanGo</title>`,
     )
     .replace(
-      /<meta name="description" content="[^"]*"\/>/,
+      /<meta\s+name="description"\s+content="[^"]*"\s*\/>/,
       `<meta name="description" content="${escape(description)}"/>`,
     )
     .replace(
-      /<meta property="og:title" content="[^"]*"\/>/,
+      /<meta\s+property="og:title"\s+content="[^"]*"\s*\/>/,
       `<meta property="og:title" content="${escape(r.name)} · KabanGo"/>`,
     )
     .replace(
-      /<meta property="og:description" content="[^"]*"\/>/,
+      /<meta\s+property="og:description"\s+content="[^"]*"\s*\/>/,
       `<meta property="og:description" content="${escape(description)}"/>`,
     )
     .replace(

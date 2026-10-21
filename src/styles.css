@@ -814,6 +814,84 @@ button:focus:not(:focus-visible) {
   transform: translateY(-4px);
   box-shadow: 0 12px 28px #4039290b;
 }
+.place-placeholder {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 42px 25px;
+  text-align: center;
+  color: #8b4b30;
+  background:
+    radial-gradient(ellipse at 80% 10%, #f6d7ad, transparent 65%), #f0e4d4;
+}
+.place-placeholder strong {
+  font-size: 18px;
+  max-width: 85%;
+  line-height: 1.2;
+}
+.place-placeholder span {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 10px;
+  opacity: 0.8;
+}
+.cafe-placeholder {
+  color: #4c6753;
+  background:
+    radial-gradient(ellipse at 80% 10%, #d1dfb3, transparent 65%), #e4e8da;
+}
+.chat-result > .place-placeholder {
+  flex: 0 0 64px;
+  width: 64px;
+  height: 64px;
+  padding: 8px;
+  border-radius: 8px;
+}
+.chat-result > .place-placeholder strong,
+.chat-result > .place-placeholder span {
+  display: none;
+}
+.source-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+.source-list li {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px;
+  overflow-wrap: anywhere;
+}
+.source-list a,
+.source-section a {
+  color: var(--orange-dark);
+}
+.source-list small {
+  display: block;
+  color: var(--muted);
+  margin-top: 5px;
+}
+.source-list p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.is-unknown {
+  background: #f0f0eb;
+  color: #68675f;
+}
+.is-unknown i {
+  background: #aaa89e;
+}
+.open-badge.is-unknown i,
+.status-pill.is-unknown i {
+  background: #aaa89e;
+}
 .card-photo {
   position: relative;
   aspect-ratio: 1.65;
