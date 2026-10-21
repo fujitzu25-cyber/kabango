@@ -101,9 +101,9 @@ For Gemini: `AI_PROVIDER=gemini`, `GEMINI_MODEL=<verified free model>` and `wran
 
 ## PWA, offline and maps
 
-Workbox precaches the shell, local JSON (including tariffs), local photos, font, and normal lazy page chunks. JSON uses stale-while-revalidate. Images use bounded cache-first storage. Only map tiles actually viewed are cached, with 150 entries and a seven-day expiration. App updates prompt before activating a new service worker.
+Workbox precaches the shell, local JSON (including tariffs), decorative local images, font, and normal lazy page chunks. JSON uses stale-while-revalidate. Only same-origin images use bounded cache-first storage; remote business photos remain online and are not included in the offline pack. Only map tiles actually viewed are cached, with 150 entries and a seven-day expiration. App updates prompt before activating a new service worker.
 
-**No bulk OpenStreetMap tile download is implemented.** The [OSM public tile usage policy](https://operations.osmfoundation.org/policies/tiles/) prohibits city/area prefetch for offline use. The download button saves the directory, photos and fares; it does not promise an offline basemap. In airplane mode, cached tiles may appear, markers remain usable, and routes use clearly labeled straight-line estimates. A dotted line is not a road route. A full offline city basemap needs a provider or self-hosted tiles whose license and hosting terms explicitly permit it. `VITE_OFFLINE_TILE_URL` is reserved for that future adapter.
+**No bulk OpenStreetMap tile download is implemented.** The [OSM public tile usage policy](https://operations.osmfoundation.org/policies/tiles/) prohibits city/area prefetch for offline use. The download button saves directory records, local assets and fares; it does not promise an offline basemap. In airplane mode, cached tiles may appear, markers remain usable, and routes use clearly labeled straight-line estimates. A dotted line is not a road route. A full offline city basemap needs a provider or self-hosted tiles whose license and hosting terms explicitly permit it. `VITE_OFFLINE_TILE_URL` is reserved for that future adapter.
 
 OSRM's public demo provides best-effort driving directions, not guaranteed transit schedules or availability. It has a six-second timeout and a straight-line fallback. No Google Places API is used. Google Maps is an ordinary external link. Geolocation is requested only on user action; denial falls back to the city plaza.
 
@@ -113,7 +113,7 @@ Install from the browser menu; on iPhone use Share → Add to Home Screen. Icons
 
 The requested production host is **Vercel Hobby**, using the included `vercel.json` and a Vite build. Connect the repository, keep the project on the free plan, use `pnpm install --frozen-lockfile`, `pnpm build`, output `dist`, Node 24. Set `VITE_SITE_URL` to the final verified origin so sitemap/canonical URLs match it. No database or paid integration is necessary.
 
-The build writes static per-listing HTML with individual title, description, Open Graph URL and canonical link. Fictional sample pages are `noindex` and deliberately do not publish false Restaurant structured data or fake review schema. Verified listings receive Restaurant JSON-LD. Robots and sitemap are generated. SPA navigation works through the Vercel rewrite.
+The build writes static per-listing HTML with individual title, description, Open Graph URL and canonical link. Fictional sample pages are `noindex` and deliberately do not publish false Restaurant structured data or fake review schema. Real sourced listings receive Restaurant JSON-LD without fabricated ratings, unknown prices or missing coordinates. A source record is not an owner verification. Robots and sitemap are generated. SPA navigation works through the Vercel rewrite.
 
 The same `dist` can be hosted on Cloudflare Pages or Netlify free static hosting (add their SPA fallback if using them). GitHub Pages requires base-path handling and an SPA 404 fallback for deep URLs; Vercel is the configured target here. A Capacitor wrapper can consume the static build later.
 
