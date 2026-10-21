@@ -40,3 +40,5 @@ The free `fuji-s-workspace` dashboard contains the indexed `fujitzu25-cyber/kaba
 ## Hosting boundaries
 
 No paid plan, card, paid map/photo API or new paid integration was added. Existing Vercel and Cloudflare resources are reused. Free quotas can make online AI unavailable; local search, guide, fares and rule-based suggestions continue. External publisher images need an internet connection and can change or fail. Cloudflare initially timed out from this PC, then successfully deployed the tourism records and new canonical origin after retrying with IPv4. The final live-site check follows deployment.
+
+The public site returned HTTP 200 with CSP, HSTS, nosniff and framing protection. A live waterfall question received an HTTP 200 response from the Worker and displayed **Online AI** with the Mag-aso Falls record. A separate slow request correctly used Local smart mode. The live Mag-aso detail page returned its own canonical URL and TouristAttraction metadata. The last content check removed a leftover fictional example from chat starter text and made the licensed waterfall image available locally on its listing as well as the homepage.

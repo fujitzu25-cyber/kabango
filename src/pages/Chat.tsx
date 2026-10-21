@@ -198,7 +198,7 @@ export default function Chat({ embedded = false }: { embedded?: boolean }) {
     "promptOpen",
     "promptFamily",
     "promptSeafood",
-    "promptLate",
+    "promptTourism",
     "promptFare",
   ];
   if (import.meta.env.VITE_AI_ENABLED === "false")
@@ -250,7 +250,7 @@ export default function Chat({ embedded = false }: { embedded?: boolean }) {
         {!messages.length && (
           <div className="chat-welcome">
             <span className="welcome-spark">✦</span>
-            <span className="eyebrow">KAON TA!</span>
+            <span className="eyebrow">{t("chatWelcome")}</span>
             <h2>{t("chatTitle")}</h2>
             <p>{t("chatText")}</p>
             <div className="prompt-grid">
