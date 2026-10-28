@@ -1,4 +1,15 @@
 import { test, expect } from "@playwright/test";
+import { readFileSync } from "node:fs";
+const directory = ["restaurants", "tourist-spots", "services"].flatMap((name) =>
+  JSON.parse(readFileSync(`public/data/${name}.json`, "utf8")),
+) as {
+  kind: string;
+  slug: string;
+  name: string;
+  secondaryKinds?: string[];
+  photos: string[];
+  photoSourceUrl?: string;
+}[];
 test("unavailable publisher photos show an honest placeholder", async ({
   page,
 }) => {
@@ -23,7 +34,9 @@ test("tourist browsing, autocomplete keyboard and browser Back stay in sync", as
   await page.goto("/attractions");
   await expect(page.getByTestId("restaurant-card")).toHaveCount(12);
   await page.getByRole("button", { name: "All places", exact: true }).click();
-  await expect(page.getByTestId("restaurant-card")).toHaveCount(81);
+  await expect(page.getByTestId("restaurant-card")).toHaveCount(
+    directory.length,
+  );
   const input = page.getByRole("combobox", {
     name: "Search places, food or barangays",
   });
@@ -48,6 +61,52 @@ test("tourist browsing, autocomplete keyboard and browser Back stay in sync", as
   await expect(input).toHaveValue("Mag-aso Falls");
   await page.goBack();
   await expect(input).toHaveValue("");
+});
+test("hotel and fuel tabs show appropriate details and external public reviews", async ({
+  page,
+}) => {
+  await page.goto("/");
+  for (const [kind, label] of [
+    ["hotel", "Hotels"],
+    ["fuel", "Fuel stations"],
+  ]) {
+    const items = directory.filter(
+      (r) => r.kind === kind || r.secondaryKinds?.includes(kind),
+    );
+    expect(items.length).toBeGreaterThan(0);
+    await page.getByRole("button", { name: label, exact: true }).click();
+    await expect(page.getByTestId("restaurant-card")).toHaveCount(items.length);
+    await page.goto(`/place/${items[0].slug}`);
+    await expect(
+      page.getByRole("heading", { name: "On the menu", exact: true }),
+    ).toHaveCount(0);
+    await expect(
+      page.getByRole("heading", { name: "Public reviews", exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("link", {
+        name: /Find place & reviews on Google Maps|Open this place on Google Maps/,
+      }),
+    ).toHaveAttribute("href", /https:\/\/(?:www\.)?google\.com\/maps/);
+    await expect(
+      page.getByRole("heading", { name: "Plan your visit", exact: true }),
+    ).toBeVisible();
+    await page.goto("/");
+  }
+});
+test("unembedded venue photos link to the actual publisher gallery", async ({
+  page,
+}) => {
+  const place = directory.find((r) => r.photoSourceUrl && !r.photos.length);
+  expect(place).toBeTruthy();
+  await page.goto(`/place/${place!.slug}`);
+  await expect(
+    page.getByRole("link", {
+      name: "View publisher photo gallery ↗",
+      exact: true,
+    }),
+  ).toHaveAttribute("href", place!.photoSourceUrl!);
+  await expect(page.locator(".gallery .place-placeholder")).toBeVisible();
 });
 test("saving supports Undo and shared links ignore unknown IDs", async ({
   page,

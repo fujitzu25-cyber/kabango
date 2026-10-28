@@ -535,7 +535,8 @@
     "name": "Zaycoland Resort & Hotel",
     "description": "A resort and hotel in Don Emilio Village, listed by the city tourism directory.",
     "categories": [
-      "Nature & Resorts"
+      "Nature & Resorts",
+      "Hotel"
     ],
     "cuisine": [],
     "signatureDishes": [],
@@ -578,7 +579,10 @@
     "website": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
     "kind": "attraction",
     "visitInfo": "Contact the operator for day-use access, bookings and current fees.",
-    "admission": "Current admission fees and opening hours are unconfirmed. Check the linked source or operator."
+    "admission": "Current admission fees and opening hours are unconfirmed. Check the linked source or operator.",
+    "secondaryKinds": [
+      "hotel"
+    ]
   },
   {
     "id": "visit-plumeria-garden",

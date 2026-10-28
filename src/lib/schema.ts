@@ -13,8 +13,10 @@ const interval = z.tuple([
   z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/),
   z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/),
 ]);
+export const placeKindSchema = z.enum(["food", "attraction", "hotel", "fuel"]);
 export const restaurantSchema = z.object({
-  kind: z.enum(["food", "attraction"]).default("food"),
+  kind: placeKindSchema.default("food"),
+  secondaryKinds: z.array(placeKindSchema).default([]),
   visitInfo: z.string().optional(),
   admission: z.string().optional(),
   id: z.string().min(1),
@@ -84,6 +86,12 @@ export const restaurantSchema = z.object({
   popularity: z.number(),
 });
 export type Restaurant = z.infer<typeof restaurantSchema>;
+export type PlaceKind = Restaurant["kind"];
+export function matchesPlaceKind(place: Restaurant, kind: PlaceKind | "all") {
+  return (
+    kind === "all" || place.kind === kind || place.secondaryKinds.includes(kind)
+  );
+}
 export type Coordinates = { lat: number; lng: number };
 export type Language = "en" | "hil" | "fil";
 export const replySchema = z.object({
@@ -118,7 +126,7 @@ export const fareSchema = z.object({
 });
 export type FareConfig = z.infer<typeof fareSchema>;
 export type Filters = {
-  kind: "all" | "food" | "attraction";
+  kind: "all" | PlaceKind;
   query: string;
   category: string;
   open: boolean;

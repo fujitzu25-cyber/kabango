@@ -288,7 +288,7 @@
   "sourcedListing": "Publicly sourced",
   "publishedPhoto": "Published listing image",
   "realDirectory": "REAL KABANKALAN",
-  "coverageNotice": "Public sources checked 21 Oct 2026. {{count}} places have published images. This growing guide is not a complete census. Hours, prices and current access need confirmation.",
+  "coverageNotice": "Source check dates appear on each listing. {{count}} places have published images. This growing guide is not a complete census. Hours, prices and current access need confirmation.",
   "sourceDetail": "A real place from linked public sources. Current operation, access and details may change; confirm before visiting.",
   "capacityUnknown": "Group capacity is not published. Contact the business for reservations.",
   "publishedMenu": "View published menu ↗",
@@ -338,5 +338,16 @@
   "step": "Step {{count}} of 3",
   "spotLocation": "Barangay / address",
   "draftReview": "Review your draft",
-  "photoValidation": "Use a JPEG, PNG or WebP image up to 2 MB."
+  "photoValidation": "Use a JPEG, PNG or WebP image up to 2 MB.",
+  "hotels": "Hotels",
+  "fuelStations": "Fuel stations",
+  "Hotel": "Hotel",
+  "Gasoline Station": "Gasoline station",
+  "confirmRoomRates": "Confirm current room rates, check-in times and availability with the property.",
+  "confirmFuelPrices": "Confirm current pump prices and available fuel with the station.",
+  "publicReviews": "Public reviews",
+  "publicReviewsNote": "Google Maps opens separately. Search results may show more than one place; confirm the branch before reading reviews. Public reviews are not copied into KabGo.",
+  "searchGoogleReviews": "Find place & reviews on Google Maps ↗",
+  "openGoogleReviews": "Open this place on Google Maps ↗",
+  "publisherPhotoGallery": "View publisher photo gallery ↗"
 }

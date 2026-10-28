@@ -21,7 +21,14 @@ describe("sourced production directory", () => {
           r.reviewCount === 0,
       ),
     ).toBe(true);
-    expect(places.filter((r) => r.photos.length).length).toBe(30);
+    expect(places.filter((r) => r.photos.length).length).toBeGreaterThanOrEqual(
+      30,
+    );
+    expect(
+      places
+        .filter((r) => r.photos.length)
+        .every((r) => r.photoCredit && r.photoSourceUrl),
+    ).toBe(true);
     expect(
       places.every((r) => r.photos.every((p) => p.startsWith("https://"))),
     ).toBe(true);

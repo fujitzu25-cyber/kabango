@@ -119,7 +119,7 @@ export default function Detail() {
         <div className="gallery-gradient" />
         <span className="gallery-category">
           {t(r.categories[0])} ·{" "}
-          {r.kind === "attraction"
+          {r.kind !== "food"
             ? t("planVisit")
             : r.priceLevel
               ? "₱".repeat(r.priceLevel)
@@ -260,20 +260,30 @@ export default function Detail() {
                 </span>
               ))}
             </div>
-            <p className="muted small">
-              {r.maxGroupSize
-                ? t("groupSize", { count: r.maxGroupSize })
-                : t("capacityUnknown")}
-            </p>
+            {r.kind !== "fuel" && (
+              <p className="muted small">
+                {r.maxGroupSize
+                  ? t("groupSize", { count: r.maxGroupSize })
+                  : t("capacityUnknown")}
+              </p>
+            )}
           </section>
-          {r.kind === "attraction" && (
+          {r.kind !== "food" && (
             <section className="detail-section">
               <h2>{t("planVisit")}</h2>
               <p>{r.visitInfo}</p>
-              <p className="muted">{r.admission ?? t("admissionUnknown")}</p>
+              <p className="muted">
+                {r.kind === "attraction"
+                  ? (r.admission ?? t("admissionUnknown"))
+                  : t(
+                      r.kind === "hotel"
+                        ? "confirmRoomRates"
+                        : "confirmFuelPrices",
+                    )}
+              </p>
             </section>
           )}
-          {r.kind !== "attraction" && (
+          {r.kind === "food" && (
             <section className="detail-section" id="menu">
               <div className="section-title">
                 <h2>{t("menu")}</h2>
@@ -317,6 +327,17 @@ export default function Detail() {
                 </a>
               </p>
             )}
+            {r.photoSourceUrl && !r.photos.length && (
+              <a
+                className="secondary"
+                href={r.photoSourceUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Globe size={16} />
+                {t("publisherPhotoGallery")}
+              </a>
+            )}
             {r.facebookUrl && (
               <a
                 className="secondary"
@@ -342,6 +363,23 @@ export default function Detail() {
                 </li>
               ))}
             </ul>
+          </section>
+          <section className="detail-section">
+            <h2>{t("publicReviews")}</h2>
+            <p className="muted small">{t("publicReviewsNote")}</p>
+            <a
+              className="secondary"
+              href={r.googleMapsUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Globe size={17} />
+              {t(
+                /\/maps\/search|[?&]query=/.test(r.googleMapsUrl)
+                  ? "searchGoogleReviews"
+                  : "openGoogleReviews",
+              )}
+            </a>
           </section>
           <section className="detail-section">
             <h2>

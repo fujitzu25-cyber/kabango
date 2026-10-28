@@ -19,7 +19,13 @@ export const localData: DataProvider = {
     restaurantSchema
       .array()
       .parse(
-        (await Promise.all([get("restaurants"), get("tourist-spots")])).flat(),
+        (
+          await Promise.all([
+            get("restaurants"),
+            get("tourist-spots"),
+            get("services"),
+          ])
+        ).flat(),
       ),
   fares: async () => fareSchema.parse(await get("fares")),
   landmarks: async () => landmarkSchema.array().parse(await get("landmarks")),

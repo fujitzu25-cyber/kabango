@@ -3728,6 +3728,7 @@ textarea:focus-visible {
 }
 .discovery-tabs {
   display: flex;
+  flex-wrap: wrap;
   gap: 6px;
   padding: 6px;
   background: var(--hero);

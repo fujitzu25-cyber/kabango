@@ -67,7 +67,7 @@ export default function MapView({
     for (const r of mapped) {
       const icon = L.divIcon({
         className: "food-marker",
-        html: r.kind === "attraction" ? "<span>🌿</span>" : "<span>🍴</span>",
+        html: `<span>${{ food: "🍴", attraction: "🌿", hotel: "🛏️", fuel: "⛽" }[r.kind]}</span>`,
         iconSize: [36, 36],
         iconAnchor: [18, 36],
       });

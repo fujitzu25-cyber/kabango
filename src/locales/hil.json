@@ -176,7 +176,7 @@
   "sourcedListing": "May pampubliko nga ginhalinan",
   "publishedPhoto": "Gin-post nga litrato",
   "realDirectory": "MATUOD NGA KABANKALAN",
-  "coverageNotice": "Public sources checked 21 Oct 2026. {{count}} places have published images. This growing guide is not a complete census. Hours, prices and current access need confirmation.",
+  "coverageNotice": "Source check dates appear on each listing. {{count}} places have published images. This growing guide is not a complete census. Hours, prices and current access need confirmation.",
   "sourceDetail": "A real place from linked public sources. Current operation, access and details may change; confirm before visiting.",
   "capacityUnknown": "Wala ginpahayag ang kadamuon sang bisita. Kontaka ang negosyo.",
   "publishedMenu": "Tan-awa ang gin-post nga menu ↗",
@@ -245,5 +245,16 @@
   "heroFloatTitle": "Mag-aso Falls",
   "heroFloatCaption": "A little escape in Oringao",
   "heroImageAlt": "Mag-aso Falls in Kabankalan, photographed by Godopeta7410",
-  "privacyText": "KabGo has no advertising trackers or analytics. Favorites, want-to-try lists, recent searches, review drafts, community drafts, and chats are stored in this browser using IndexedDB. Clearing site data removes them. Location is requested only when you choose Near me or Your location. It is used locally for distances; OSRM receives route coordinates when you request an online route. OpenStreetMap receives tile requests and your IP address. Google Maps links open Google and are covered by its privacy policy. Optional cloud AI receives your message, a random session ID and selected place IDs, never your exact GPS. Its provider may process requests under its own terms. Private on-device AI downloads model files from third parties, then runs messages locally. Free cloud services have quotas. Reviews and listing changes are local drafts, not public submissions. Place records come from linked public sources. Distance-based fare estimates are illustrative. No accounts or payments are required. Published business images load directly from foodpanda, Wikimedia Commons or the business website; those publishers receive image requests and your IP address. Original source and Facebook links open external sites. External photos are not included in the offline pack. Each listing identifies its sources and limitations."
+  "privacyText": "KabGo has no advertising trackers or analytics. Favorites, want-to-try lists, recent searches, review drafts, community drafts, and chats are stored in this browser using IndexedDB. Clearing site data removes them. Location is requested only when you choose Near me or Your location. It is used locally for distances; OSRM receives route coordinates when you request an online route. OpenStreetMap receives tile requests and your IP address. Google Maps links open Google and are covered by its privacy policy. Optional cloud AI receives your message, a random session ID and selected place IDs, never your exact GPS. Its provider may process requests under its own terms. Private on-device AI downloads model files from third parties, then runs messages locally. Free cloud services have quotas. Reviews and listing changes are local drafts, not public submissions. Place records come from linked public sources. Distance-based fare estimates are illustrative. No accounts or payments are required. Published business images load directly from foodpanda, Wikimedia Commons or the business website; those publishers receive image requests and your IP address. Original source and Facebook links open external sites. External photos are not included in the offline pack. Each listing identifies its sources and limitations.",
+  "hotels": "Mga hotel",
+  "fuelStations": "Mga gasolinahan",
+  "Hotel": "Hotel",
+  "Gasoline Station": "Gasolinahan",
+  "confirmRoomRates": "Kumpirmaha sa hotel ang presyo sang kuwarto, oras sang check-in kag bakante nga kuwarto.",
+  "confirmFuelPrices": "Kumpirmaha sa gasolinahan ang presyo kag may ara nga gasolina ukon diesel.",
+  "publicReviews": "Mga pampubliko nga review",
+  "publicReviewsNote": "Magabukas sing separado ang Google Maps. Siguraduha ang husto nga branch antes basahon ang mga review. Wala ginakopya sa KabGo ang pampubliko nga mga review.",
+  "searchGoogleReviews": "Pangitaa ang lugar kag mga review sa Google Maps ↗",
+  "openGoogleReviews": "Abrihi ini nga lugar sa Google Maps ↗",
+  "publisherPhotoGallery": "Tan-awa ang photo gallery sang publisher ↗"
 }

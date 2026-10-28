@@ -1,6 +1,6 @@
-# KabGo public directory — 21 October 2026
+# KabGo public directory — 28 October 2026
 
-81 source-backed places: 69 food listings and 12 destinations. 31 have published images and 68 have source-provided map positions. This is a growing directory, not an exhaustive census or a guarantee that each place is currently operating or accessible.
+107 publicly sourced places: 83 food listings, 12 destinations, 5 additional accommodation listings and 7 gasoline stations. Zaycoland also appears in the hotel filter through its existing destination record, preserving saved IDs. 31 places have published images and 69 have source-provided map positions. Source checks span 21–28 October 2026; see each record. This is a growing directory, not an exhaustive census or a guarantee that each place is currently operating or accessible.
 
 Each `restaurants.json` record includes `sources` with the exact URL, source type, check date and limitations. `verified:false` means the owner has not confirmed the entry. A source check date records retrieval, not a visit or an owner verification.
 
@@ -21,6 +21,15 @@ Each `restaurants.json` record includes `sources` with the exact URL, source typ
 - Facebook official links and the owner-linked Ayahay menu post are provided; no logged-in personal Facebook data was used.
 
 Update records and their check dates together. Do not run the fictional seed generator over this production directory. Use `pnpm validate:data` and the source/unknown-field tests before publishing changes.
+
+## 28 October directory update
+
+- Re-fetched the central OpenStreetMap rectangle and compared the 40 named food features with the prior snapshot. Their tags were unchanged. The new retrieval dates do not establish that those businesses are still operating. Other existing source dates were preserved.
+- Added Café Haynato from its owner website, 11 cafés/restaurants/bars supported by public business directories, and two separately addressed foodpanda merchants (JM Shawarma at ROB SPM and Goldilocks on Guanzon Street). Directory copies of Facebook posts are marked `directory`, not owner verification. Historical posts and conflicting addresses remain disclosed. Café Haynato's Tuesday–Sunday schedule is raw text because Monday is unspecified.
+- `services.json` adds accommodation from the city directory and Rozay's host/property listings; Shell from official station pages; Petro Gazz from its official directory; Petron from its December 2025 station list; and Caltex from its participating-station list. Shell forecourt hours are distinct from shop hours. Pump prices and room availability are never inferred. Southgate's conflicting telephone is omitted.
+- New hotel/station images are not copied without suitable rights. Where verified, external publisher-gallery links let visitors see the actual property photos. Existing photo credits and Mag-aso's CC BY-SA license remain intact; missing images remain visibly unavailable.
+- Google Maps reviews are reached through an external search/place link with a branch-confirmation notice. No review text, reviewer identities or Google ratings were imported. No Google API or billing was enabled. Leaflet remains the map display library, not a business-data provider.
+- GeoLeadScraper was reviewed as an optional free local collection tool. Its ordinary `photos` field is a count, not an image feed. A private staging importer is documented in `docs/geoleads-import.md`; it does not overwrite production data. The extension was not installed or used for this release, per the user's instruction to continue without it. No scraping backend is deployed.
 
 ## Tourist destinations
 

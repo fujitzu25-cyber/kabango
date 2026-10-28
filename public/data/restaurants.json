@@ -372,7 +372,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -390,8 +390,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4567883293",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       },
       {
         "title": "foodpanda merchant listing",
@@ -672,7 +672,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -683,8 +683,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4567933294",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       },
       {
         "title": "foodpanda merchant listing",
@@ -1240,7 +1240,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -1251,8 +1251,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4579208589",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       },
       {
         "title": "foodpanda merchant listing",
@@ -1328,7 +1328,8 @@
     "name": "Organiko Coffee & Cocktails - Milza Homes Subdivision",
     "description": "A publicly listed food business in Kabankalan City. Check the linked source for current details before visiting.",
     "categories": [
-      "Café"
+      "Café",
+      "Bar & Bistro"
     ],
     "cuisine": [],
     "signatureDishes": [],
@@ -1412,7 +1413,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -1423,8 +1424,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4567933293",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       },
       {
         "title": "foodpanda merchant listing",
@@ -1589,7 +1590,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -1600,8 +1601,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4567931908",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       },
       {
         "title": "foodpanda merchant listing",
@@ -1990,7 +1991,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2001,8 +2002,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/14095675601",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -2037,7 +2038,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2048,8 +2049,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/5487354733",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -2087,7 +2088,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2098,8 +2099,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/way/839098320",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -2134,7 +2135,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2145,8 +2146,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4266112291",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -2227,7 +2228,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2238,8 +2239,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/12231041434",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ],
     "phone": "09604213643",
@@ -2276,7 +2277,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2287,8 +2288,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4567933306",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -2323,7 +2324,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2334,8 +2335,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4579156694",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -2418,7 +2419,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2429,8 +2430,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/12192549354",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -2465,7 +2466,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2483,8 +2484,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4579156693",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ],
     "phone": "+639177048947"
@@ -2520,7 +2521,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2531,8 +2532,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4579192092",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -2569,7 +2570,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2580,8 +2581,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/12290919180",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -2661,7 +2662,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2672,8 +2673,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/way/769589075",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ],
     "hoursText": "Mo-Su 10:00-20:00"
@@ -2711,7 +2712,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2722,8 +2723,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/12126355902",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -2758,7 +2759,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2769,8 +2770,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4567931896",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -2805,7 +2806,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2816,8 +2817,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4567931895",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -2899,7 +2900,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2910,8 +2911,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/way/769589073",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ],
     "hoursText": "Mo-Su 17:00-02:00"
@@ -2951,7 +2952,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -2969,8 +2970,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4567931893",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -3061,7 +3062,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -3072,8 +3073,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/12159153690",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -3108,7 +3109,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -3119,8 +3120,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4567931897",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -3198,7 +3199,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -3209,8 +3210,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/6859277486",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ],
     "hoursText": "Mo-Su 09:00-18:00"
@@ -3248,7 +3249,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -3259,8 +3260,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/6859277487",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -3295,7 +3296,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -3306,8 +3307,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4579208389",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -3389,7 +3390,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -3400,8 +3401,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/way/1324311963",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ],
     "hoursText": "Mo-Su 06:00-23:00"
@@ -3500,7 +3501,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -3518,8 +3519,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/5487360540",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ],
     "phone": "+63344713893",
@@ -3596,7 +3597,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -3607,8 +3608,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/6201015385",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ],
     "phone": "+639214582713",
@@ -3645,7 +3646,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -3656,8 +3657,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4567931905",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -3692,7 +3693,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -3710,8 +3711,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4567931909",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ],
     "phone": "+639206290226"
@@ -3747,7 +3748,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -3758,8 +3759,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4579164597",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -3796,7 +3797,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -3807,8 +3808,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/6440009208",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -3843,7 +3844,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -3854,8 +3855,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4567933296",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -3894,7 +3895,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -3905,8 +3906,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/6440009793",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -3941,7 +3942,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -3952,8 +3953,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4266076191",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -3988,7 +3989,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -3999,8 +4000,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/4579164596",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ]
   },
@@ -4082,7 +4083,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -4093,8 +4094,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/12137330729",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       }
     ],
     "phone": "+63 969 455 8101",
@@ -4131,7 +4132,7 @@
     },
     "aiNotes": "Real sourced listing. Zero price level, capacity and rating mean UNKNOWN, not free, unavailable or zero stars. Missing hours mean UNKNOWN. Confirm current operation; never infer unpublished details.",
     "createdAt": "2026-10-21",
-    "updatedAt": "2026-10-21",
+    "updatedAt": "2026-10-28",
     "verified": false,
     "sample": false,
     "rating": 0,
@@ -4142,8 +4143,8 @@
         "title": "OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/node/7830079848",
         "kind": "community",
-        "checkedAt": "2026-10-21",
-        "note": "Community map record; may be out of date. Location is a map point or building centre, not a surveyed entrance. Opening hours and amenities, where shown, come from these tags. ODbL."
+        "checkedAt": "2026-10-28",
+        "note": "Community map record retrieved again on 28 October 2026; published tags were unchanged from the prior snapshot. Retrieval is not owner confirmation or proof of current operation. Location may be a building centre rather than an entrance. ODbL."
       },
       {
         "title": "City Government tourism directory",
@@ -4153,5 +4154,713 @@
         "note": "WOW Chicken is listed on Justice Perez Highway, Binicuil; confirm this map record corresponds to the same business."
       }
     ]
+  },
+  {
+    "id": "cafe-haynato",
+    "slug": "cafe-haynato",
+    "name": "Café Haynato",
+    "kind": "food",
+    "secondaryKinds": [],
+    "description": "A publicly documented food or drink venue in Kabankalan City. Confirm current operation with the linked source.",
+    "address": "Gregoria Subdivision, Barangay 3, Kabankalan City",
+    "barangay": "",
+    "landmark": "",
+    "categories": [
+      "Café",
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Haynato%20Gregoria%20Subdivision%2C%20Barangay%203%2C%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [
+      "dine-in",
+      "takeout",
+      "delivery"
+    ],
+    "directions": {
+      "en": "Confirm the current entrance with the venue. No verified map pin is stored.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Public-source listing, not owner-verified. Zero ratings, prices and capacity mean unknown. Do not invent operating status, hours, prices, review text, photos or coordinates.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Owner website",
+        "url": "https://cafehaynato.wixsite.com/website",
+        "kind": "official",
+        "checkedAt": "2026-10-28",
+        "note": "Owner website publishes the address, contact and Tuesday–Sunday 09:00–21:00. Monday is not explicitly documented. Undated site; confirm current operation."
+      }
+    ],
+    "website": "https://cafehaynato.wixsite.com/website",
+    "phone": "+639286699260",
+    "hoursText": "Tuesday–Sunday 09:00–21:00; Monday not specified. Confirm with the café.",
+    "photoSourceUrl": "https://cafehaynato.wixsite.com/website/gallery",
+    "visitInfo": "Photos can be viewed on the owner website; no image reuse license verified."
+  },
+  {
+    "id": "granjeros-cafe",
+    "slug": "granjeros-cafe",
+    "name": "Granjeros Cafe",
+    "kind": "food",
+    "secondaryKinds": [],
+    "description": "A publicly documented food or drink venue in Kabankalan City. Confirm current operation with the linked source.",
+    "address": "J.Y. Perez Highway, road toward City Hall near CityMall, Kabankalan City",
+    "barangay": "",
+    "landmark": "",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Granjeros%20Cafe%20J.Y.%20Perez%20Highway%2C%20road%20toward%20City%20Hall%20near%20CityMall%2C%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the current entrance with the venue. No verified map pin is stored.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Public-source listing, not owner-verified. Zero ratings, prices and capacity mean unknown. Do not invent operating status, hours, prices, review text, photos or coordinates.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Public business directory",
+        "url": "https://www.findglocal.com/PH/Kabankalan/102492426236447/Granjeros-Cafe",
+        "kind": "directory",
+        "checkedAt": "2026-10-28",
+        "note": "Directory reproduces named business posts dated March 2026 and this location description. Official Facebook page could not be independently retrieved. Current details need confirmation."
+      }
+    ],
+    "facebookUrl": "https://www.facebook.com/102492426236447/"
+  },
+  {
+    "id": "cuppa-alonso",
+    "slug": "cuppa-alonso",
+    "name": "Cuppa Alonso",
+    "kind": "food",
+    "secondaryKinds": [],
+    "description": "A publicly documented food or drink venue in Kabankalan City. Confirm current operation with the linked source.",
+    "address": "M3 Building, Punta Guanzon Street, Barangay 7, Kabankalan City",
+    "barangay": "",
+    "landmark": "",
+    "categories": [
+      "Café",
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cuppa%20Alonso%20M3%20Building%2C%20Punta%20Guanzon%20Street%2C%20Barangay%207%2C%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the current entrance with the venue. No verified map pin is stored.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Public-source listing, not owner-verified. Zero ratings, prices and capacity mean unknown. Do not invent operating status, hours, prices, review text, photos or coordinates.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Public business directory",
+        "url": "https://www.foodbevg.com/PH/Kabankalan/101432861638966/Cuppa-Alonso",
+        "kind": "directory",
+        "checkedAt": "2026-10-28",
+        "note": "Directory contains October 2026 business-post extracts and the published address. The linked Facebook page was not independently retrieved. No ratings, reviews or photos copied."
+      }
+    ],
+    "facebookUrl": "https://www.facebook.com/101432861638966/"
+  },
+  {
+    "id": "cafe-matteo",
+    "slug": "cafe-matteo",
+    "name": "Cafe Matteo",
+    "kind": "food",
+    "secondaryKinds": [],
+    "description": "A publicly documented food or drink venue in Kabankalan City. Confirm current operation with the linked source.",
+    "address": "Bonifacio Street, Kabankalan City",
+    "barangay": "",
+    "landmark": "",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20Matteo%20Bonifacio%20Street%2C%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the current entrance with the venue. No verified map pin is stored.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Public-source listing, not owner-verified. Zero ratings, prices and capacity mean unknown. Do not invent operating status, hours, prices, review text, photos or coordinates.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Public business directory",
+        "url": "https://www.findglocal.com/PH/Kabankalan/103796749388889/Cafe-Matteo",
+        "kind": "directory",
+        "checkedAt": "2026-10-28",
+        "note": "Directory with March 2024 post extracts. Historical listing; current operation, entrance and hours remain unconfirmed."
+      }
+    ],
+    "facebookUrl": "https://www.facebook.com/103796749388889/"
+  },
+  {
+    "id": "the-happy-cup",
+    "slug": "the-happy-cup",
+    "name": "The Happy Cup",
+    "kind": "food",
+    "secondaryKinds": [],
+    "description": "A publicly documented food or drink venue in Kabankalan City. Confirm current operation with the linked source.",
+    "address": "Danao 1, Barangay Hilamonan, Kabankalan City",
+    "barangay": "",
+    "landmark": "",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Happy%20Cup%20Danao%201%2C%20Barangay%20Hilamonan%2C%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the current entrance with the venue. No verified map pin is stored.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Public-source listing, not owner-verified. Zero ratings, prices and capacity mean unknown. Do not invent operating status, hours, prices, review text, photos or coordinates.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Public business directory",
+        "url": "https://www.findglocal.com/PH/Kabankalan/101591162337908/The-Happy-Cup",
+        "kind": "directory",
+        "checkedAt": "2026-10-28",
+        "note": "Directory with February 2024 post extracts. Current operation and exact entrance remain unconfirmed."
+      }
+    ],
+    "facebookUrl": "https://www.facebook.com/101591162337908/"
+  },
+  {
+    "id": "spanishtown-cantina-and-bakery",
+    "slug": "spanishtown-cantina-and-bakery",
+    "name": "Spanishtown Cantina and Bakery",
+    "kind": "food",
+    "secondaryKinds": [],
+    "description": "A publicly documented food or drink venue in Kabankalan City. Confirm current operation with the linked source.",
+    "address": "Don Emilio Village Phase 1, Kabankalan City",
+    "barangay": "",
+    "landmark": "",
+    "categories": [
+      "Café",
+      "Bakery",
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Spanishtown%20Cantina%20and%20Bakery%20Don%20Emilio%20Village%20Phase%201%2C%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the current entrance with the venue. No verified map pin is stored.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Public-source listing, not owner-verified. Zero ratings, prices and capacity mean unknown. Do not invent operating status, hours, prices, review text, photos or coordinates.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Public business directory",
+        "url": "https://www.findglocal.com/PH/Kabankalan/260167717696537/Spanishtown-Cantina-and-Bakery",
+        "kind": "directory",
+        "checkedAt": "2026-10-28",
+        "note": "Directory with August 2025 business-post extracts. Owner website returned 406 and Facebook was unavailable; current details require confirmation."
+      }
+    ],
+    "facebookUrl": "https://www.facebook.com/spanishtownbakery/"
+  },
+  {
+    "id": "sulod-gwa-cafe",
+    "slug": "sulod-gwa-cafe",
+    "name": "Sulod-Gwa Café",
+    "kind": "food",
+    "secondaryKinds": [],
+    "description": "A publicly documented food or drink venue in Kabankalan City. Confirm current operation with the linked source.",
+    "address": "Sitio Bandihan, Barangay Salong, Kabankalan City",
+    "barangay": "",
+    "landmark": "",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sulod-Gwa%20Caf%C3%A9%20Sitio%20Bandihan%2C%20Barangay%20Salong%2C%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the current entrance with the venue. No verified map pin is stored.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Public-source listing, not owner-verified. Zero ratings, prices and capacity mean unknown. Do not invent operating status, hours, prices, review text, photos or coordinates.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Public business directory",
+        "url": "https://www.findglocal.com/PH/Kabankalan/173103-7",
+        "kind": "directory",
+        "checkedAt": "2026-10-28",
+        "note": "Public business directory lists the venue and address. Publication date and current operation unconfirmed. Evidence was retrieved from the city directory; the individual business page could not be retrieved."
+      }
+    ]
+  },
+  {
+    "id": "alton-place-food-park",
+    "slug": "alton-place-food-park",
+    "name": "Alton Place Food Park",
+    "kind": "food",
+    "secondaryKinds": [],
+    "description": "A publicly documented food or drink venue in Kabankalan City. Confirm current operation with the linked source.",
+    "address": "Barangay Hilamonan, highway toward Mabinay, Kabankalan City",
+    "barangay": "",
+    "landmark": "",
+    "categories": [
+      "Bar & Bistro",
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Alton%20Place%20Food%20Park%20Barangay%20Hilamonan%2C%20highway%20toward%20Mabinay%2C%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the current entrance with the venue. No verified map pin is stored.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Public-source listing, not owner-verified. Zero ratings, prices and capacity mean unknown. Do not invent operating status, hours, prices, review text, photos or coordinates.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Public business directory",
+        "url": "https://www.findglocal.com/PH/Kabankalan/173103-7",
+        "kind": "directory",
+        "checkedAt": "2026-10-28",
+        "note": "Directory describes a sports bar and food park at this location. Hours, current tenants and entrance remain unconfirmed. Evidence was retrieved from the city directory; the individual business page could not be retrieved."
+      }
+    ]
+  },
+  {
+    "id": "pikkoro-pizza-and-family-ktv",
+    "slug": "pikkoro-pizza-and-family-ktv",
+    "name": "Pikkoro Pizza and Family KTV — Kabankalan City",
+    "kind": "food",
+    "secondaryKinds": [],
+    "description": "A publicly documented food or drink venue in Kabankalan City. Confirm current operation with the linked source.",
+    "address": "Arsenio Building, Lirazan Street, Barangay 4, Kabankalan City",
+    "barangay": "",
+    "landmark": "",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pikkoro%20Pizza%20and%20Family%20KTV%20%E2%80%94%20Kabankalan%20City%20Arsenio%20Building%2C%20Lirazan%20Street%2C%20Barangay%204%2C%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the current entrance with the venue. No verified map pin is stored.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Public-source listing, not owner-verified. Zero ratings, prices and capacity mean unknown. Do not invent operating status, hours, prices, review text, photos or coordinates.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Public business directory",
+        "url": "https://www.findglocal.com/PH/Kabankalan/173103-7",
+        "kind": "directory",
+        "checkedAt": "2026-10-28",
+        "note": "Public directory lists the Kabankalan branch and address. Current menu, operation and hours unconfirmed. Evidence was retrieved from the city directory; the individual business page could not be retrieved."
+      }
+    ]
+  },
+  {
+    "id": "mr-chow-chinese-restaurant",
+    "slug": "mr-chow-chinese-restaurant",
+    "name": "Mr. Chow Chinese Restaurant",
+    "kind": "food",
+    "secondaryKinds": [],
+    "description": "A publicly documented food or drink venue in Kabankalan City. Confirm current operation with the linked source.",
+    "address": "ARDC Building, Guanzon Street, Kabankalan City",
+    "barangay": "",
+    "landmark": "",
+    "categories": [
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mr.%20Chow%20Chinese%20Restaurant%20ARDC%20Building%2C%20Guanzon%20Street%2C%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the current entrance with the venue. No verified map pin is stored.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Public-source listing, not owner-verified. Zero ratings, prices and capacity mean unknown. Do not invent operating status, hours, prices, review text, photos or coordinates.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Public business directory",
+        "url": "https://www.findglocal.com/PH/Kabankalan/173103-7",
+        "kind": "directory",
+        "checkedAt": "2026-10-28",
+        "note": "Directory lists this restaurant and address. Current menu, operation and hours unconfirmed. Evidence was retrieved from the city directory; the individual business page could not be retrieved."
+      }
+    ]
+  },
+  {
+    "id": "dali-di-bar-and-restaurant",
+    "slug": "dali-di-bar-and-restaurant",
+    "name": "Dali Di Bar and Restaurant",
+    "kind": "food",
+    "secondaryKinds": [],
+    "description": "A publicly documented food or drink venue in Kabankalan City. Confirm current operation with the linked source.",
+    "address": "Negros South Road, Kabankalan City",
+    "barangay": "",
+    "landmark": "",
+    "categories": [
+      "Bar & Bistro",
+      "Restaurant"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dali%20Di%20Bar%20and%20Restaurant%20Negros%20South%20Road%2C%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the current entrance with the venue. No verified map pin is stored.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Public-source listing, not owner-verified. Zero ratings, prices and capacity mean unknown. Do not invent operating status, hours, prices, review text, photos or coordinates.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Public business directory",
+        "url": "https://www.bizippines.com/dali-di-bar-and-restaurant_1n-0918-529-3434",
+        "kind": "directory",
+        "checkedAt": "2026-10-28",
+        "note": "Business directory identifies the bar and restaurant. Published schedules conflict with another directory, so no hours are stored. Current operation needs confirmation."
+      }
+    ]
+  },
+  {
+    "id": "kapehan-ni-roney",
+    "slug": "kapehan-ni-roney",
+    "name": "Kapehan ni Roney — Kabankalan",
+    "kind": "food",
+    "secondaryKinds": [],
+    "description": "A publicly documented food or drink venue in Kabankalan City. Confirm current operation with the linked source.",
+    "address": "Ramos Subdivision / G. Cordova Street (conflicting directory addresses), Kabankalan City",
+    "barangay": "",
+    "landmark": "",
+    "categories": [
+      "Café"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kapehan%20ni%20Roney%20%E2%80%94%20Kabankalan%20Ramos%20Subdivision%20%2F%20G.%20Cordova%20Street%20(conflicting%20directory%20addresses)%2C%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the current entrance with the venue. No verified map pin is stored.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Public-source listing, not owner-verified. Zero ratings, prices and capacity mean unknown. Do not invent operating status, hours, prices, review text, photos or coordinates.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Public business directory",
+        "url": "https://www.findglocal.com/PH/Kabankalan/173103-7",
+        "kind": "directory",
+        "checkedAt": "2026-10-28",
+        "note": "Kabankalan directories identify this café, but older Cordova and newer Ramos addresses conflict. Confirm current entrance. No phone, pin or hours inferred."
+      }
+    ]
+  },
+  {
+    "id": "fp-rnfh",
+    "slug": "fp-rnfh",
+    "name": "JM Shawarma — ROB SPM Kabankalan",
+    "kind": "food",
+    "secondaryKinds": [],
+    "description": "A publicly documented food or drink venue in Kabankalan City. Confirm current operation with the linked source.",
+    "address": "G Mall, Tan Lorenzo Street, Barangay 3, Kabankalan City",
+    "barangay": "",
+    "landmark": "",
+    "categories": [
+      "Fast Food"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=JM%20Shawarma%20%E2%80%94%20ROB%20SPM%20Kabankalan%20G%20Mall%2C%20Tan%20Lorenzo%20Street%2C%20Barangay%203%2C%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the current entrance with the venue. No verified map pin is stored.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Public-source listing, not owner-verified. Zero ratings, prices and capacity mean unknown. Do not invent operating status, hours, prices, review text, photos or coordinates.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://www.foodpanda.ph/restaurant/rnfh/jm-shawarma-rob-spm-kabankalan",
+        "kind": "merchant",
+        "checkedAt": "2026-10-28",
+        "note": "Merchant page supplies this branch name and address. Delivery availability does not establish dine-in hours. No ratings, reviews, delivery prices or photos copied."
+      }
+    ],
+    "menuUrl": "https://www.foodpanda.ph/restaurant/rnfh/jm-shawarma-rob-spm-kabankalan"
+  },
+  {
+    "id": "fp-vwvb",
+    "slug": "fp-vwvb",
+    "name": "Goldilocks — Guanzon Street",
+    "kind": "food",
+    "secondaryKinds": [],
+    "description": "A publicly documented food or drink venue in Kabankalan City. Confirm current operation with the linked source.",
+    "address": "JB Commercial Building, Guanzon Street, Barangay 1, Kabankalan City",
+    "barangay": "",
+    "landmark": "",
+    "categories": [
+      "Bakery"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Goldilocks%20%E2%80%94%20Guanzon%20Street%20JB%20Commercial%20Building%2C%20Guanzon%20Street%2C%20Barangay%201%2C%20Kabankalan%20City",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Confirm the current entrance with the venue. No verified map pin is stored.",
+      "hil": "Kumpirmaha anay ang lokasyon kag entrada sa negosyo.",
+      "fil": "Kumpirmahin muna ang lokasyon at pasukan sa negosyo."
+    },
+    "aiNotes": "Public-source listing, not owner-verified. Zero ratings, prices and capacity mean unknown. Do not invent operating status, hours, prices, review text, photos or coordinates.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "foodpanda merchant listing",
+        "url": "https://www.foodpanda.ph/restaurant/vwvb/goldilocks-kabankalan-negros-occidental",
+        "kind": "merchant",
+        "checkedAt": "2026-10-28",
+        "note": "Merchant page supplies this branch name and address. Delivery availability does not establish dine-in hours. No ratings, reviews, delivery prices or photos copied."
+      }
+    ],
+    "menuUrl": "https://www.foodpanda.ph/restaurant/vwvb/goldilocks-kabankalan-negros-occidental"
   }
 ]

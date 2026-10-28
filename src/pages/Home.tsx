@@ -28,7 +28,11 @@ import {
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useApp } from "../context";
-import { defaultFilters } from "../lib/schema";
+import {
+  defaultFilters,
+  matchesPlaceKind,
+  placeKindSchema,
+} from "../lib/schema";
 import type { Filters, Restaurant } from "../lib/schema";
 import { searchRestaurants } from "../lib/search";
 import { db } from "../lib/db";
@@ -51,7 +55,13 @@ const categoryIcons: Record<string, string> = {
   Seafood: "🦐",
   "Fast Food": "🍔",
   Vegetarian: "🥬",
+  Hotel: "🛏️",
+  "Gasoline Station": "⛽",
 };
+function readKind(value: string | null): Filters["kind"] {
+  const parsed = placeKindSchema.safeParse(value);
+  return parsed.success ? parsed.data : "all";
+}
 export default function Home({ mapMode = false }: { mapMode?: boolean }) {
   const { restaurants, categories, saved, toggleSave, origin, locate, toast } =
       useApp(),
@@ -60,18 +70,14 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
     [params, setParams] = useSearchParams();
   const [filters, setFilters] = useState<Filters>(() => ({
       ...defaultFilters,
-      kind:
-        params.get("kind") === "food"
-          ? "food"
-          : params.get("kind") === "attraction"
+      kind: readKind(
+        params.get("kind") ??
+          (location.pathname === "/attractions"
             ? "attraction"
-            : params.get("kind") === "all"
-              ? "all"
-              : location.pathname === "/attractions"
-                ? "attraction"
-                : location.pathname === "/food"
-                  ? "food"
-                  : "all",
+            : location.pathname === "/food"
+              ? "food"
+              : "all"),
+      ),
       query: params.get("q") ?? "",
       category: params.get("category") ?? "all",
     })),
@@ -102,10 +108,7 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
         ...f,
         query: paramQuery,
         category: paramCategory,
-        kind:
-          paramKind === "food" || paramKind === "attraction"
-            ? paramKind
-            : "all",
+        kind: readKind(paramKind),
       })),
     [paramQuery, paramKind, paramCategory],
   );
@@ -283,28 +286,34 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
       </div>
       <section id="spots" className="explore-section page-container">
         <div className="discovery-tabs" aria-label={t("placeType")}>
-          {(["all", "food", "attraction"] as const).map((kind) => (
-            <button
-              key={kind}
-              aria-pressed={filters.kind === kind}
-              className={filters.kind === kind ? "active" : ""}
-              onClick={() =>
-                setParams({
-                  ...Object.fromEntries(params),
-                  kind,
-                  category: "all",
-                })
-              }
-            >
-              {t(
-                kind === "all"
-                  ? "allPlaces"
-                  : kind === "food"
-                    ? "eatDrink"
-                    : "touristSpots",
-              )}
-            </button>
-          ))}
+          {(["all", "food", "attraction", "hotel", "fuel"] as const).map(
+            (kind) => (
+              <button
+                key={kind}
+                aria-pressed={filters.kind === kind}
+                className={filters.kind === kind ? "active" : ""}
+                onClick={() =>
+                  setParams({
+                    ...Object.fromEntries(params),
+                    kind,
+                    category: "all",
+                  })
+                }
+              >
+                {t(
+                  kind === "all"
+                    ? "allPlaces"
+                    : kind === "food"
+                      ? "eatDrink"
+                      : kind === "attraction"
+                        ? "touristSpots"
+                        : kind === "hotel"
+                          ? "hotels"
+                          : "fuelStations",
+                )}
+              </button>
+            ),
+          )}
         </div>
         <div className="category-row">
           {[
@@ -312,8 +321,7 @@ export default function Home({ mapMode = false }: { mapMode?: boolean }) {
             ...categories.filter((c) =>
               restaurants.some(
                 (r) =>
-                  (filters.kind === "all" || r.kind === filters.kind) &&
-                  r.categories.includes(c),
+                  matchesPlaceKind(r, filters.kind) && r.categories.includes(c),
               ),
             ),
           ].map((c) => (

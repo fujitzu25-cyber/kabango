@@ -6,7 +6,7 @@ const data = restaurantSchema
   .parse(
     source
       ? JSON.parse(readFileSync(source, "utf8"))
-      : ["restaurants", "tourist-spots"].flatMap((name) =>
+      : ["restaurants", "tourist-spots", "services"].flatMap((name) =>
           JSON.parse(readFileSync(`public/data/${name}.json`, "utf8")),
         ),
   );

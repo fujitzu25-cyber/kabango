@@ -5,6 +5,7 @@ const base = (
 const places = [
   ...JSON.parse(fs.readFileSync("public/data/restaurants.json", "utf8")),
   ...JSON.parse(fs.readFileSync("public/data/tourist-spots.json", "utf8")),
+  ...JSON.parse(fs.readFileSync("public/data/services.json", "utf8")),
 ];
 const escape = (s) =>
   s.replace(
@@ -69,11 +70,27 @@ for (const kind of ["food", "attractions"]) {
   );
 }
 for (const r of places.filter((r) => !r.sample)) {
+  const kind = r.kind ?? "food";
   const path = `/place/${r.slug}`,
     url = base + path;
   const data = {
     "@context": "https://schema.org",
-    "@type": r.kind === "attraction" ? "TouristAttraction" : "Restaurant",
+    "@type": r.secondaryKinds?.length
+      ? [kind, ...r.secondaryKinds].map(
+          (kind) =>
+            ({
+              food: "Restaurant",
+              attraction: "TouristAttraction",
+              hotel: "Hotel",
+              fuel: "GasStation",
+            })[kind],
+        )
+      : {
+          food: "Restaurant",
+          attraction: "TouristAttraction",
+          hotel: "Hotel",
+          fuel: "GasStation",
+        }[kind],
     name: r.name,
     address: r.address,
     url,
@@ -85,7 +102,7 @@ for (const r of places.filter((r) => !r.sample)) {
     ...(r.photos.length
       ? { image: r.photos.map((p) => (p.startsWith("https:") ? p : base + p)) }
       : {}),
-    ...(r.kind !== "attraction" ? { servesCuisine: r.cuisine } : {}),
+    ...(kind === "food" ? { servesCuisine: r.cuisine } : {}),
   };
   for (const prefix of ["place", "restaurant"]) {
     fs.mkdirSync(`dist/${prefix}/${r.slug}`, { recursive: true });

@@ -1,4 +1,10 @@
 import { test, expect } from "@playwright/test";
+import { readFileSync } from "node:fs";
+const placeCount = ["restaurants", "tourist-spots", "services"].reduce(
+  (count, name) =>
+    count + JSON.parse(readFileSync(`public/data/${name}.json`, "utf8")).length,
+  0,
+);
 test("unmapped destinations do not silently route to a different restaurant", async ({
   page,
 }) => {
@@ -107,10 +113,10 @@ test("production service worker supports offline reload, data and assistant", as
   await page.goto("/");
   await page.evaluate(() => navigator.serviceWorker.ready);
   await page.reload();
-  await expect(page.getByTestId("restaurant-card")).toHaveCount(81);
+  await expect(page.getByTestId("restaurant-card")).toHaveCount(placeCount);
   await context.setOffline(true);
   await page.reload();
-  await expect(page.getByTestId("restaurant-card")).toHaveCount(81);
+  await expect(page.getByTestId("restaurant-card")).toHaveCount(placeCount);
   await page.goto("/ask");
   await page
     .getByRole("textbox", { name: "A coffee stop or a nature escape…" })

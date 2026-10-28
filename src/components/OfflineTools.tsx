@@ -38,6 +38,7 @@ export default function OfflineTools({
           "/",
           "/data/restaurants.json",
           "/data/tourist-spots.json",
+          "/data/services.json",
           "/data/search-synonyms.json",
           "/data/tricycle-tariffs.json",
           "/data/fares.json",

@@ -1,0 +1,740 @@
+[
+  {
+    "id": "stay-justines-guest-house",
+    "slug": "justines-guest-house",
+    "name": "Justine's Guest House",
+    "kind": "hotel",
+    "secondaryKinds": [],
+    "description": "Guest house listed in the Kabankalan City Government accommodation directory.",
+    "categories": [
+      "Hotel"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Roxas Street, Barangay 5, Kabankalan City, Negros Occidental",
+    "barangay": "Barangay 5",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "phone": "+63344713135",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Justine's%20Guest%20House%20Roxas%20Street%2C%20Barangay%205%2C%20Kabankalan%20City%2C%20Negros%20Occidental",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Use the published address and confirm the entrance with the operator. Exact map pins are unavailable unless supplied by the official source.",
+      "hil": "Gamita ang ginpublikar nga address kag kumpirmaha anay ang entrada sa operator.",
+      "fil": "Gamitin ang inilathalang address at kumpirmahin muna ang pasukan sa operator."
+    },
+    "aiNotes": "Real public-source listing. Source check dates record retrieval, not owner verification. Never invent room rates, availability, fuel prices, hours, ratings, coordinates or photos. Preserve source age and uncertainty.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Kabankalan City Government accommodation directory",
+        "url": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+        "kind": "government",
+        "note": "Directory lists this guest house, Roxas Street in Barangay 5 and local contact 471-3135. Page publication date is not shown. Source retrieved on the check date; current operation and contact were not confirmed by the owner.",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "visitInfo": "Confirm current operation, room availability, rates and check-in arrangements with the property before travelling. Published listings do not guarantee availability."
+  },
+  {
+    "id": "stay-hans-guest-house",
+    "slug": "hans-guest-house",
+    "name": "Hans Guest House",
+    "kind": "hotel",
+    "secondaryKinds": [],
+    "description": "Guest house in the city government's accommodation directory, also named as a 2025 government event venue.",
+    "categories": [
+      "Hotel"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Tan Lorenzo Street, Barangay 2, Kabankalan City, Negros Occidental",
+    "barangay": "Barangay 2",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "phone": "+63344712093",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hans%20Guest%20House%20Tan%20Lorenzo%20Street%2C%20Barangay%202%2C%20Kabankalan%20City%2C%20Negros%20Occidental",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Use the published address and confirm the entrance with the operator. Exact map pins are unavailable unless supplied by the official source.",
+      "hil": "Gamita ang ginpublikar nga address kag kumpirmaha anay ang entrada sa operator.",
+      "fil": "Gamitin ang inilathalang address at kumpirmahin muna ang pasukan sa operator."
+    },
+    "aiNotes": "Real public-source listing. Source check dates record retrieval, not owner verification. Never invent room rates, availability, fuel prices, hours, ratings, coordinates or photos. Preserve source age and uncertainty.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Kabankalan City Government accommodation directory",
+        "url": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+        "kind": "government",
+        "note": "Lists Hans Guest House at Tan Lorenzo Street, Barangay 2, and local contact 471-2093. No publication date is shown. Retrieved on the check date; not owner confirmation.",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "DepEd Kabankalan memorandum 321, series of 2025",
+        "url": "https://www.depedkabankalancity.com/uploads/7/4/2/6/74269293/division_memorandum_no._321_s._2025strengthening_procurement_orientation_on_republic_act_no._12009.pdf",
+        "kind": "government",
+        "note": "Memo dated 29 September 2025 names Hans Guest House at Tan Lorenzo Street, Barangay 2 as the venue for 1-2 October 2025. Historical corroboration only; retrieved on the check date.",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "visitInfo": "Confirm current operation, room availability, rates and check-in arrangements with the property before travelling. Published listings do not guarantee availability."
+  },
+  {
+    "id": "stay-southgate-inn",
+    "slug": "southgate-inn",
+    "name": "Southgate Inn",
+    "kind": "hotel",
+    "secondaryKinds": [],
+    "description": "Guanzon Street inn listed as South Gate Inn in the city government directory.",
+    "categories": [
+      "Hotel"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Guanzon Street, Barangay 1, Kabankalan City, Negros Occidental",
+    "barangay": "Barangay 1",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Southgate%20Inn%20Guanzon%20Street%2C%20Barangay%201%2C%20Kabankalan%20City%2C%20Negros%20Occidental",
+    "website": "https://www.expedia.com/Kabankalan-City-Hotels-Southgate-Inn.h44255917.Hotel-Information",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Use the published address and confirm the entrance with the operator. Exact map pins are unavailable unless supplied by the official source.",
+      "hil": "Gamita ang ginpublikar nga address kag kumpirmaha anay ang entrada sa operator.",
+      "fil": "Gamitin ang inilathalang address at kumpirmahin muna ang pasukan sa operator."
+    },
+    "aiNotes": "Real public-source listing. Source check dates record retrieval, not owner verification. Never invent room rates, availability, fuel prices, hours, ratings, coordinates or photos. Preserve source age and uncertainty.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Kabankalan City Government accommodation directory",
+        "url": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+        "kind": "government",
+        "note": "Lists South Gate Inn at Guanzon Street, Barangay 1. Its contact 471-2719 conflicts with 471-2729 in other public listings, including the Bro's Diner entry on this page; phone omitted pending confirmation. No publication date is shown. Retrieved on the check date, not owner confirmation.",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "Southgate Inn published property and photo listing",
+        "url": "https://www.expedia.com/Kabankalan-City-Hotels-Southgate-Inn.h44255917.Hotel-Information",
+        "kind": "merchant",
+        "note": "Public property gallery and booking listing corroborate the inn's identity. Rates and availability vary. Publisher retains image rights; no gallery images copied or embedded. Retrieved on the check date, not owner confirmation.",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "visitInfo": "Confirm availability and check-in arrangements through the linked property listing. Published phone numbers conflict, so no phone number is displayed.",
+    "photoSourceUrl": "https://www.expedia.com/Kabankalan-City-Hotels-Southgate-Inn.h44255917.Hotel-Information"
+  },
+  {
+    "id": "stay-monbela-tourist-inn",
+    "slug": "monbela-tourist-inn",
+    "name": "Monbela Tourist Inn",
+    "kind": "hotel",
+    "secondaryKinds": [],
+    "description": "Tourist inn listed as Monbella Tourist Inn in the city government accommodation directory.",
+    "categories": [
+      "Hotel"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "J.Y. Perez Highway corner Sola Street, Barangay 2, Kabankalan City, Negros Occidental",
+    "barangay": "Barangay 2",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "phone": "+63344713229",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Monbela%20Tourist%20Inn%20J.Y.%20Perez%20Highway%20corner%20Sola%20Street%2C%20Barangay%202%2C%20Kabankalan%20City%2C%20Negros%20Occidental",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Use the published address and confirm the entrance with the operator. Exact map pins are unavailable unless supplied by the official source.",
+      "hil": "Gamita ang ginpublikar nga address kag kumpirmaha anay ang entrada sa operator.",
+      "fil": "Gamitin ang inilathalang address at kumpirmahin muna ang pasukan sa operator."
+    },
+    "aiNotes": "Real public-source listing. Source check dates record retrieval, not owner verification. Never invent room rates, availability, fuel prices, hours, ratings, coordinates or photos. Preserve source age and uncertainty.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Kabankalan City Government accommodation directory",
+        "url": "https://kabankalancity.gov.ph/tourism/resort-and-restaurants/",
+        "kind": "government",
+        "note": "Lists Monbella Tourist Inn at J.Y. Perez Highway / Sola Street, Barangay 2, with local contact 471-3229. Spelling varies between Monbela and Monbella in public sources. No publication date is shown. Retrieved on the check date; current operation was not confirmed by the owner.",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "visitInfo": "Confirm current operation, room availability, rates and check-in arrangements with the property before travelling. Published listings do not guarantee availability."
+  },
+  {
+    "id": "stay-rozay-travellers-inn",
+    "slug": "rozay-travellers-inn",
+    "name": "Rozay Travellers Inn",
+    "kind": "hotel",
+    "secondaryKinds": [],
+    "description": "Traveller accommodation with a host-published Kabankalan listing and a public property gallery.",
+    "categories": [
+      "Hotel"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Block 16, Lot 11, Luzville Subdivision, Kabankalan City, Negros Occidental 6111",
+    "barangay": "",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rozay%20Travellers%20Inn%20Block%2016%2C%20Lot%2011%2C%20Luzville%20Subdivision%2C%20Kabankalan%20City%2C%20Negros%20Occidental%206111",
+    "website": "https://www.airbnb.com/rooms/35481622",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Use the published address and confirm the entrance with the operator. Exact map pins are unavailable unless supplied by the official source.",
+      "hil": "Gamita ang ginpublikar nga address kag kumpirmaha anay ang entrada sa operator.",
+      "fil": "Gamitin ang inilathalang address at kumpirmahin muna ang pasukan sa operator."
+    },
+    "aiNotes": "Real public-source listing. Source check dates record retrieval, not owner verification. Never invent room rates, availability, fuel prices, hours, ratings, coordinates or photos. Preserve source age and uncertainty.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Rozay Travellers Inn - Zircon: host-published listing",
+        "url": "https://www.airbnb.com/rooms/35481622",
+        "kind": "merchant",
+        "note": "Host listing identifies Rozay Travellers Inn in City of Kabankalan, near CityMall. The host publishes property photos, but no reuse license was established; photos remain on the source site. Precise address is withheld here until booking, so this source is not used for coordinates. Retrieved on the check date, not direct owner confirmation.",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "Rozay Travellers Inn property booking listing",
+        "url": "https://www.booking.com/hotel/ph/sta-romana-guesthouse.html",
+        "kind": "merchant",
+        "note": "Public listing publishes Block 16, Lot 11, Luzville Subdivision, Kabankalan 6111. Phone and exact pin were not confirmed. Rates, check-in policies and room availability vary across booking providers and are not imported. Retrieved on the check date.",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "visitInfo": "Confirm current operation, room availability, rates and check-in arrangements with the property before travelling. Published listings do not guarantee availability.",
+    "photoSourceUrl": "https://www.airbnb.com/rooms/35481622"
+  },
+  {
+    "id": "fuel-shell-jy-perez",
+    "slug": "shell-jy-perez-kabankalan",
+    "name": "Shell - JY Perez Kabankalan",
+    "kind": "fuel",
+    "secondaryKinds": [],
+    "description": "Shell station listed on J.Y. Perez Highway in Talubangi, with published forecourt hours.",
+    "categories": [
+      "Gasoline Station"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "J.Y. Perez Highway, Talubangi, Kabankalan City, Negros Occidental 6111",
+    "barangay": "",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "phone": "+63344344714",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shell%20-%20JY%20Perez%20Kabankalan%20J.Y.%20Perez%20Highway%2C%20Talubangi%2C%20Kabankalan%20City%2C%20Negros%20Occidental%206111",
+    "website": "https://find.shell.com/ph/fuel/12476457-sh-jy-perez-kabankalan/en_PH",
+    "hours": [
+      [
+        [
+          "05:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "21:00"
+        ]
+      ]
+    ],
+    "hoursText": "Official locator publishes Monday-Sunday, 05:00-21:00. Hours may change.",
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [
+      "Air & water"
+    ],
+    "directions": {
+      "en": "Use the published address and confirm the entrance with the operator. Exact map pins are unavailable unless supplied by the official source.",
+      "hil": "Gamita ang ginpublikar nga address kag kumpirmaha anay ang entrada sa operator.",
+      "fil": "Gamitin ang inilathalang address at kumpirmahin muna ang pasukan sa operator."
+    },
+    "aiNotes": "Real public-source listing. Source check dates record retrieval, not owner verification. Never invent room rates, availability, fuel prices, hours, ratings, coordinates or photos. Preserve source age and uncertainty.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Shell official station locator: SH JY PEREZ KABANKALAN",
+        "url": "https://find.shell.com/ph/fuel/12476457-sh-jy-perez-kabankalan/en_PH",
+        "kind": "official",
+        "note": "Publishes the station's address, +63 34 434 4714, Monday-Sunday forecourt hours 05:00-21:00 and air/water service. Talubangi is retained as published; barangay and precise coordinates remain unknown. No fuel prices imported; Shell states only pump prices are valid. Retrieved on the check date, not direct station confirmation.",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "visitInfo": "Confirm current operation and fuel availability with the station. Only prices displayed at the pump are current; no fuel prices are imported."
+  },
+  {
+    "id": "fuel-shell-guanzon-tan-lorenzo",
+    "slug": "shell-guanzon-tan-lorenzo",
+    "name": "Shell - Guanzon Tan Lorenzo",
+    "kind": "fuel",
+    "secondaryKinds": [],
+    "description": "Shell station at Guanzon and Tan Lorenzo Streets, with a convenience store and toilet listed by Shell.",
+    "categories": [
+      "Gasoline Station"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Guanzon corner Tan Lorenzo Streets, Kabankalan City, Negros Occidental 6111",
+    "barangay": "",
+    "landmark": "",
+    "lat": 9.994222,
+    "lng": 122.814656,
+    "phone": "+63344712510",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shell%20-%20Guanzon%20Tan%20Lorenzo%20Guanzon%20corner%20Tan%20Lorenzo%20Streets%2C%20Kabankalan%20City%2C%20Negros%20Occidental%206111",
+    "website": "https://find.shell.com/ph/fuel/10022022-sh-guanzon-tan-lorenzo/en_PH",
+    "hours": [
+      [
+        [
+          "05:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "21:00"
+        ]
+      ],
+      [
+        [
+          "05:00",
+          "21:00"
+        ]
+      ]
+    ],
+    "hoursText": "Official locator publishes forecourt hours Monday-Sunday, 05:00-21:00; shop hours differ. Hours may change.",
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [
+      "Air & water",
+      "Convenience store",
+      "Toilet"
+    ],
+    "directions": {
+      "en": "Use the published address and confirm the entrance with the operator. Exact map pins are unavailable unless supplied by the official source.",
+      "hil": "Gamita ang ginpublikar nga address kag kumpirmaha anay ang entrada sa operator.",
+      "fil": "Gamitin ang inilathalang address at kumpirmahin muna ang pasukan sa operator."
+    },
+    "aiNotes": "Real public-source listing. Source check dates record retrieval, not owner verification. Never invent room rates, availability, fuel prices, hours, ratings, coordinates or photos. Preserve source age and uncertainty.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Shell official station locator: SH GUANZON TAN LORENZO",
+        "url": "https://find.shell.com/ph/fuel/10022022-sh-guanzon-tan-lorenzo/en_PH",
+        "kind": "official",
+        "note": "Publishes address, +63 34 471 2510, coordinates 9.994222 / 122.814656, forecourt hours 05:00-21:00 daily, Select store and toilet. Store hours differ from forecourt hours. No current fuel prices imported. Retrieved on the check date, not direct station confirmation.",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "visitInfo": "Confirm current operation and fuel availability with the station. Only prices displayed at the pump are current; no fuel prices are imported."
+  },
+  {
+    "id": "fuel-petro-gazz-kabankalan-1",
+    "slug": "petro-gazz-kabankalan-1",
+    "name": "Petro Gazz Kabankalan 1",
+    "kind": "fuel",
+    "secondaryKinds": [],
+    "description": "Petro Gazz station named in the brand's public station directory on Justice Jesus Perez Highway.",
+    "categories": [
+      "Gasoline Station"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Justice Jesus Perez Highway, Barangay 1, Kabankalan City, Negros Occidental",
+    "barangay": "Barangay 1",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Petro%20Gazz%20Kabankalan%201%20Justice%20Jesus%20Perez%20Highway%2C%20Barangay%201%2C%20Kabankalan%20City%2C%20Negros%20Occidental",
+    "website": "https://gazz.com.ph/project/petro-gazz-kabankalan-1/",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Use the published address and confirm the entrance with the operator. Exact map pins are unavailable unless supplied by the official source.",
+      "hil": "Gamita ang ginpublikar nga address kag kumpirmaha anay ang entrada sa operator.",
+      "fil": "Gamitin ang inilathalang address at kumpirmahin muna ang pasukan sa operator."
+    },
+    "aiNotes": "Real public-source listing. Source check dates record retrieval, not owner verification. Never invent room rates, availability, fuel prices, hours, ratings, coordinates or photos. Preserve source age and uncertainty.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Petro Gazz official station page: Kabankalan 1",
+        "url": "https://gazz.com.ph/project/petro-gazz-kabankalan-1/",
+        "kind": "official",
+        "note": "Individual station page posted 15 March 2022 publishes Justice Jesus Perez Highway, Barangay 1. Retrieved on the check date; source age is retained and this does not establish current operation, hours or owner confirmation.",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "Petro Gazz official station directory",
+        "url": "https://gazz.com.ph/locate-a-station/",
+        "kind": "official",
+        "note": "Still lists Petro Gazz Kabankalan 1 and its address when checked. Phone, hours, precise coordinates and fuel prices are not published in the consulted directory entry.",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "visitInfo": "Confirm current operation and fuel availability with the station. Only prices displayed at the pump are current; no fuel prices are imported."
+  },
+  {
+    "id": "fuel-petro-gazz-kabankalan-2",
+    "slug": "petro-gazz-kabankalan-2",
+    "name": "Petro Gazz Kabankalan 2",
+    "kind": "fuel",
+    "secondaryKinds": [],
+    "description": "Petro Gazz station listed by the brand at Sitio Mohon in Barangay Binicuil.",
+    "categories": [
+      "Gasoline Station"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Guanzon Street, Sitio Mohon, Barangay Binicuil, Kabankalan City, Negros Occidental",
+    "barangay": "Binicuil",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Petro%20Gazz%20Kabankalan%202%20Guanzon%20Street%2C%20Sitio%20Mohon%2C%20Barangay%20Binicuil%2C%20Kabankalan%20City%2C%20Negros%20Occidental",
+    "website": "https://gazz.com.ph/locate-a-station/",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Use the published address and confirm the entrance with the operator. Exact map pins are unavailable unless supplied by the official source.",
+      "hil": "Gamita ang ginpublikar nga address kag kumpirmaha anay ang entrada sa operator.",
+      "fil": "Gamitin ang inilathalang address at kumpirmahin muna ang pasukan sa operator."
+    },
+    "aiNotes": "Real public-source listing. Source check dates record retrieval, not owner verification. Never invent room rates, availability, fuel prices, hours, ratings, coordinates or photos. Preserve source age and uncertainty.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Petro Gazz official station directory: Kabankalan2",
+        "url": "https://gazz.com.ph/locate-a-station/",
+        "kind": "official",
+        "note": "Directory publishes Guanzon Street, Sitio Mohon, Barangay Binicuil. Individual station page could not be retrieved, so only the accessible directory is cited. Source retrieved on the check date; no direct station confirmation. Phone, hours, precise coordinates and fuel prices remain unknown.",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "visitInfo": "Confirm current operation and fuel availability with the station. Only prices displayed at the pump are current; no fuel prices are imported."
+  },
+  {
+    "id": "fuel-petron-kabankalan",
+    "slug": "petron-kabankalan-jesus-perez-guanzon",
+    "name": "Petron - Kabankalan",
+    "kind": "fuel",
+    "secondaryKinds": [],
+    "description": "Petron station at Jesus Perez and Guanzon Streets, named in Petron's December 2025 E-Fuel station list.",
+    "categories": [
+      "Gasoline Station"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Jesus Perez corner Guanzon Streets, Kabankalan City, Negros Occidental",
+    "barangay": "",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Petron%20-%20Kabankalan%20Jesus%20Perez%20corner%20Guanzon%20Streets%2C%20Kabankalan%20City%2C%20Negros%20Occidental",
+    "website": "https://www.petron.com/wp-content/uploads/2026/01/E-Fuel-Affiliated-Stations-December-2025.pdf",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Use the published address and confirm the entrance with the operator. Exact map pins are unavailable unless supplied by the official source.",
+      "hil": "Gamita ang ginpublikar nga address kag kumpirmaha anay ang entrada sa operator.",
+      "fil": "Gamitin ang inilathalang address at kumpirmahin muna ang pasukan sa operator."
+    },
+    "aiNotes": "Real public-source listing. Source check dates record retrieval, not owner verification. Never invent room rates, availability, fuel prices, hours, ratings, coordinates or photos. Preserve source age and uncertainty.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Petron E-Fuel affiliated stations: December 2025",
+        "url": "https://www.petron.com/wp-content/uploads/2026/01/E-Fuel-Affiliated-Stations-December-2025.pdf",
+        "kind": "official",
+        "note": "December 2025 list, published under the January 2026 document path, names PETRON - KABANKALAN at Jesus Perez corner Guanzon Streets. Historical official directory evidence only, retrieved on the check date. Current operation, phone, hours, exact coordinates and pump prices were not confirmed.",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "visitInfo": "Confirm current operation and fuel availability with the station. Only prices displayed at the pump are current; no fuel prices are imported."
+  },
+  {
+    "id": "fuel-caltex-aquiles-zayco",
+    "slug": "caltex-aquiles-zayco-kabankalan",
+    "name": "Caltex - Aquiles-Zayco Road",
+    "kind": "fuel",
+    "secondaryKinds": [],
+    "description": "Caltex station listed on Aquiles-Zayco Road in the brand's public participating-station directory.",
+    "categories": [
+      "Gasoline Station"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Aquiles-Zayco Road, Kabankalan City, Negros Occidental",
+    "barangay": "",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Caltex%20-%20Aquiles-Zayco%20Road%20Aquiles-Zayco%20Road%2C%20Kabankalan%20City%2C%20Negros%20Occidental",
+    "website": "https://www.caltex.com/ph/rewards-and-offers/partner-offers/go-rewards/rrc-list-of-participating-stations.html",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Use the published address and confirm the entrance with the operator. Exact map pins are unavailable unless supplied by the official source.",
+      "hil": "Gamita ang ginpublikar nga address kag kumpirmaha anay ang entrada sa operator.",
+      "fil": "Gamitin ang inilathalang address at kumpirmahin muna ang pasukan sa operator."
+    },
+    "aiNotes": "Real public-source listing. Source check dates record retrieval, not owner verification. Never invent room rates, availability, fuel prices, hours, ratings, coordinates or photos. Preserve source age and uncertainty.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Caltex official Go Rewards participating-station directory",
+        "url": "https://www.caltex.com/ph/rewards-and-offers/partner-offers/go-rewards/rrc-list-of-participating-stations.html",
+        "kind": "official",
+        "note": "Lists a Negros Occidental station at Aquiles-Zayco Road, Kabankalan City. Used only to support brand and street location, not current promotion eligibility. Page publication date is not shown. Retrieved on the check date; phone, hours, precise pin, fuel prices and direct station confirmation are unavailable.",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "visitInfo": "Confirm current operation and fuel availability with the station. Only prices displayed at the pump are current; no fuel prices are imported."
+  },
+  {
+    "id": "fuel-caltex-justice-perez",
+    "slug": "caltex-justice-perez-kabankalan",
+    "name": "Caltex - Justice Perez Highway",
+    "kind": "fuel",
+    "secondaryKinds": [],
+    "description": "Caltex station listed on Justice Perez Highway in the brand's public participating-station directory.",
+    "categories": [
+      "Gasoline Station"
+    ],
+    "cuisine": [],
+    "signatureDishes": [],
+    "priceLevel": 0,
+    "address": "Justice Perez Highway, Kabankalan City, Negros Occidental",
+    "barangay": "",
+    "landmark": "",
+    "lat": null,
+    "lng": null,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Caltex%20-%20Justice%20Perez%20Highway%20Justice%20Perez%20Highway%2C%20Kabankalan%20City%2C%20Negros%20Occidental",
+    "website": "https://www.caltex.com/ph/rewards-and-offers/partner-offers/go-rewards/rrc-list-of-participating-stations.html",
+    "hours": [],
+    "photos": [],
+    "menu": [],
+    "tags": [],
+    "maxGroupSize": 0,
+    "payments": [],
+    "services": [],
+    "directions": {
+      "en": "Use the published address and confirm the entrance with the operator. Exact map pins are unavailable unless supplied by the official source.",
+      "hil": "Gamita ang ginpublikar nga address kag kumpirmaha anay ang entrada sa operator.",
+      "fil": "Gamitin ang inilathalang address at kumpirmahin muna ang pasukan sa operator."
+    },
+    "aiNotes": "Real public-source listing. Source check dates record retrieval, not owner verification. Never invent room rates, availability, fuel prices, hours, ratings, coordinates or photos. Preserve source age and uncertainty.",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "verified": false,
+    "sample": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "popularity": 0,
+    "sources": [
+      {
+        "title": "Caltex official Go Rewards participating-station directory",
+        "url": "https://www.caltex.com/ph/rewards-and-offers/partner-offers/go-rewards/rrc-list-of-participating-stations.html",
+        "kind": "official",
+        "note": "Lists a Negros Occidental station at Justice Perez Highway, Kabankalan. Used only to support brand and street location, not current promotion eligibility. Page publication date is not shown. Retrieved on the check date; phone, hours, precise pin, fuel prices and direct station confirmation are unavailable.",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "visitInfo": "Confirm current operation and fuel availability with the station. Only prices displayed at the pump are current; no fuel prices are imported."
+  }
+]

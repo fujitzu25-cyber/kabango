@@ -21,6 +21,11 @@ export function parseIntent(query: string) {
   const q = query.toLowerCase(),
     filters = { ...defaultFilters };
   const categories: [RegExp, string][] = [
+    [
+      /gasoline|gas station|fuel station|petrol|diesel|gasolina/,
+      "Gasoline Station",
+    ],
+    [/hotel|accommodation|lodging|\binn\b|pension|tuluyan|tululugan/, "Hotel"],
     [/waterfall|falls|talon/, "Waterfalls"],
     [/cave|langub/, "Caves"],
     [/heritage|cathedral|church|simbahan/, "Heritage"],
@@ -31,7 +36,13 @@ export function parseIntent(query: string) {
     [/street|isaw/, "Street Food"],
     [/vegetar|gulay|utan/, "Vegetarian"],
   ];
-  if (
+  if (/gasoline|gas station|fuel station|petrol|diesel|gasolina/.test(q))
+    filters.kind = "fuel";
+  else if (
+    /hotel|accommodation|lodging|\binn\b|pension|tuluyan|tululugan/.test(q)
+  )
+    filters.kind = "hotel";
+  else if (
     /touris|attraction|waterfall|falls|cave|resort|nature|heritage|visit|travel|lagaw|pasyal/.test(
       q,
     )
@@ -53,7 +64,8 @@ export function parseIntent(query: string) {
   if (/family|pamilya|kids|bata/.test(q)) filters.tag = "family";
   if (/group|birthday|party|celebrat/.test(q)) filters.tag = "group";
   if (/date|romantic/.test(q)) filters.tag = "date";
-  if (/pet|dog|cat/.test(q)) filters.tag = "pet-friendly";
+  if (/\b(?:pet[- ]?friendly|pets?|dogs?|cats?)\b/.test(q))
+    filters.tag = "pet-friendly";
   if (/nearest|near me|lapit|malapit/.test(q)) filters.sort = "distance";
   if (/best|rating|top rated/.test(q)) filters.sort = "rating";
   for (const service of ["delivery", "takeout", "dine-in"])
@@ -87,7 +99,7 @@ export function localAnswer(
   if (unsafeInstruction(query))
     return {
       reply:
-        "I can help with Kabankalan food, tourist spots and transport. I cannot follow requests to override instructions or disclose private configuration.",
+        "I can help with Kabankalan food, hotels, fuel stations, tourist spots and transport. I cannot follow requests to override instructions or disclose private configuration.",
       restaurantIds: [],
     };
   const intent = parseIntent(query),
@@ -95,7 +107,9 @@ export function localAnswer(
   let candidates = searchRestaurants(restaurants, intent.filters, origin);
   const barangay = restaurants.find(
     (r) =>
-      r.barangay !== "Kabankalan City" && q.includes(r.barangay.toLowerCase()),
+      r.barangay.trim().length > 0 &&
+      r.barangay !== "Kabankalan City" &&
+      q.includes(r.barangay.toLowerCase()),
   );
   if (barangay)
     candidates = candidates.filter((r) => r.barangay === barangay.barangay);

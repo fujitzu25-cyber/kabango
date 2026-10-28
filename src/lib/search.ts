@@ -1,6 +1,7 @@
 import synonyms from "../../public/data/search-synonyms.json";
 import Fuse from "fuse.js";
 import type { Coordinates, Filters, Restaurant } from "./schema";
+import { matchesPlaceKind } from "./schema";
 export const cityCenter: Coordinates = { lat: 9.9902, lng: 122.8148 };
 export function hasCoordinates<
   T extends { lat: number | null; lng: number | null },
@@ -90,7 +91,7 @@ export function searchRestaurants(
   }
   found = found.filter(
     (r) =>
-      (filters.kind === "all" || r.kind === filters.kind) &&
+      matchesPlaceKind(r, filters.kind) &&
       (filters.category === "all" || r.categories.includes(filters.category)) &&
       (!filters.open || isOpen(r, date)) &&
       (!filters.budget || r.priceLevel === filters.budget) &&
